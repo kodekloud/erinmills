@@ -4,7 +4,13 @@
     width: 982px;
     margin: 0 auto;
 }
+.display_table{
+    display: table;
+}
 
+.display_table_cell{
+    display: table-cell;
+}
 .site_logo{
     width:320px;
 }
