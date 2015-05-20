@@ -141,7 +141,12 @@
     background-color: #f0f0f0;
     color: #c8c8c8;
 }
-
+.footer_features {
+    height: 100px;
+    border-bottom: 1px solid #C8C8C8;
+    padding-top: 24px;
+margin: 30px 30px 20px;
+}
 
 
 
