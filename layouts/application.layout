@@ -52,8 +52,10 @@
                 <div class="side_nav">
                 
                 </div>
+                <div class="site_content">
+                    {{yield}
+                </div>
             </div>
-            {{yield}}
         </div>
     
         <script>
