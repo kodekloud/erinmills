@@ -105,6 +105,9 @@
 .menu_panel{
     margin-bottom: 10px;
 }
+.menu_panel panel{
+    margin-bottom:0px;
+}
 .menu_title{
     margin:0px;
 }
