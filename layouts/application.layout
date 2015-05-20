@@ -49,8 +49,8 @@
             <div class="mid_section">
                 <div class="side_nav">
                     <div class="menu-group" id="accordion">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
+                        <div class="menu_panel">
+                            <div class="menu-heading">
                                 <h4 class="panel-title">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">1. What is HTML?</a>
                                 </h4>
