@@ -203,6 +203,10 @@
 
 .privacy_policy {
   background: #4b4b4b;
+    color: #969696;
+}
+.privacy_policy a{
+    color: #969696;
 }
 .powered_mm{
     margin:0px 30px;
