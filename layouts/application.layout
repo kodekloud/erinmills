@@ -57,7 +57,11 @@
                             </div>
                             <div id="collapseOne" class="panel-collapse collapse">
                                 <div class="menu_body">
-                                    menu kids
+                                    <a href="#">Menu</a>
+                                    <a href="#">Menu</a>
+                                    <a href="#">Menu</a>
+                                    <a href="#">Menu</a>
+                                    <a href="#">Menu</a>
                                 </div>
                             </div>
                         </div>
@@ -71,7 +75,11 @@
                             </div>
                             <div id="collapseTwo" class="panel-collapse collapse">
                                 <div class="menu_body">
-                                    menu kids
+                                    <a href="#">Menu</a>
+                                    <a href="#">Menu</a>
+                                    <a href="#">Menu</a>
+                                    <a href="#">Menu</a>
+                                    <a href="#">Menu</a>
                                 </div>
                             </div>
                         </div>
@@ -85,7 +93,10 @@
                             </div>
                             <div id="collapse3" class="panel-collapse collapse">
                                 <div class="menu_body">
-                                    menu kids
+                                    <a href="#">Menu</a>
+                                    <a href="#">Menu</a>
+                                    <a href="#">Menu</a>
+                                    <a href="#">Menu</a>
                                 </div>
                             </div>
                         </div>
@@ -99,7 +110,10 @@
                             </div>
                             <div id="collapse4" class="panel-collapse collapse">
                                 <div class="menu_body">
-                                    menu kids
+                                    <a href="#">Menu</a>
+                                    <a href="#">Menu</a>
+                                    <a href="#">Menu</a>
+                                    <a href="#">Menu</a>
                                 </div>
                             </div>
                         </div>
