@@ -34,3 +34,11 @@
     top: 50%;
     transform: translateY(-50%);
 }
+
+.newsletter_input{
+    padding: 0px 5px;
+    margin: 0px;
+    height: 23px;
+    border-right: medium none;
+    border-radius: 5px 0px 0px 5px;
+}
