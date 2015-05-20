@@ -3,6 +3,7 @@
 .content_container{
     max-width: 982px;
     margin: 0 auto;
+    margin-left: 215px;
 }
 .display_table{
     display: table;
