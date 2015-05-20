@@ -48,6 +48,9 @@
                     </div>
                 </div>
             </div>
+            <div class="side_nav">
+                
+            </div>
             {{yield}}
         </div>
     
