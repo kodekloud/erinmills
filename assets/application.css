@@ -113,6 +113,9 @@
     font-size: 18px;
 }
 
+.menu_title a:hover{
+    text-decoration: none;
+}
 
 
 
