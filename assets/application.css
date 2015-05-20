@@ -81,12 +81,15 @@
 
 #social_fb:hover{
     background:url(http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/social_icon_fb_onhover.png);
+    background-size: contain;
 }
 #social_twitter:hover{
     background:url(http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/social_icon_twit_onhover.png);
+    background-size: contain;
 }
 #social_youtube:hover{
     background:url(http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/social_icon_youtube_onhover.png);
+    background-size: contain;
 }
 
 
