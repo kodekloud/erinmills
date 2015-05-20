@@ -204,5 +204,13 @@
 .privacy_policy {
   background: #4b4b4b;
 }
+.privacy_policy p {
+    float: left;
+    color: #969696;
+    font-family: verdana;
+    font-size: 7pt;
+    font-weight: bold;
+    margin-left: 22px;
+}
 
 
