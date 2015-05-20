@@ -148,7 +148,12 @@
     margin: 30px 30px 20px;
 }
 
-
+.footer_feature_box {
+  float: left;
+  width: 32%;
+  height: 84px;
+  margin-right: 15px;
+}
 
 
 
