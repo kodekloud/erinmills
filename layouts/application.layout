@@ -36,6 +36,23 @@
                 <a class="logo_a" href="/"><img alt="logo" class="site_logo" src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/172a94a0e1dd6a2eeec91e2cea4e8b92/logo.png"></a>
                 <div class="content_container middle_align">
                     <div class="newsletter_div">
+                        <div class="social_div">
+        
+                            <a href="http://www.facebook.com/erinmillstowncentre" target="_blank">
+                                <img alt="facebook" id="facebook" class="social_link_icon" src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/social_icon_fb.png">
+                            </a>
+                        
+                            <a href="http://twitter.com/erinmillstown" target="_blank">
+                                <img alt="twitter" id="twitter" class="social_link_icon" src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/social_icon_twit.png">
+                            </a>
+                        
+                            <a href="http://www.youtube.com/channel/UCL2jEULzhWtGxl9czW4ia4w" target="_blank">
+                                <img alt="youtube" id="youtube" class="social_link_icon" src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/social_icon_youtube.png">
+                            </a>
+                        
+                        
+                    </div>
+                        </div>
                         <form action="/newsletter" method="get">
                             <input title="email" type="text" name="email" placeholder="Join our newsletter!" class="newsletter_input">
                             <input type="submit" value="Subscribe" class="newsletter_btn">
