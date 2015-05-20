@@ -180,7 +180,12 @@
     font-weight: bold;
     font-size: 9pt;
 }
-
+.bottom_nav_list {
+    color: #4b4b4b;
+    font-family: verdana;
+    font-weight: normal;
+    font-size: 9pt;
+}
 
 
 
