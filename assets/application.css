@@ -193,9 +193,6 @@
 }
 
 .footer_logo {
-    position: relative;
-    bottom: -100px;
-    right: 35px;
     float: right;
 }
 
