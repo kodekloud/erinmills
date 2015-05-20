@@ -137,6 +137,16 @@
     text-decoration: none;
 }
 
+.footer {
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #c8c8c8;
+  display: block;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
 
 
 
