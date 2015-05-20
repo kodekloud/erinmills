@@ -300,16 +300,15 @@
                     <div class="clearfix"></div>
                 </div>
             </div>
-        </div>
-        <div class="privacy_policy">
-            <div class="content_container">
-                <span>© 2014 Erin Mills Town Centre</span>
-                <span class="seperator">|</span>
-                <span>Powered by <a href="http://www.mallmaverick.com" target="_blank">Mall Maverick</a></span>
-                <span class="seperator">|</span>
-                <a href="/pages/erinmills-privacy-policy">Privacy Policy</a>
+            <div class="privacy_policy">
+                <div class="content_container">
+                    <span>© 2014 Erin Mills Town Centre</span>
+                    <span class="seperator">|</span>
+                    <span>Powered by <a href="http://www.mallmaverick.com" target="_blank">Mall Maverick</a></span>
+                    <span class="seperator">|</span>
+                    <a href="/pages/erinmills-privacy-policy">Privacy Policy</a>
+                </div>
             </div>
-        </div>
         </div>
         <script>
             $(document).ready(function() {
