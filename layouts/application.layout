@@ -142,7 +142,6 @@
                             <div class="clearfix"></div>
                         </div>
                         <div class="footer_sitemap">
-                	            
                             <div class="site_map_table">
                                 <table role="presentation">
                                     <tbody>
@@ -323,12 +322,8 @@
                             		</tbody>
                             	</table>
                             </div>	
-                                	            
-				
-                        
-                 
                         <img alt="logo" class="footer_logo" src="http://cdn.mallmaverick.com/system/site_images/photos/000/002/829/original/icon_20vic.png?1402289975">
-                        
+                        <div class="clearfix"></div>
                         
                     </div>
                     </div>
