@@ -114,7 +114,7 @@
                     </div>
                 </div>
                 <div class="site_content_container">
-                    <div class="content_container>
+                    <div class="content_container">
                         {{yield}}
                     </div>
                 </div>
