@@ -49,7 +49,7 @@
             <div class="mid_section">
                 <div class="side_nav">
                     <div class="menu_group" id="accordion">
-                        <div class="menu_panel">
+                        <div class="panel menu_panel">
                             <div class="menu_heading">
                                 <h4 class="menu_title">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">SHOPPING</a>
@@ -81,7 +81,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="menu_panel">
+                        <div class="panel menu_panel">
                             <div class="menu_heading">
                                 <h4 class="menu_title">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">GUEST SERVICES</a>
@@ -96,7 +96,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="menu_panel">
+                        <div class="panel menu_panel">
                             <div class="menu_heading">
                                 <h4 class="menu_title">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">CENTRE INFO</a>
