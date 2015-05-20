@@ -117,187 +117,187 @@
                     {{yield}}
                 </div>
                 <div class="clearfix"></div>
-                <div class="footer">
-                    <div class="content_container">
-                        <div class="footer_features">
-                            <a href="#">
-                                <div id="gift" class="footer_feature_box" style="border-right:1px solid #C8C8C8">
-                                    <img alt="gift cards" id="gift-img" class="footer_feature_image" src="http://cdn.mallmaverick.com/system/site_images/photos/000/004/164/original/footer_giftcard.png?1411422811">
-                                    <p class="footer_feature_title">FIND THEIR PERFECT GIFT</p>
-                                </div>
-                            </a>
-                            
-                            <a href="#">
-                                <div id="video" class="footer_feature_box" style="border-right:1px solid #C8C8C8">
-                                    <img alt="video gallery" id="video-img" class="footer_feature_image" src="http://cdn.mallmaverick.com/system/site_images/photos/000/004/171/original/footer_video.png?1411422902">
-                                    <p class="footer_feature_title" style="padding-top:12%; padding-left:0px; margin-left:-15px; width:49%;">VIDEO GALLERY</p>
-                                </div>
-                            </a>
-                            <a href="#">
-                                <div id="redev" class="footer_feature_box" style="margin-right:0">
-                                    <img alt="redevelopment" id="redev-img" class="footer_feature_image" src="http://cdn.mallmaverick.com/system/site_images/photos/000/004/167/original/footer_redev.png?1411422860">
-                                    <p class="footer_feature_title" style="padding-top:12%; padding-left:0px;margin-left:-15px;">REDEVELOPMENT</p>
-                                </div>
-                            </a>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="footer_sitemap">
-                            <div class="site_map_table">
-                                <table role="presentation">
-                                    <tbody>
-                                        <tr>
-                                            <td class="bottom_nav_header">
-                                                SHOPPING
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bottom_nav_list">
-                                                <a href="#" target="_self">Hours</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bottom_nav_list">
-                                                <a href="#" target="_self">Stores</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bottom_nav_list">
-                                                <a href="#" target="_self">Centre Map</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bottom_nav_list">
-                                                <a href="#" target="_self">Store Promotions</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bottom_nav_list">
-                                                <a href="#" target="_self">Driving Directions / Map</a>
-                                            </td>
-                                        </tr>
-                            		</tbody>
-                            	</table>
+            </div>
+            <div class="footer">
+                <div class="content_container">
+                    <div class="footer_features">
+                        <a href="#">
+                            <div id="gift" class="footer_feature_box" style="border-right:1px solid #C8C8C8">
+                                <img alt="gift cards" id="gift-img" class="footer_feature_image" src="http://cdn.mallmaverick.com/system/site_images/photos/000/004/164/original/footer_giftcard.png?1411422811">
+                                <p class="footer_feature_title">FIND THEIR PERFECT GIFT</p>
                             </div>
-                            <div class="site_map_table">
-                                <table role="presentation">
-                                    <tbody>
-                                        <tr>
-                                            <td class="bottom_nav_header">
-                                                EVENTS
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bottom_nav_list">
-                                                <a href="#" target="_self">Events</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bottom_nav_list">
-                                                <a href="#" target="_self">Redevelopment</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bottom_nav_list">
-                                                <a href="#" target="_self">Trend Report</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bottom_nav_list">
-                                                <a href="#" target="_self">Press Releases</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bottom_nav_list">
-                                                <a href="#" target="_self">video Gallery</a>
-                                            </td>
-                                        </tr>
-                            		</tbody>
-                            	</table>
-                            </div>	
-                            <div class="site_map_table">
-                                <table role="presentation">
-                                    <tbody>
-                                        <tr>
-                                            <td class="bottom_nav_header">
-                                                GUEST SERVICES
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bottom_nav_list">
-                                                <a href="#" target="_self">Accessibility</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bottom_nav_list">
-                                                <a href="#" target="_self">Gift Card</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bottom_nav_list">
-                                                <a href="#" target="_self">Mall Services</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bottom_nav_list">
-                                                <a href="#" target="_self">Security Services</a>
-                                            </td>
-                                        </tr>
-                            		</tbody>
-                            	</table>
-                            </div>	
-                            <div class="site_map_table">
-                                <table role="presentation">
-                                    <tbody>
-                                        <tr>
-                                            <td class="bottom_nav_header">
-                                                CENTRE INFO
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bottom_nav_list">
-                                                <a href="#" target="_self">Contact Us</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bottom_nav_list">
-                                                <a href="#" target="_self">Green Initiatives</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bottom_nav_list">
-                                                <a href="#" target="_self">Community Partners</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bottom_nav_list">
-                                                <a href="#" target="_self">Leasing Information</a>
-                                            </td>
-                                        </tr>
-                            		</tbody>
-                            	</table>
-                            </div>	
-                            <div class="site_map_table">
-                                <table role="presentation">
-                                    <tbody>
-                                        <tr>
-                                            <td class="bottom_nav_header">
-                                                CAREERS
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bottom_nav_list">
-                                                <a href="#" target="_self">Oppurtunities</a>
-                                            </td>
-                                        </tr>
-                            		</tbody>
-                            	</table>
+                        </a>
+                        
+                        <a href="#">
+                            <div id="video" class="footer_feature_box" style="border-right:1px solid #C8C8C8">
+                                <img alt="video gallery" id="video-img" class="footer_feature_image" src="http://cdn.mallmaverick.com/system/site_images/photos/000/004/171/original/footer_video.png?1411422902">
+                                <p class="footer_feature_title" style="padding-top:12%; padding-left:0px; margin-left:-15px; width:49%;">VIDEO GALLERY</p>
                             </div>
-                            <div class="clearfix"></div>
-                        <div class="vic_logo">
-                            <img alt="logo" class="footer_logo" src="http://cdn.mallmaverick.com/system/site_images/photos/000/002/829/original/icon_20vic.png?1402289975">
-                        </div>
+                        </a>
+                        <a href="#">
+                            <div id="redev" class="footer_feature_box" style="margin-right:0">
+                                <img alt="redevelopment" id="redev-img" class="footer_feature_image" src="http://cdn.mallmaverick.com/system/site_images/photos/000/004/167/original/footer_redev.png?1411422860">
+                                <p class="footer_feature_title" style="padding-top:12%; padding-left:0px;margin-left:-15px;">REDEVELOPMENT</p>
+                            </div>
+                        </a>
                         <div class="clearfix"></div>
                     </div>
+                    <div class="footer_sitemap">
+                        <div class="site_map_table">
+                            <table role="presentation">
+                                <tbody>
+                                    <tr>
+                                        <td class="bottom_nav_header">
+                                            SHOPPING
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <a href="#" target="_self">Hours</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <a href="#" target="_self">Stores</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <a href="#" target="_self">Centre Map</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <a href="#" target="_self">Store Promotions</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <a href="#" target="_self">Driving Directions / Map</a>
+                                        </td>
+                                    </tr>
+                        		</tbody>
+                        	</table>
+                        </div>
+                        <div class="site_map_table">
+                            <table role="presentation">
+                                <tbody>
+                                    <tr>
+                                        <td class="bottom_nav_header">
+                                            EVENTS
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <a href="#" target="_self">Events</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <a href="#" target="_self">Redevelopment</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <a href="#" target="_self">Trend Report</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <a href="#" target="_self">Press Releases</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <a href="#" target="_self">video Gallery</a>
+                                        </td>
+                                    </tr>
+                        		</tbody>
+                        	</table>
+                        </div>	
+                        <div class="site_map_table">
+                            <table role="presentation">
+                                <tbody>
+                                    <tr>
+                                        <td class="bottom_nav_header">
+                                            GUEST SERVICES
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <a href="#" target="_self">Accessibility</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <a href="#" target="_self">Gift Card</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <a href="#" target="_self">Mall Services</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <a href="#" target="_self">Security Services</a>
+                                        </td>
+                                    </tr>
+                        		</tbody>
+                        	</table>
+                        </div>	
+                        <div class="site_map_table">
+                            <table role="presentation">
+                                <tbody>
+                                    <tr>
+                                        <td class="bottom_nav_header">
+                                            CENTRE INFO
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <a href="#" target="_self">Contact Us</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <a href="#" target="_self">Green Initiatives</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <a href="#" target="_self">Community Partners</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <a href="#" target="_self">Leasing Information</a>
+                                        </td>
+                                    </tr>
+                        		</tbody>
+                        	</table>
+                        </div>	
+                        <div class="site_map_table">
+                            <table role="presentation">
+                                <tbody>
+                                    <tr>
+                                        <td class="bottom_nav_header">
+                                            CAREERS
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <a href="#" target="_self">Oppurtunities</a>
+                                        </td>
+                                    </tr>
+                        		</tbody>
+                        	</table>
+                        </div>
+                        <div class="clearfix"></div>
+                    <div class="vic_logo">
+                        <img alt="logo" class="footer_logo" src="http://cdn.mallmaverick.com/system/site_images/photos/000/002/829/original/icon_20vic.png?1402289975">
+                    </div>
+                    <div class="clearfix"></div>
                 </div>
             </div>
             <div class="privacy_policy">
