@@ -63,17 +63,20 @@
 
 .social_icons{
     display:inline-block;
-    text-indent: -9999px;
-    background-size: contain;
-}
+    height: 24px;
+    width: 50px;
+    }
 #social_fb{
     background: url(http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/social_icon_fb.png) no-repeat;
+    background-size: contain;
 }
 #social_twitter{
     background: url(http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/social_icon_twit.png)  no-repeat;
+    background-size: contain;
 }
 #social_youtube{
     background:url(http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/social_icon_youtube.png)  no-repeat
+    background-size: contain;
 }
 
 
