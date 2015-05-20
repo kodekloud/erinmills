@@ -55,7 +55,11 @@
     height: 26px;
     border-left: 0px;
 }
-
+.social_div{
+    position: absolute;
+    right: 300px;
+    padding: 3px 0px;
+}
 
 
 
