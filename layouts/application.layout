@@ -117,7 +117,9 @@
                     {{yield}}
                 </div>
                 <div class="clearfix"></div>
-                <div class="footer"></div>
+                <div class="footer">
+                    afdsa
+                </div>
             </div>
         </div>
     
