@@ -192,6 +192,11 @@
       color: #4b4b4b;
 }
 
-
+.footer_logo {
+    position: relative;
+    bottom: -100px;
+    right: 35px;
+    float: right;
+}
 
 
