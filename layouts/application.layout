@@ -76,6 +76,34 @@
                             </div>
                         </div>
                     </div>
+                    <div class="menu_group" id="accordion23">
+                        <div class="menu_panel">
+                            <div class="menu_heading">
+                                <h4 class="menu_title">
+                                    <a data-toggle="collapse" data-parent="#accordion3" href="#collapse3">EVENTS</a>
+                                </h4>
+                            </div>
+                            <div id="collapse3" class="panel-collapse collapse">
+                                <div class="menu_body">
+                                    menu kids
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu_group" id="accordion4">
+                        <div class="menu_panel">
+                            <div class="menu_heading">
+                                <h4 class="menu_title">
+                                    <a data-toggle="collapse" data-parent="#accordion4" href="#collapseTwo">EVENTS</a>
+                                </h4>
+                            </div>
+                            <div id="collapse4" class="panel-collapse collapse">
+                                <div class="menu_body">
+                                    menu kids
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="site_content_container">
                     {{yield}}
