@@ -29,6 +29,10 @@
     text-align:right;
 }
 
+.newsletter_div form{
+    width:300px;
+    margin-left:auto;
+}
 .middle_align{
     position: relative;
     top: 50%;
