@@ -38,7 +38,7 @@
                     <div class="newsletter_div">
                         <form action="/newsletter" method="get">
                             <input title="email" type="text" name="email" placeholder="Join our newsletter!" class="newsletter_input">
-                            <input style="margin-left: -5px; border-radius: 0px 5px 5px 0px; box-shadow: none;border: 1px solid #ccc; background:#eee; height: 25px;" type="submit" value="Subscribe">
+                            <input type="submit" value="Subscribe" class="newsletter_btn">
                         </form>
                     </div>
                 </div>
