@@ -250,32 +250,27 @@
                                     <tbody>
                                         <tr>
                                             <td class="bottom_nav_header">
-                                                SHOPPING
+                                                CENTRE INFO
                                             </td>
                                         </tr>
                                         <tr>
                                             <td class="bottom_nav_list">
-                                                <a href="/hours" target="_self">Hours</a>
+                                                <a href="/hours" target="_self">Contact Us</a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td class="bottom_nav_list">
-                                                <a href="/stores" target="_self">Stores</a>
+                                                <a href="/stores" target="_self">Green Initiatives</a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td class="bottom_nav_list">
-                                                <a href="/map" target="_self">Centre Map</a>
+                                                <a href="/map" target="_self">Community Partners</a>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td class="bottom_nav_list">
-                                                <a href="/promotions" target="_self">Store Promotions</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bottom_nav_list">
-                                                <a href="/pages/erinmills-location" target="_self">Driving Directions / Map</a>
+                                                <a href="/promotions" target="_self">Leasing Information</a>
                                             </td>
                                         </tr>
                             		</tbody>
@@ -286,32 +281,12 @@
                                     <tbody>
                                         <tr>
                                             <td class="bottom_nav_header">
-                                                SHOPPING
+                                                CAREERS
                                             </td>
                                         </tr>
                                         <tr>
                                             <td class="bottom_nav_list">
-                                                <a href="/hours" target="_self">Hours</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bottom_nav_list">
-                                                <a href="/stores" target="_self">Stores</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bottom_nav_list">
-                                                <a href="/map" target="_self">Centre Map</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bottom_nav_list">
-                                                <a href="/promotions" target="_self">Store Promotions</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="bottom_nav_list">
-                                                <a href="/pages/erinmills-location" target="_self">Driving Directions / Map</a>
+                                                <a href="/hours" target="_self">Hours</aOppurtunities
                                             </td>
                                         </tr>
                             		</tbody>
