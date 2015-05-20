@@ -52,12 +52,12 @@
                         <div class="menu_panel">
                             <div class="menu_heading">
                                 <h4 class="menu_title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">1. What is HTML?</a>
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">SHOPPING</a>
                                 </h4>
                             </div>
                             <div id="collapseOne" class="panel-collapse collapse">
                                 <div class="menu_body">
-                                    <p>HTML stands for HyperText Markup Language. HTML is the main markup language for describing the structure of Web pages. <a href="http://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
+                                    
                                 </div>
                             </div>
                         </div>
