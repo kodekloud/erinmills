@@ -20,3 +20,7 @@
 .site_logo{
     width:320px;
 }
+.logo_a{
+    float: left;
+    display:block;
+}
