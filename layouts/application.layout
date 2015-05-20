@@ -120,20 +120,20 @@
                 <div class="footer">
                     <div class="content_container">
                         <div class="footer_features">
-                            <a href="/pages/erinmills-gift-cards">
+                            <a href="#">
                                 <div id="gift" class="footer_feature_box" style="border-right:1px solid #C8C8C8">
                                     <img alt="gift cards" id="gift-img" class="footer_feature_image" src="http://cdn.mallmaverick.com/system/site_images/photos/000/004/164/original/footer_giftcard.png?1411422811">
                                     <p class="footer_feature_title">FIND THEIR PERFECT GIFT</p>
                                 </div>
                             </a>
                             
-                            <a href="/pages/erinmills-video-gallery">
+                            <a href="#">
                                 <div id="video" class="footer_feature_box" style="border-right:1px solid #C8C8C8">
                                     <img alt="video gallery" id="video-img" class="footer_feature_image" src="http://cdn.mallmaverick.com/system/site_images/photos/000/004/171/original/footer_video.png?1411422902">
                                     <p class="footer_feature_title" style="padding-top:12%; padding-left:0px; margin-left:-15px; width:49%;">VIDEO GALLERY</p>
                                 </div>
                             </a>
-                            <a href="/pages/erinmills-redevelopment">
+                            <a href="#">
                                 <div id="redev" class="footer_feature_box" style="margin-right:0">
                                     <img alt="redevelopment" id="redev-img" class="footer_feature_image" src="http://cdn.mallmaverick.com/system/site_images/photos/000/004/167/original/footer_redev.png?1411422860">
                                     <p class="footer_feature_title" style="padding-top:12%; padding-left:0px;margin-left:-15px;">REDEVELOPMENT</p>
