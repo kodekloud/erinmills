@@ -63,7 +63,7 @@
 
 .social_icons{
     display:block;
-    text-indent:9999;
+    text-indent: -9999px;
 }
 
 
