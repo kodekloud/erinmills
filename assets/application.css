@@ -174,7 +174,12 @@
     float: left;
     margin-left: 65px;
 }
-
+.bottom_nav_header {
+    color: #4b4b4b;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 9pt;
+}
 
 
 
