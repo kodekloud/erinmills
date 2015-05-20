@@ -1,13 +1,12 @@
 <html lang="en">
     <head>
         <title>{{meta_title}}</title>
-        
-        
-        
         <!-- css -->
         <link type="text/css" rel="stylesheet" href="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/540373d34a616d0cccaf0000/368584aaeda8ec2d1f80a5f777235d72/font-awesome.min.css">
         <link rel="stylesheet" href="/application.css">
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+        
+        <!-- js -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.2/jquery.xdomainrequest.min.js"></script>
