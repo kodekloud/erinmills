@@ -65,7 +65,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="menu_panel">
+                        <div class="panel menu_panel">
                             <div class="menu_heading">
                                 <h4 class="menu_title">
                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">EVENTS</a>
