@@ -101,7 +101,8 @@
 
 .side_nav{
     width: 207px;
-    float: left;
+    position: absolute;
+    height:100%;
 }
 
 .menu_heading{
