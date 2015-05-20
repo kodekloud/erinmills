@@ -41,7 +41,6 @@
                             <input title="email" type="text" name="email" placeholder="Join our newsletter!" class="newsletter_input">
                             <input type="submit" value="Subscribe" class="newsletter_btn">
                         </form>
-                        <div class="clearfix"></div>
                     </div>
                 </div>
             </div>
