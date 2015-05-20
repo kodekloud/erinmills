@@ -51,7 +51,6 @@
                             </a>
                         
                         
-                    </div>
                         </div>
                         <form action="/newsletter" method="get">
                             <input title="email" type="text" name="email" placeholder="Join our newsletter!" class="newsletter_input">
