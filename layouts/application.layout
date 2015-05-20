@@ -53,7 +53,7 @@
                 
                 </div>
                 <div class="site_content_container">
-                    {{yield}
+                    {{yield}}
                 </div>
             </div>
         </div>
