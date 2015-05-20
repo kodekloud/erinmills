@@ -32,27 +32,25 @@
     </head>
     <body>
         <div id="content">
-            <div class="display_table">
-                <a clas="display_table_cell" href="/"><img alt="logo" class="site_logo" src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/172a94a0e1dd6a2eeec91e2cea4e8b92/logo.png"></a>
-                <div class="container display_table_cell">
-                    <div class="newsletter_div">
-                        <form action="/newsletter" method="get">
-                            <input title="email" style="padding: 0px 5px; margin: 0; height: 23px; border-right: none; border-radius: 5px 0px 0px 5px;" type="text" name="email" placeholder="Join our newsletter!">
-                            <input style="margin-left: -5px; border-radius: 0px 5px 5px 0px; box-shadow: none;border: 1px solid #ccc; background:#eee; height: 25px;" type="submit" value="Subscribe">
-                        </form>
-                    </div>
-                    <div class="social_div ">
-                        <a href="http://www.facebook.com/erinmillstowncentre" target="_blank">
-                            <img alt="facebook" id="facebook" class="social_link_icon" src="/system/social_links/icon_images/000/000/460/original/social_icon_fb.png?1411591148">
-                        </a>
-                        <a href="http://twitter.com/erinmillstown" target="_blank">
-                            <img alt="twitter" id="twitter" class="social_link_icon" src="/system/social_links/icon_images/000/000/461/original/social_icon_twit.png?1411591148">
-                        </a>
-                        <a href="http://www.youtube.com/channel/UCL2jEULzhWtGxl9czW4ia4w" target="_blank">
-                            <img alt="youtube" id="youtube" class="social_link_icon" src="/system/social_links/icon_images/000/000/462/original/social_icon_youtube.png?1411658097">
-                        </a>
-                    </div>
-                </div>  
+            <a clas="display_table_cell" href="/"><img alt="logo" class="site_logo" src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/172a94a0e1dd6a2eeec91e2cea4e8b92/logo.png"></a>
+            <div class="container display_table_cell">
+                <div class="newsletter_div">
+                    <form action="/newsletter" method="get">
+                        <input title="email" style="padding: 0px 5px; margin: 0; height: 23px; border-right: none; border-radius: 5px 0px 0px 5px;" type="text" name="email" placeholder="Join our newsletter!">
+                        <input style="margin-left: -5px; border-radius: 0px 5px 5px 0px; box-shadow: none;border: 1px solid #ccc; background:#eee; height: 25px;" type="submit" value="Subscribe">
+                    </form>
+                </div>
+                <div class="social_div ">
+                    <a href="http://www.facebook.com/erinmillstowncentre" target="_blank">
+                        <img alt="facebook" id="facebook" class="social_link_icon" src="/system/social_links/icon_images/000/000/460/original/social_icon_fb.png?1411591148">
+                    </a>
+                    <a href="http://twitter.com/erinmillstown" target="_blank">
+                        <img alt="twitter" id="twitter" class="social_link_icon" src="/system/social_links/icon_images/000/000/461/original/social_icon_twit.png?1411591148">
+                    </a>
+                    <a href="http://www.youtube.com/channel/UCL2jEULzhWtGxl9czW4ia4w" target="_blank">
+                        <img alt="youtube" id="youtube" class="social_link_icon" src="/system/social_links/icon_images/000/000/462/original/social_icon_youtube.png?1411658097">
+                    </a>
+                </div>
             </div>
             {{yield}}
         </div>
