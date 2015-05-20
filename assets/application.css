@@ -129,7 +129,9 @@
     text-decoration: none;
     color: #7a7a7a;
 }
-
+.mid_section{
+    position: relative;
+}
 .menu_body a{
     color:#e5e5e5;
     background: #7a7a7a;
