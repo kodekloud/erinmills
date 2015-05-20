@@ -52,10 +52,10 @@
                         <div class="panel menu_panel">
                             <div class="menu_heading">
                                 <h4 class="menu_title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">SHOPPING</a>
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse_shopping">SHOPPING</a>
                                 </h4>
                             </div>
-                            <div id="collapseOne" class="panel-collapse collapse">
+                            <div id="collapse_shopping" class="panel-collapse collapse">
                                 <div class="menu_body">
                                     <a href="#">HOURS</a>
                                     <a href="#">STORES</a>
@@ -68,10 +68,10 @@
                         <div class="panel menu_panel">
                             <div class="menu_heading">
                                 <h4 class="menu_title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">EVENTS</a>
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse_events">EVENTS</a>
                                 </h4>
                             </div>
-                            <div id="collapseTwo" class="panel-collapse collapse">
+                            <div id="collapse_events" class="panel-collapse collapse">
                                 <div class="menu_body">
                                     <a href="#">EVENTS</a>
                                     <a href="#">REDEVELOPMENT</a>
@@ -84,10 +84,10 @@
                         <div class="panel menu_panel">
                             <div class="menu_heading">
                                 <h4 class="menu_title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">GUEST SERVICES</a>
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse_guest_services">GUEST SERVICES</a>
                                 </h4>
                             </div>
-                            <div id="collapse3" class="panel-collapse collapse">
+                            <div id="collapse_guest_services" class="panel-collapse collapse">
                                 <div class="menu_body">
                                     <a href="#">ACCESSIBILITY</a>
                                     <a href="#">GIFT CARD</a>
@@ -99,10 +99,10 @@
                         <div class="panel menu_panel">
                             <div class="menu_heading">
                                 <h4 class="menu_title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">CENTRE INFO</a>
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse_centre_info">CENTRE INFO</a>
                                 </h4>
                             </div>
-                            <div id="collapse4" class="panel-collapse collapse">
+                            <div id="collapse_centre_info" class="panel-collapse collapse">
                                 <div class="menu_body">
                                     <a href="#">CONTACT US</a>
                                     <a href="#">GREEN INITIATIVES</a>
