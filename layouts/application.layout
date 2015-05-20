@@ -80,7 +80,7 @@
                         <div class="menu_panel">
                             <div class="menu_heading">
                                 <h4 class="menu_title">
-                                    <a data-toggle="collapse" data-parent="#accordion3" href="#collapse3">EVENTS</a>
+                                    <a data-toggle="collapse" data-parent="#accordion3" href="#collapse3">GUEST SERVICES</a>
                                 </h4>
                             </div>
                             <div id="collapse3" class="panel-collapse collapse">
@@ -94,7 +94,7 @@
                         <div class="menu_panel">
                             <div class="menu_heading">
                                 <h4 class="menu_title">
-                                    <a data-toggle="collapse" data-parent="#accordion4" href="#collapse4">EVENTS</a>
+                                    <a data-toggle="collapse" data-parent="#accordion4" href="#collapse4">CENTRE INFO</a>
                                 </h4>
                             </div>
                             <div id="collapse4" class="panel-collapse collapse">
