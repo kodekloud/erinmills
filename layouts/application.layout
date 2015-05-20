@@ -291,10 +291,10 @@
                                         </tr>
                             		</tbody>
                             	</table>
-                            </div>	
+                            </div>
+                            <div class="clearfix"></div>
                         <img alt="logo" class="footer_logo" src="http://cdn.mallmaverick.com/system/site_images/photos/000/002/829/original/icon_20vic.png?1402289975">
                         <div class="clearfix"></div>
-                        
                     </div>
                     </div>
                 </div>
