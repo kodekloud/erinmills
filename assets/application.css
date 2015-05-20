@@ -157,6 +157,14 @@
     float: left;
 }
 
+.footer_feature_title {
+    float: left;
+    padding-left: 22px;
+    width: 40%;
+    padding-top: 8%;
+    color: #4b4b4b;
+}
+
 
 
 
