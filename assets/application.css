@@ -140,6 +140,7 @@
 .footer {
     background-color: #f0f0f0;
     color: #c8c8c8;
+    padding-botom:20px;
 }
 .footer_features {
     border-bottom: 1px solid #C8C8C8;
@@ -194,7 +195,6 @@
 
 .footer_logo {
     float: right;
-    padding-bottom: 20px;
 }
 
 
