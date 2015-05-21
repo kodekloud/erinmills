@@ -343,7 +343,7 @@ body{
 .promo_box{
     width: 48%;
     height: 400px;
-    background:#000;
+    background:#f00;
     float: left;
     margin-bottom: 30px;
 }
