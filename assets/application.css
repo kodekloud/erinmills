@@ -232,8 +232,9 @@
 }
 
 /* HOMEPAGE */
-.hours_day p{
+.hours_day{
     font-weight:bold;
+    color: #7a7a7a;
 }
 .home_hours{
     background: #fff;
