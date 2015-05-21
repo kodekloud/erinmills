@@ -239,9 +239,9 @@
     padding-right:15px;
 }
 .right_nav{
-    position: absolute;
-    right: 0;
     width: 207px;
+    margin-left: auto;
+    padding-top: 1px;
 }
 .home_hours{
     background: #fff;
