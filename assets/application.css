@@ -315,7 +315,7 @@ body{
 
 .feature_caret{
     position: absolute;
-    background: rgba(0,0,0,.5);
+    background: rgba(0,0,0,0.3);
     right: 0;
     padding: 1px 8px;
     bottom: 0px;
