@@ -366,6 +366,13 @@ body{
     float: right;
     height: 209px;
 }
+.promo_description{
+    width: 237px;
+    float: left;
+    height: 209px;
+    background: #fff;
+    text-align: center;
+}
 
 
 
