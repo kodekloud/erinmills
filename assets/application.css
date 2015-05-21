@@ -313,7 +313,14 @@ body{
     margin:0;
 }
 
-
+.feature_caret{
+    position: absolute;
+    background: rgba(0,0,0,.5);
+    right: 0;
+    padding: 1px 8px;
+    bottom: 0px;
+    font-size: 25px;
+}
 
 
 
