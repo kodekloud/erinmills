@@ -250,6 +250,12 @@
     height: 205px;
 }
 
+.home_store_directory{
+    background: #fff;
+    padding: 15px;
+    margin-top: 18px;
+}
+
 .home_hours td{
     font-size:14px;
     padding-bottom: 15px;
