@@ -355,8 +355,11 @@ body{
 }
 .logo_circle_heading{
     position: absolute;
-    top: -35px;
+    top: -45px;
     left: 120px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: verdana;
 }
 
 
