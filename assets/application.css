@@ -241,12 +241,12 @@
 .right_nav{
     position: absolute;
     right: 0;
+    width: 207px;
 }
 .home_hours{
     background: #fff;
     padding: 15px;
     margin-top: 18px;
-    width: 207px;
     height: 205px;
 }
 
