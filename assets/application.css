@@ -353,8 +353,11 @@ body{
     position: absolute;
     top: -60px;
 }
-
-
+.logo_circle_heading{
+    position: absolute;
+    top: -35px;
+    left: 120px;
+}
 
 
 
