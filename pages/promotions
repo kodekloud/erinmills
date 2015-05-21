@@ -3,7 +3,7 @@
         background: none;
     }
 </style>
-<div class="page_header">
+<div class="position_relative page_header">
     <img src="http://placehold.it/982x200" />
     <h4 class="page_heading">Store Promotions</h4>
 </div>
