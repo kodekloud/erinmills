@@ -1,10 +1,10 @@
 <div class="home_hours display_table">
-    <div class="display_table_cell">
+    <div class="hours_day display_table_cell">
         <p>Monday to Friday</p>
         <p>Saturday</p>
         <p>Sunday</p>
     </div>
     <div class="display_table_cell">
-        lo
+        <p></p>
     </div>
 </div>
