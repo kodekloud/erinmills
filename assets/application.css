@@ -262,7 +262,10 @@
     padding-bottom: 15px;
     vertical-align: bottom;
 }
-
+.home_hours_heading{
+    font-size: 25px;
+    color: #7a7a7a;
+}
 .home_store_directory_heading{
     float: left;
     width: 90px;
