@@ -2,25 +2,25 @@
     <h4>HOURS</h4>
     <table role="presentation">
         <tr>
-            <th>
+            <td>
                 Monday to Friday
-            </th>
+            </td>
             <td>
                 10am - 6pm
             </td>
         </tr>
         <tr>
-            <th>
+            <td>
                 Saturday
-            </th>
+            </td>
             <td>
                 9:30am - 6pm
             </td>
         </tr>
         <tr>
-            <th>
+            <td>
                 Sunday
-            </th>
+            </td>
             <td>
                 11am - 6pm
             </td>
