@@ -254,3 +254,9 @@
     vertical-align: bottom;
 }
 
+
+
+/* Media Queries*/
+    .footer .content_container{
+        margin:0;
+    }
