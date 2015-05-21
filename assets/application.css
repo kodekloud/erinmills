@@ -1,5 +1,7 @@
 /*Created 2015-05-18 by RKS*/
-
+body{
+    font-family:verdana serif sans-serfi;
+}
 .content_container{
     max-width: 982px;
     margin: 0 auto;
