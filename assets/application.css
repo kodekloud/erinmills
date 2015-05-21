@@ -16,6 +16,9 @@
 .display_table{
     display: table;
 }
+.display_table_row{
+    display: table-row;
+}
 
 .display_table_cell{
     display: table-cell;
