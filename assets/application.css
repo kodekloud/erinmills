@@ -263,7 +263,12 @@
     vertical-align: bottom;
 }
 
-
+.home_store_directory_heading{
+    float: left;
+    width: 90px;
+    font-size: 25px;
+    color: #7a7a7a;
+}
 
 /* Media Queries*/
 @media(max-width:1000px){
