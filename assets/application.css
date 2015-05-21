@@ -312,7 +312,13 @@ body{
 .feature_item_description p{
     margin:0;
 }
-
+.feature_item_description a{
+    color: white;
+    display: block;
+}
+.feature_item_description a:hover{
+    text-decoration: none;
+}
 .feature_caret{
     position: absolute;
     background: rgba(0,0,0,0.3);
