@@ -290,7 +290,7 @@
     float: left;
     margin: 0px 5px;
 }
-.feature_item_first{
+.feature_item:first-child{
     margin-left:10px;
 }
 .feature_item img{
