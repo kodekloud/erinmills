@@ -327,7 +327,15 @@ body{
     bottom: 0px;
     font-size: 25px;
 }
-
+.page_heading{
+    position: absolute;
+    bottom: 0;
+    padding: 20px 10px;
+    width: 100%;
+    background: rgba(255,255,255,0.5);
+    margin: 0;
+    font-size: 25px;
+}
 
 
 
