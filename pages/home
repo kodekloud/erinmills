@@ -2,7 +2,7 @@
     <h4>HOURS</h4>
     <table role="presentation">
         <tr>
-            <td>
+            <td class="hours_day">
                 Monday to Friday
             </td>
             <td>
@@ -10,7 +10,7 @@
             </td>
         </tr>
         <tr>
-            <td>
+            <td class="hours_day">
                 Saturday
             </td>
             <td>
@@ -18,7 +18,7 @@
             </td>
         </tr>
         <tr>
-            <td>
+            <td class="hours_day">
                 Sunday
             </td>
             <td>
