@@ -1,15 +1,29 @@
 <div class="home_hours">
     <h4>HOURS</h4>
-    <div class="display_table">
-        <div class="display_table_row">
-            <p class="display_table_cell">Monday to Friday</p>
-            <p class="display_table_cell">Saturday</p>
-            <p class="display_table_cell">Sunday</p>
-        </div>
-        <div class="display_table_row">
-            <p class="display_table_cell">10am - 9pm</p>
-            <p class="display_table_cell">9:30am - 6pm</p>
-            <p class="display_table_cell">11am - 6pm</p>
-        </div>
-    </div>
+    <table role="presentation">
+        <tr>
+            <th>
+                Monday to Friday
+            </th>
+            <td>
+                10am - 6pm
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Saturday
+            </th>
+            <td>
+                9:30am - 6pm
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Monday to Friday
+            </th>
+            <td>
+                10am - 6pm
+            </td>
+        </tr>
+    </table>
 </div>
