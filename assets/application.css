@@ -309,6 +309,9 @@ body{
     opacity: .5;
     padding: 5px 10px;
 }
+.feature_item_description p{
+    margin:0;
+}
 
 
 
