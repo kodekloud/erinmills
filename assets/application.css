@@ -344,7 +344,8 @@ body{
     width: 469px;
     height: 400px;
     background:#000;
-    float: left
+    float: left;
+    margin-bottom: 30px;
 }
 
 
