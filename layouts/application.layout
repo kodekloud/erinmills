@@ -113,7 +113,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="content_container">
+                <div class="content_container position_relative">
                     {{yield}}
                 </div>
                 <div class="clearfix"></div>
