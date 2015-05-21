@@ -248,5 +248,7 @@
 
 .home_hours td{
     font-size:14px;
+    padding-bottom: 15px;
+    vertical-align: bottom;
 }
 
