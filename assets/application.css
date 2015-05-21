@@ -361,7 +361,11 @@ body{
     font-weight: 600;
     font-family: verdana;
 }
-
+.promo_image img{
+    width: 202px;
+    float: right;
+    height: 209px;
+}
 
 
 
