@@ -1,1 +1,8 @@
-<p>Home</p>
+<div class="home_hours display_table">
+    <div class="display_table_cell">
+        yo
+    </div>
+    <div class="display_table_cell">
+        lo
+    </div>
+</div>
