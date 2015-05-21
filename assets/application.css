@@ -285,7 +285,9 @@
     padding: 8px 5px;
 }
 
-
+.feature_item{
+    display:inline;
+}
 
 
 
