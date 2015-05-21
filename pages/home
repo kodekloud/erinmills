@@ -1,14 +1,15 @@
-<div class="home_hours display_table">
+<div class="home_hours">
     <h4>HOURS</h4>
-    <br />
-    <div class="hours_day display_table_cell">
-        <p>Monday to Friday</p>
-        <p>Saturday</p>
-        <p>Sunday</p>
-    </div>
-    <div class="display_table_cell">
-        <p>10am - 9pm</p>
-        <p>9:30am - 6pm</p>
-        <p>11am - 6pm</p>
+    <div class="display_table">
+        <div class="hours_day display_table_cell">
+            <p>Monday to Friday</p>
+            <p>Saturday</p>
+            <p>Sunday</p>
+        </div>
+        <div class="display_table_cell">
+            <p>10am - 9pm</p>
+            <p>9:30am - 6pm</p>
+            <p>11am - 6pm</p>
+        </div>
     </div>
 </div>
