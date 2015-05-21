@@ -39,19 +39,19 @@
         <div class="feature_item ">
             <img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/home_feature_1.jpg" />
             <div class="feature_item_description">
-                <p>TREND REPORT<span class="fa-caret-right"></span></p>
+                <p>TREND REPORT<span class="caret-right"></span></p>
             </div>
         </div>
         <div class="feature_item">
             <img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/home_feature_1.jpg" />
             <div class="feature_item_description">
-                <p>MEET THE MINIONS<span class="fa-caret-right"></span></p>
+                <p>MEET THE MINIONS<span class="caret-right"></span></p>
             </div>
         </div>
         <div class="feature_item">
             <img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/home_feature_1.jpg" />
             <div class="feature_item_description">
-                <p>COPS FOR CANCER HEAD SHAVE EVENT<span class="fa-caret-right"></span></p>
+                <p>COPS FOR CANCER HEAD SHAVE EVENT<span class="caret-right"></span></p>
             </div>
         </div>
     </div>
