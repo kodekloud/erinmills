@@ -12,21 +12,45 @@
     <div class="promo_box">
         <img class="logo_circle" src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/circle.png" alt="circle">
         <h4 class="logo_circle_heading">Heading</h4>
+        <div style="padding:10px; height:100%">
+            <div class="promo_description middle_align">
+                <p class="middle_align">yolo</p>
+            </div>
+            <div class="promo_image">
+                <img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/home_icon_map.png" class="" alt="">
+            </div>
+        </div>
     </div>
     <div class="promo_box pull-right ">
         <img class="logo_circle" src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/circle.png" alt="circle">
         <h4 class="logo_circle_heading">Heading</h4>
+        <div style="padding:10px; height:100%">
+            <div class="promo_description middle_align">
+                <p class="middle_align">yolo</p>
+            </div>
+            <div class="promo_image">
+                <img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/home_icon_map.png" class="" alt="">
+            </div>
+        </div>
     </div>
     <div class="promo_box">
         <img class="logo_circle" src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/circle.png" alt="circle">
         <h4 class="logo_circle_heading">Heading</h4>
+        <div style="padding:10px; height:100%">
+            <div class="promo_description middle_align">
+                <p class="middle_align">yolo</p>
+            </div>
+            <div class="promo_image">
+                <img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/home_icon_map.png" class="" alt="">
+            </div>
+        </div>
     </div>
     <div class="promo_box pull-right">
         <img class="logo_circle" src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/circle.png" alt="circle">
         <h4 class="logo_circle_heading">Heading</h4>
         <div style="padding:10px; height:100%">
             <div class="promo_description middle_align">
-                <p>yolo</p>
+                <p class="middle_align">yolo</p>
             </div>
             <div class="promo_image">
                 <img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/home_icon_map.png" class="" alt="">
