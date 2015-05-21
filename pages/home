@@ -1,5 +1,6 @@
 <div class="home_hours display_table">
     <h4>HOURS</h4>
+    <br />
     <div class="hours_day display_table_cell">
         <p>Monday to Friday</p>
         <p>Saturday</p>
