@@ -304,9 +304,8 @@ body{
     position: absolute;
     bottom: 0;
     width: 100%;
-    background: #000;
+    background: rgba(0,0,0,.5);;
     color: #fff;
-    opacity: .5;
     padding: 5px 10px;
     font-size: 12px;
 }
