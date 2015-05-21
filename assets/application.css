@@ -287,7 +287,8 @@
 }
 
 .feature_item{
-    display:inline-block;
+    float: left;
+    margin: 0px 5px;
 }
 
 .feature_item img{
