@@ -232,5 +232,11 @@
 .hours_day p{
     font-weight:bold;
 }
-
+.home_hours{
+    background: #fff;
+    padding: 18px;
+    margin-top: 18px;
+    position: absolute;
+    right: 0;
+}
 
