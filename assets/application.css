@@ -347,7 +347,11 @@ body{
     float: left;
     margin-bottom: 30px;
 }
-
+.logo_circle{
+    width: 113px;
+    position: absolute;
+    top: -60px;
+}
 
 
 
