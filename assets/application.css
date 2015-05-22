@@ -299,6 +299,8 @@ body{
     float: left;
     margin: 0px 5px;
     position: relative;
+    width: 314px;
+    height: 137px;
 }
 .feature_item:first-child{
     margin-left:10px;
