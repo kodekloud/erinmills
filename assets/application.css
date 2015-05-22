@@ -372,9 +372,10 @@ body{
     float: left;
     margin-bottom: 100px;
 }
-.promo_content:nth-child(even){
+.promo_content:first-child{
     float:right;
 }
+
 .logo_circle{
     width: 113px;
     position: absolute;
