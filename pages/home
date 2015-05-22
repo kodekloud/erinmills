@@ -82,9 +82,6 @@
            
             $(feature_items).show();
             $(feature_items).html(item_rendered.join(''));
-            
-        }
-        function renderPageData(container, template, collection, type){
             $(".modal-backdrop").remove();
         }
         loadMallData(renderPageData);
