@@ -372,7 +372,7 @@ body{
     float: left;
     margin-bottom: 100px;
 }
-#promo_list_container:nth-child(even){
+#promo_list_container:first-child{
     display:none;
 }
 .logo_circle{
