@@ -113,42 +113,44 @@
                             </div>
                         </div>
                     </div>
-                    <div class="layout_hours">
-                        <h4 class="home_hours_heading">HOURS</h4>
-                        <table role="presentation">
-                            <tr>
-                                <td class="hours_day">
-                                    Monday to Friday
-                                </td>
-                                <td>
-                                    10am - 6pm
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="hours_day">
-                                    Saturday
-                                </td>
-                                <td>
-                                    9:30am - 6pm
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="hours_day">
-                                    Sunday
-                                </td>
-                                <td>
-                                    11am - 6pm
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="layout_event">
-                        <h4 class="home_hours_heading">Mall Events</h4>
-                        <img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/home_icon_map.png" class="" alt="">
-                    </div>
-                    <div class="layout_event">
-                        <h4 class="home_hours_heading">Store Events</h4>
-                        <img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/home_icon_map.png" class="" alt="">
+                    <div class="layout_side">
+                        <div class="layout_hours">
+                            <h4 class="home_hours_heading">HOURS</h4>
+                            <table role="presentation">
+                                <tr>
+                                    <td class="hours_day">
+                                        Monday to Friday
+                                    </td>
+                                    <td>
+                                        10am - 6pm
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="hours_day">
+                                        Saturday
+                                    </td>
+                                    <td>
+                                        9:30am - 6pm
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="hours_day">
+                                        Sunday
+                                    </td>
+                                    <td>
+                                        11am - 6pm
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="layout_event">
+                            <h4 class="home_hours_heading">Mall Events</h4>
+                            <img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/home_icon_map.png" class="" alt="">
+                        </div>
+                        <div class="layout_event">
+                            <h4 class="home_hours_heading">Store Events</h4>
+                            <img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/home_icon_map.png" class="" alt="">
+                        </div>
                     </div>
                 </div>
                 <div class="content_container position_relative">
