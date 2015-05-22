@@ -432,6 +432,13 @@ body{
     font-size: 30px;
     margin-bottom: 40px;
 }
+.promo_details_circle{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -30%);
+width: 250px;
+}
 
 /* Media Queries*/
 @media(max-width:1000px){
