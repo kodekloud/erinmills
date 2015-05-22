@@ -449,7 +449,10 @@ body{
     float:right;
     border: 5px solid #fff;
     border-radius: 4px;
+}
 
+.promo_details_description{
+    font-size: 25px;
 }
 
 /* Media Queries*/
