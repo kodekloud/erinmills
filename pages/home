@@ -83,8 +83,7 @@
             $(feature_items).show();
             $(feature_items).html(item_rendered.join(''));
         }
-        
-        $(".modal-backdrop").remove();
         loadMallData(renderPageData);
+        $(".modal-backdrop").remove();
     })
 </script>
