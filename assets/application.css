@@ -354,6 +354,9 @@ body{
 .page_header{
     margin-bottom:100px;
 }
+.page_header img{
+    width:100%;
+}
 .page_heading{
     position: absolute;
     bottom: 0;
