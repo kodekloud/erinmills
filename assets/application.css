@@ -9,6 +9,9 @@ body{
 }
 .custom_backdrop img{
     width:80px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .content_container{
     max-width: 982px;
