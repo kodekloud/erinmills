@@ -2,6 +2,9 @@
 body{
     font-family:verdana;
 }
+#no_event_container{
+    dispaly:none
+}
 .custom_backdrop{
     opacity:0.5;
     background:#fff;
