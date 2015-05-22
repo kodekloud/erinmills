@@ -262,7 +262,7 @@ body{
     height: 122px;
 }
 
-.home_hours td{
+.home_hours td, .layout_hours td{
     font-size:13px;
     padding-bottom: 15px;
     vertical-align: bottom;
