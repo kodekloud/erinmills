@@ -439,6 +439,11 @@ body{
     transform: translate(-50%, -30%);
     width: 30%;
 }
+.promo_details_description{
+    width: 320px;
+    font-size: 25px;
+    font-weight: bold;
+}
 
 /* Media Queries*/
 @media(max-width:1000px){
