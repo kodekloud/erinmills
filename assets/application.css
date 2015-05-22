@@ -7,6 +7,9 @@ body{
     background:#fff;
     text-align:center;
 }
+.custom_backdrop img{
+    width:80%;
+}
 .content_container{
     max-width: 982px;
     margin: 0 auto;
