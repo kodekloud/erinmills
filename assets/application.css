@@ -423,6 +423,7 @@ body{
     padding:18px;
     background:#e5e5e5;
     position:relative;
+    min-height: 600px;
 }
 
 
