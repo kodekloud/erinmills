@@ -3,7 +3,7 @@ body{
     font-family:verdana;
 }
 #no_event_container{
-    dispaly:none
+    display:none
 }
 .custom_backdrop{
     opacity:0.5;
