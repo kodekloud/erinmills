@@ -439,7 +439,7 @@ body{
     transform: translate(-50%, -30%);
     width: 25%;
 }
-.promo_details_description{
+.promo_details_name{
     width: 32%;
     font-size: 25px;
     font-weight: bold;
