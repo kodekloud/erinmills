@@ -84,5 +84,6 @@
             $(feature_items).html(item_rendered.join(''));
         }
         loadMallData(renderPageData);
+        $(".modal-backdrop").remove();
     })
 </script>
