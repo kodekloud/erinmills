@@ -373,7 +373,7 @@ body{
     margin-bottom: 100px;
 }
 .promo_content:first-child{
-    float:right;
+    color:red
 }
 
 .logo_circle{
