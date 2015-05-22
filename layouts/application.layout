@@ -142,6 +142,9 @@
                             </tr>
                         </table>
                     </div>
+                    <div class="layout_event">
+                        
+                    </div>
                 </div>
                 <div class="content_container position_relative">
                     {{yield}}
