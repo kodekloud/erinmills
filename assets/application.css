@@ -372,7 +372,7 @@ body{
     float: left;
     margin-bottom: 100px;
 }
-#promo_list_container:first-child{
+.promo_box:first-child{
     display:none;
 }
 .logo_circle{
