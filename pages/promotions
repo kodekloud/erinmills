@@ -16,7 +16,10 @@
             <h4 class="logo_circle_heading">{{}}</h4>
             <div style="padding:10px; height:100%">
                 <div class="promo_description">
-                    <p class="middle_align">{{name}}</p>
+                    <p class="middle_align">
+                        <p>{{name}}</p>
+                        <p>{}</p>
+                    </p>
                 </div>
                 <div class="promo_image">
                     <img src="{{alt_promo_image_url}}" class="" alt="">
