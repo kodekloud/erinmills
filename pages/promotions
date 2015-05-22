@@ -44,5 +44,6 @@
         } else {
             $("#no_event_container").show();
         } 
+        
     })
 </script>
