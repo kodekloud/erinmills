@@ -9,7 +9,7 @@ body{
 }
 .custom_backdrop img{
     width:80px;
-    position: relative;
+    position: absolute;
     top: 50%;
     transform: translateY(-50%);
 }
