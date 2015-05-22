@@ -388,10 +388,14 @@ body{
     font-weight: 600;
     font-family: verdana;
 }
-.promo_image img{
+.promo_image {
     width: 202px;
     float: right;
     height: 209px;
+}
+.promo_image{
+    width:100%;
+    height:100%;
 }
 .promo_description{
     width: 237px;
