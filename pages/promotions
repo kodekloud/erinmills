@@ -16,7 +16,7 @@
             <h4 class="logo_circle_heading">{{name}}</h4>
             <div style="padding:10px; height:100%">
                 <div class="promo_description">
-                    <p class="middle_align">yolo</p>
+                    <p class="middle_align">{{description}}</p>
                 </div>
                 <div class="promo_image">
                     <img src="{{alt_promo_image_url}}" class="" alt="">
