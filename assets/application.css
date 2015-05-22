@@ -388,7 +388,10 @@ body{
     padding: 10px 0px;
 }
 
-
+.promo_read_more:hover{
+    color: #000;
+    text-decoration: none;
+}
 
 
 
