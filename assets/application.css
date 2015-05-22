@@ -232,6 +232,9 @@ body{
 .seperator{
     margin:0px 30px;
 }
+.layout_hours{
+    padding: 25px;
+}
 
 /* HOMEPAGE */
 .hours_day{
