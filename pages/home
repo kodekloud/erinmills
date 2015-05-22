@@ -1,3 +1,8 @@
+<style>
+    .layout_side{
+        display:none;
+    }
+</style>
 <div class="right_nav">
     <div class="home_hours">
         <h4 class="home_hours_heading">HOURS</h4>
