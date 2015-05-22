@@ -2,6 +2,10 @@
 body{
     font-family:verdana;
 }
+.custom_backdrop{
+    opacity:0.5;
+    background:#fff;
+}
 .content_container{
     max-width: 982px;
     margin: 0 auto;
