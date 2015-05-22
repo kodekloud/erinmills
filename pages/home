@@ -52,3 +52,12 @@
     </div>
     
 </div>
+
+<script>
+    
+    $(document).ready(function() {
+        function renderPageData (){
+            var featureList = getFeatureList();
+            renderFeatureItems('#feature_template', '#feature_items', featureList)
+        }
+</script>
