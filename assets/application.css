@@ -382,7 +382,10 @@ body{
 }
 
 .promo_read_more{
-    
+    color: #000;
+    float: right;
+    font-weight: 600;
+    padding: 10px 0px;
 }
 
 
