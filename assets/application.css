@@ -419,7 +419,9 @@ body{
     color: #000;
     text-decoration: none;
 }
-
+.promo_details{
+    padding:18px;
+}
 
 
 /* Media Queries*/
