@@ -113,7 +113,35 @@
                             </div>
                         </div>
                     </div>
-                    <p>safsd</p>
+                    <div class="layout_hours">
+                        <h4 class="home_hours_heading">HOURS</h4>
+                        <table role="presentation">
+                            <tr>
+                                <td class="hours_day">
+                                    Monday to Friday
+                                </td>
+                                <td>
+                                    10am - 6pm
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="hours_day">
+                                    Saturday
+                                </td>
+                                <td>
+                                    9:30am - 6pm
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="hours_day">
+                                    Sunday
+                                </td>
+                                <td>
+                                    11am - 6pm
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
                 <div class="content_container position_relative">
                     {{yield}}
