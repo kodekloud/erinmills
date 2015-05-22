@@ -372,8 +372,8 @@ body{
     float: left;
     margin-bottom: 100px;
 }
-.promo_box:first-child{
-    display:none;
+.promo_box:nth-child(even){
+    float:right;
 }
 .logo_circle{
     width: 113px;
