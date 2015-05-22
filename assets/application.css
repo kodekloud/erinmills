@@ -446,8 +446,7 @@ body{
 }
 .promo_details_image{
     width: 32%;
-    position: absolute;
-    right: 18px;
+    float:left;
     border: 5px solid #fff;
     border-radius: 4px;
 
