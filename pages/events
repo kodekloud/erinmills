@@ -153,3 +153,4 @@
         }
         loadMallData(renderAll);  
     })
+    </script>
