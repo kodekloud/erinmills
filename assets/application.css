@@ -485,7 +485,7 @@
   list-style: none outside none;
   padding: 0 35px 15px 15px;
 }
-#alpha_link {
+#alpha_link a{
   padding-bottom: 25px;
   border-bottom: 4px solid black;
   color: black;
@@ -493,7 +493,7 @@
   padding-left: 0;
   padding-right: 0;
 }
-#dir_link {
+#dir_link a{
   border-bottom: 9px solid black;
   color: black;
 }
