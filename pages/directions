@@ -13,7 +13,7 @@
     $(document).ready(function(){
         renderPageData()
         function renderPageData(){
-        $(".modal-backdrop").remove();
+            $(".modal-backdrop").remove();
         }
     })
 </script>
