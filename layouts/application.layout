@@ -105,8 +105,8 @@
                             </div>
                             <div id="collapse_centre_info" class="panel-collapse collapse">
                                 <div class="menu_body">
-                                    <a href="#">CONTACT US</a>
-                                    <a href="#">GREEN INITIATIVES</a>
+                                    <a href="/pages/erinmills-contact-us">CONTACT US</a>
+                                    <a href="/pages/erinmills-green-initiatives">GREEN INITIATIVES</a>
                                     <a href="#">COMMUNITY PARTNERS</a>
                                     <a href="#">LEASING INFORMATION</a>
                                 </div>
