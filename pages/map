@@ -114,7 +114,7 @@
             var maptype = "png"
             renderMap(maptype);
             
-            
+            $(".modal-backdrop").remove();
            
         }
         
