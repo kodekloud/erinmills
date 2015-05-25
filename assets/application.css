@@ -2,6 +2,9 @@
 .hidden-phone{
     
 }
+.visible-phone{
+    display:none;
+}
 #no_event_container{
     display:none
 }
