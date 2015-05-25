@@ -1,6 +1,9 @@
 <style>
-.site_content_container{
+    .site_content_container{
         background: none;
+    }
+    .content_container{
+        min-height: 650px;
     }
 .smooth_zoom_preloader {
 	background-image: url(http://kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/d9e054e28dd1bad70a952dd85777e93f/preloader.gif);
