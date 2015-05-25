@@ -275,7 +275,7 @@
                 $('#loading').hide();
                 $('#zControls').hide();
                 $('#map').hide();
-                $( "#page_content" ).fadeIn( "fast");
+                $( ".content_container" ).fadeIn( "fast");
             }
         }
         
