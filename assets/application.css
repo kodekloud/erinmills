@@ -534,6 +534,12 @@ select#cats:focus {
   width: 305px;
 }
 
+.hours_left{
+    padding:10px;
+    font-weight: bold;
+    width:300px;
+}
+
 /* Media Queries*/
 @media(max-width:1000px){
     .footer .content_container{
