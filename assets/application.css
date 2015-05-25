@@ -1,5 +1,7 @@
 /*Created 2015-05-18 by RKS*/
-
+.hidden-phone{
+    
+}
 #no_event_container{
     display:none
 }
@@ -555,6 +557,9 @@ select#cats:focus {
     }
     .site_map_table{
         margin-left:35px;
+    }
+    .visible-phone{
+        display:inline;
     }
 }
 
