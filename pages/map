@@ -69,7 +69,7 @@
 <script src="http://kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/d9e054e28dd1bad70a952dd85777e93f/jquery.smoothZoom.min.js"></script>
 <div class="position_relative page_header">
     <img src="http://placehold.it/982x200" />
-    <h4 class="page_heading">Events</h4>
+    <h4 class="page_heading">Centre Map</h4>
 </div>
 <div id="loading_screen">
     <img alt="loading" src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
