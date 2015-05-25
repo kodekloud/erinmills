@@ -539,7 +539,13 @@ select#cats:focus {
     font-weight: bold;
     width:300px;
 }
-
+#storelist_container {
+  position: relative;
+  z-index: 999999;
+  background: white;
+  height: 30px;
+  border: 1px solid #eeeeee;
+}
 
 /* Media Queries*/
 @media(max-width:1000px){
