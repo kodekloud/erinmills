@@ -7,7 +7,7 @@
     <img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/848ad2ceb827ef89c8c86be14c73dc28/store_img.png" />
     <h4 class="page_heading">Hours</h4>
 </div>
-<h4 class="hours_heading">Regular Hours</h4>
+<h4 class="hours_heading">REGULAR HOURS</h4>
 <table id="reg_hours_container" class="reg_hours_container">
     <script id="reg_hours_template" type="x-tmpl-mustache/text">
         <tr>
@@ -20,6 +20,7 @@
         </tr>
     </script>
 </table>
+<br />
 <h4 class="hours_heading">WE WILL BE OPEN THE FOLLOWING HOLIDAYS</h4>
 <table id="holiday_hours_container" class="holiday_hours_container">
                 <script id="holiday_hours_template" type="x-tmpl-mustache/text">
