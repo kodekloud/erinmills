@@ -56,47 +56,40 @@
             var item_rendered = [];
             var template_html = $(template).html();
             Mustache.parse(template_html);   // optional, speeds up future uses
+            if (type == "property_details"){
+                item_list.push(collection);
+                collection = []
+                collection = item_list;
+            }
             $.each( collection , function( key, val ) {
                 if (type == "events"){
-                    if ((val.promo_image_url_abs).indexOf('missing.png') > -1){
-                        if (val.eventable_type == "Store") {
-                            var store_details = getStoreDetailsByID(val.eventable_id);
-                            if ((store_details.store_front_url_abs).indexOf('missing.png') > -1) {
-                                val.alt_event_image_url = "http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/172a94a0e1dd6a2eeec91e2cea4e8b92/logo.png"
-                            } else {
-                                val.alt_event_image_url = (store_details.store_front_url_abs);    
-                            }
-                            
-                            val.store_name = store_details.name
-                        } else {
-                            val.alt_promo_image_url = "http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/172a94a0e1dd6a2eeec91e2cea4e8b92/logo.png"
-                        }
-                        
+                    if ((val.event_image_url).indexOf('missing.png') > -1){
+                    if (val.eventable_type == "Store") {
+                        var store_details = getStoreDetailsByID(val.promotionable_id);
+                        val.store_detail_btn = store_details.slug 
+                        val.store_name = store_details.name
+                        val.alt_event_image_url = getImageURL(store_details.store_front_url);    
                     } else {
-                        val.alt_promo_image_url = (val.promo_image_url_abs);
-                        if (val.promotionable_type == "Store") {
-                            var store_details = getStoreDetailsByID(val.promotionable_id);
-                            val.store_detail_btn = store_details.slug 
-                            val.store_name = store_details.name
-                        }
-    
+                        val.alt_promo_image_url = "http://kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/dcd66cb0efbccf1a9dc76822e0b9da23/logo_10dundas.png"
                     }
                     
-                    if (val.description.length > 110) {
-                       val.description =  val.description.substring(0,100)+'...';
-                    } 
-                          
+                    } else {
+                        val.alt_promo_image_url = getImageURL(val.event_image_url);
+                    }
                     start = new Date (val.start_date);
                     end = new Date (val.end_date);
                     start.setDate(start.getDate()+1);
                     end.setDate(end.getDate()+1);
-            
                     if (start.toDateString() == end.toDateString()) {
                         val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
                     } else {
                         val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();    
                     }
                     
+                    if (val.description.length > 110) {
+                       val.description =  val.description.substring(0,100)+'...';
+                    } 
+                        
                 }
                 
                 var rendered = Mustache.render(template_html,val);
