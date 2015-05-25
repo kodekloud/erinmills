@@ -7,3 +7,38 @@
     <img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/848ad2ceb827ef89c8c86be14c73dc28/store_img.png" />
     <h4 class="page_heading">{{name}}</h4>
 </div>
+<div class="page_content" id="promo_list_container">
+</div>
+<script>
+    $(document).ready(function() {
+        
+        function renderAll (){
+            var propertyDetails = getPropertyDetails();
+            renderpageHTML();
+            $("#loading_screen").hide();
+            $( "#main_content" ).fadeIn( "fast");
+        }
+        
+        function renderpageHTML(){
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            prefix = get_prefix();
+            var pages_json = prefix+"/pages/" + slug + ".json"
+            $.getJSON(pages_json).done(function(data) {
+                //var pages_data = JSON.parse(data);
+                // console.log(data.body);
+                
+                document.title = data.title;
+                $("#active_breadcrumb").html(data.title)
+                $("#page_title").html(data.title)
+                $('#mm_page_content').html(data.body);
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#404_msg").fadeIn("fast");
+                }
+            }); 
+        }
+        loadMallData(renderAll); 
+		
+    });
+</script>
