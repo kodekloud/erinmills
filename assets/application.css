@@ -466,6 +466,9 @@
   height: 48px;
   margin-bottom: 38px;
 }
+.store_list_nav_div a{
+    color:000;
+}
 .sort_label {
   border-left: medium solid #000000;
   float: left;
