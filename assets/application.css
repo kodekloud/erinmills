@@ -485,6 +485,18 @@
   list-style: none outside none;
   padding: 0 35px 15px 15px;
 }
+#alpha_link {
+  padding-bottom: 25px;
+  border-bottom: 4px solid black;
+  color: black;
+  margin-left: 10px;
+  padding-left: 0;
+  padding-right: 0;
+}
+#dir_link {
+  border-bottom: 9px solid black;
+  color: black;
+}
 
 /* Media Queries*/
 @media(max-width:1000px){
