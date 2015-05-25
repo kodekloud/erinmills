@@ -15,6 +15,7 @@
         function renderAll (){
             var propertyDetails = getPropertyDetails();
             renderpageHTML();
+            $(".modal-backdrop").remove();
         }
         
         function renderpageHTML(){
