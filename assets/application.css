@@ -4,7 +4,7 @@
     display:none
 }
 .margin_none{
-    margin:0;
+    margin:0 !important;
 }
 .custom_backdrop{
     opacity:0.5;
