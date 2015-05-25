@@ -44,10 +44,10 @@
         function render_categories(categories){
             
             $.each( categories , function( key, val ) {
-                val.link = "cat" + val.id;
-                $("#categories_container").append('<a href="#categories_container" class="cat_links directory_content" onclick=(show_cat('+val.link+')) id="cat'+val.id+'_link">'+val.name+'</a><br>');
-                $("#mobile_categories_container").append('<a href="#categories_container" class="cat_links directory_content" onclick=(show_cat('+val.link+')) id="mobile_cat'+val.id+'_link">'+val.name+'</a><br>');
-
+                $('#cats').append($('<option>', {
+                    value: val.id,
+                        text: val.name
+                    }));
                 
                 
             });
