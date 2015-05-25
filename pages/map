@@ -68,7 +68,7 @@
     <h4 class="page_heading">Centre Map</h4>
 </div>
 <br />
-<div  id="main_content" >
+<div  id="main_content" style="display:none">
 <div style="overflow:hidden;height:400px;margin:5px">
     <select id="storelist_container" class="pull-left storelist_dd">
             <option disabled selected>Select a Store</option>
