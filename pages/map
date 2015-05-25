@@ -2,6 +2,64 @@
 .site_content_container{
         background: none;
     }
+.smooth_zoom_preloader {
+	background-image: url(http://kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/d9e054e28dd1bad70a952dd85777e93f/preloader.gif);
+}	
+.smooth_zoom_icons {
+	background-image: url(http://kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/d9e054e28dd1bad70a952dd85777e93f/icons.png);
+}
+#zoom_container{
+    overflow:visible !important;
+}
+#zoom_container .landmarks{
+		position:absolute;
+		z-index:10;	
+		top:0px;
+		left:0px;
+		font-family: Helvetica, Arial, Verdana;
+		font-size:12px;
+		color: #ffffff;
+	}	
+	#zoom_container .landmarks .item {
+		position:absolute;		
+		text-align:center;		
+		/*display: none;	*/
+	}	
+	#zoom_container .landmarks .lable div {
+		width: 100px;
+		padding: 4px;		
+	}	
+	#zoom_container .landmarks .mark .text{
+		background-color:#6e6e6e;
+		padding:10px;
+		width:150px;
+		border-radius:5px;
+		margin-bottom:10px;
+		padding-top:12px;
+	}	
+	
+	.mark a{
+	    color:black;
+	    display:none;
+	}
+	
+	#png_map{
+	    width:2240px;
+		height: 943px;
+		min-width:2240px;
+		min-height: 943px;
+	}
+	
+	.text {
+	    color:white;
+	    font-size:16px;
+	    padding-top:2px;
+	}
+@media (max-width: 767px) {
+    #zoom_container{
+        overflow:hidden !important;
+    }
+}
 
 </style>
 <script src="http://kodekloud.s3.amazonaws.com/sites/54d4e9206e6f64691f000000/d9e054e28dd1bad70a952dd85777e93f/jquery.smoothZoom.min.js"></script>
