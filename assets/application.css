@@ -501,6 +501,14 @@
   color: black;
 }
 
+.cat-dd {
+  background: url(/system/site_images/photos/000/003/019/original/arrow.jpg?1403844552) no-repeat scroll right 15px center;
+  background-position: right 5px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 295px;
+}
+
 /* Media Queries*/
 @media(max-width:1000px){
     .footer .content_container{
