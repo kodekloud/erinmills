@@ -58,7 +58,7 @@
                             </div>
                             <div id="collapse_shopping" class="panel-collapse collapse">
                                 <div class="menu_body">
-                                    <a href="#">HOURS</a>
+                                    <a href="/hours">HOURS</a>
                                     <a href="#">STORES</a>
                                     <a href="#">CENTRE MAPS</a>
                                     <a href="/promotions">STORE PROMOTI0NS</a>
