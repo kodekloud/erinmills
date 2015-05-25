@@ -535,7 +535,7 @@ select#cats:focus {
 }
 
 .hours_left{
-    padding:10px;
+    padding:10px 0px;
     font-weight: bold;
     width:300px;
 }
