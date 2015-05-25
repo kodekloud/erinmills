@@ -24,7 +24,7 @@
                 <div class="promo_image">
                     <img src="{{alt_promo_image_url}}" class="" alt="">
                 </div>
-                <a class="promo_read_more" href="../promotions/{{slug}}"><i class="fa fa-plus-square"></i> READ MORE</a>
+                <a class="promo_read_more" href="../events/{{slug}}"><i class="fa fa-plus-square"></i> READ MORE</a>
             </div>
         </div>
     </script>
