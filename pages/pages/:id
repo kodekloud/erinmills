@@ -15,8 +15,6 @@
         function renderAll (){
             var propertyDetails = getPropertyDetails();
             renderpageHTML();
-            $("#loading_screen").hide();
-            $( "#main_content" ).fadeIn( "fast");
         }
         
         function renderpageHTML(){
