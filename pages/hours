@@ -23,18 +23,36 @@
 <br />
 <h4 class="hours_heading">WE WILL BE OPEN THE FOLLOWING HOLIDAYS</h4>
 <table id="holiday_hours_container" class="holiday_hours_container">
-                <script id="holiday_hours_template" type="x-tmpl-mustache/text">
-                    <tr>
-                        <td class="hours_left">
-                            <strong>{{holiday_name}}</strong><br>
-                            {{formatted_date}}
-                        </td>
-                        <td class="hours_right">
-                            {{h}}
-                        </td>
-                    </tr>
-                </script>
-            </table>
+    <script id="holiday_hours_template" type="x-tmpl-mustache/text">
+        <tr>
+            <td class="hours_left">
+                <strong>{{holiday_name}}</strong><br>
+                {{formatted_date}}
+            </td>
+            <td class="hours_right">
+                {{h}}
+            </td>
+        </tr>
+    </script>
+</table>
+<br />
+<h4 class="hours_heading">WE WILL BE CLOSED THE FOLLOWING STATUTORY HOLIDAYS</h4>
+<table id="holiday_hours_container" class="holiday_hours_container">
+    <script id="holiday_hours_template" type="x-tmpl-mustache/text">
+        <tr>
+            <td class="hours_left">
+                <strong>{{holiday_name}}</strong><br>
+                {{formatted_date}}
+            </td>
+            <td class="hours_right">
+                {{h}}
+            </td>
+        </tr>
+    </script>
+</table>
+
+
+
 <script>
     $(document).ready(function() {
         function renderAll (){
