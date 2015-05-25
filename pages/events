@@ -18,7 +18,7 @@
                 <div class="promo_description">
                     <div class="middle_align">
                         <p>{{name}}</p>
-                        <p>{{description}}</p>
+                        <p>{{dates}}</p>
                     </div>
                 </div>
                 <div class="promo_image">
