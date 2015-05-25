@@ -255,6 +255,7 @@
     	     	        initial_POSITION: "0 0",
             	    	pan_BUTTONS_SHOW: "NO",
             	    	zoom_OUT_TO_FIT: "NO",
+            	    	height:500,
             	     	button_SIZE: 34,
             	        button_ALIGN: "top right",    
             	     	container: 'zoom_container',
