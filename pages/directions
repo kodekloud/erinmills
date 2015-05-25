@@ -11,7 +11,7 @@
 <p>Erin Mils Town Centre has easy access from the 401,407, and 403 major highways. Click on the map below to create driving directions by typing in your location.</p>
 <br />
 <iframe title="google map" class="boxy" frameborder="0" height="500" scrolling="no" src="http://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=5100+Erin+Mills+Parkway,+Mississauga,+ON,+L5M+4Z5&amp;ie=UTF8&amp;hq=&amp;hnear=5100+Erin+Mills+Pkwy,+Mississauga,+Peel+Regional+Municipality,+Ontario&amp;ll=43.558501,-79.71199&amp;spn=0.032839,0.077162&amp;z=14&amp;iwloc=A&amp;output=embed" width="100%">&amp;lt;p&amp;gt;</iframe>
-<script>
+<br /><script>
     $(document).ready(function(){
         function renderAll(){
             $(".modal-backdrop").remove();
