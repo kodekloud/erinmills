@@ -480,6 +480,11 @@
   margin-right: 35px;
   padding: 0 20px 20px;
 }
+.nav_2 li {
+  float: left;
+  list-style: none outside none;
+  padding: 0 35px 15px 15px;
+}
 
 /* Media Queries*/
 @media(max-width:1000px){
