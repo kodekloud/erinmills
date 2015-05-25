@@ -540,6 +540,7 @@ select#cats:focus {
     width:300px;
 }
 
+
 /* Media Queries*/
 @media(max-width:1000px){
     .footer .content_container{
