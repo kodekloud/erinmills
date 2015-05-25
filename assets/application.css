@@ -3,6 +3,9 @@
 #no_event_container{
     display:none
 }
+.margin_none{
+    margin:0;
+}
 .custom_backdrop{
     opacity:0.5;
     background:#fff;
