@@ -63,6 +63,7 @@
             renderPageData('#closed_hours_container','#closed_hours_template',hours, 'closed_hours')
             $("#loading_screen").hide();
             $("#main_content").show();
+            $(".modal-backdrop").remove();
         }
         
     
