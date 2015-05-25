@@ -83,6 +83,7 @@
             $(feature_items).show();
             $(feature_items).html(item_rendered.join(''));
             $(".modal-backdrop").remove();
+             $( ".content_container" ).fadeIn( "fast");
         }
         loadMallData(renderPageData);
     })
