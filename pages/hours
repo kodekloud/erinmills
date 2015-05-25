@@ -92,6 +92,7 @@
                     } else {
                         "Closed"
                     }
+                    console.log(val)
                         item_list.push(val)
                     }
                 });
