@@ -80,11 +80,6 @@
     <img alt="loading" src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
 </div>
 <div  id="main_content" style="display:none">
-<ul class="breadcrumb">
-    <li><a href="/home">Home</a> </li>
-    <li><a href="/stores">Store Directory</a></li>
-    <li class="active">Centre Map</li>
-</ul>
 <div class="page_banner">
     Centre Map
 </div>
