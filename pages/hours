@@ -8,7 +8,18 @@
     <h4 class="page_heading">Hours</h4>
 </div>
 <h4 class="hours_heading">Regular Hours</h4>
-
+<table id="reg_hours_container" class="reg_hours_container">
+                <script id="reg_hours_template" type="x-tmpl-mustache/text">
+                    <tr>
+                        <td class="hours_left">
+                            {{day}}
+                        </td>   
+                        <td class="hours_right">
+                            {{h}}
+                        </td>
+                    </tr>
+                </script>
+            </table>
 <script>
     $(document).ready(function() {
         function renderAll (){
