@@ -27,7 +27,7 @@
                 //var pages_data = JSON.parse(data);
                 // console.log(data.body);
                 
-                $("#page_title").html(data.title)
+                $("#page_title").html(data.name)
                 $('#mm_page_content').html(data.body);
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
