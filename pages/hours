@@ -7,7 +7,7 @@
         <h4 class="page_heading">Page</h4>
 </div>
 <div class="content_container">
-    <h4 class="page_heading2">Hours</h4>
+    <h4 class="page_heading2" style=" margin-top: -60px; ">Hours</h4>
     <h4 class="hours_heading">REGULAR HOURS</h4>
     <table id="reg_hours_container" class="reg_hours_container">
         <script id="reg_hours_template" type="x-tmpl-mustache/text">
