@@ -6,52 +6,54 @@
 <div class="position_relative page_header margin_bottom_none">
         <h4 class="page_heading">Page</h4>
 </div>
-<h4 class="hours_heading">REGULAR HOURS</h4>
-<table id="reg_hours_container" class="reg_hours_container">
-    <script id="reg_hours_template" type="x-tmpl-mustache/text">
-        <tr>
-            <td class="hours_left">
-                {{day}}
-            </td>   
-            <td class="hours_right">
-                {{h}}
-            </td>
-        </tr>
-    </script>
-</table>
-<br />
-<h4 class="hours_heading">WE WILL BE OPEN THE FOLLOWING HOLIDAYS</h4>
-<table id="holiday_hours_container" class="holiday_hours_container">
-    <script id="holiday_hours_template" type="x-tmpl-mustache/text">
-        <tr>
-            <td class="hours_left">
-                <strong>{{holiday_name}}</strong><br>
-                {{formatted_date}}
-            </td>
-            <td class="hours_right">
-                {{h}}
-            </td>
-        </tr>
-    </script>
-</table>
-<br />
-<h4 class="hours_heading">WE WILL BE CLOSED THE FOLLOWING STATUTORY HOLIDAYS</h4>
-<table id="closed_hours_container" class="closed_hours_container">
-    <script id="closed_hours_template" type="x-tmpl-mustache/text">
-        <tr>
-            <td class="hours_left">
-                <strong>{{holiday_name}}</strong><br>
-                {{formatted_date}}
-            </td>
-            <td class="hours_right">
-                {{h}}
-            </td>
-        </tr>
-    </script>
-</table>
-<br /><br />
-<p>**Subject to Change.**</p>
-
+<div class="content_container">
+    <h4 class="page_heading2" id="page_title"></h4>
+    <h4 class="hours_heading">REGULAR HOURS</h4>
+    <table id="reg_hours_container" class="reg_hours_container">
+        <script id="reg_hours_template" type="x-tmpl-mustache/text">
+            <tr>
+                <td class="hours_left">
+                    {{day}}
+                </td>   
+                <td class="hours_right">
+                    {{h}}
+                </td>
+            </tr>
+        </script>
+    </table>
+    <br />
+    <h4 class="hours_heading">WE WILL BE OPEN THE FOLLOWING HOLIDAYS</h4>
+    <table id="holiday_hours_container" class="holiday_hours_container">
+        <script id="holiday_hours_template" type="x-tmpl-mustache/text">
+            <tr>
+                <td class="hours_left">
+                    <strong>{{holiday_name}}</strong><br>
+                    {{formatted_date}}
+                </td>
+                <td class="hours_right">
+                    {{h}}
+                </td>
+            </tr>
+        </script>
+    </table>
+    <br />
+    <h4 class="hours_heading">WE WILL BE CLOSED THE FOLLOWING STATUTORY HOLIDAYS</h4>
+    <table id="closed_hours_container" class="closed_hours_container">
+        <script id="closed_hours_template" type="x-tmpl-mustache/text">
+            <tr>
+                <td class="hours_left">
+                    <strong>{{holiday_name}}</strong><br>
+                    {{formatted_date}}
+                </td>
+                <td class="hours_right">
+                    {{h}}
+                </td>
+            </tr>
+        </script>
+    </table>
+    <br /><br />
+    <p>**Subject to Change.**</p>
+</div>
 
 <script>
     $(document).ready(function() {
