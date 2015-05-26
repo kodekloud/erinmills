@@ -387,11 +387,12 @@
 }
 
 .page_heading2{
-    padding: 15px 10px;
     width: 100%;
-    background: rgba(255,255,255,0.7);
     margin: 0;
     font-size: 25px;
+    margin-top: -60px;
+    z-index: 9999;
+    position: absolute;
 }
 .promo_box{
     position: relative;
