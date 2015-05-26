@@ -583,6 +583,9 @@ select#cats:focus {
     }
 }
 @media(max-width:1024px){
+    .newsletter_input{
+        width:210px;
+    }
     .feature_item{
         width:31%;
     }
