@@ -557,7 +557,11 @@ select#cats:focus {
 }
 
 /* Media Queries*/
-
+@media(min-width:1295px){
+    .content_container{
+        margin:0 auto;   
+    }
+}
 @media(max-width:1024px){
     .feature_item{
         width:31%;
