@@ -564,7 +564,7 @@ select#cats:focus {
 }
 
 /* Media Queries*/
-@media(min-width:1390px){
+@media(min-width:1425px){
     .content_container{
         margin:0 auto !important;   
     }
