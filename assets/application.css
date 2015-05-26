@@ -426,7 +426,7 @@
     font-family: verdana;
 }
 .promo_image {
-    width: 48%px;
+    width: 48%;
     float: right;
     height: 209px;
     text-align: center;
@@ -443,7 +443,7 @@
     transform: translateY(-50%);
 }
 .promo_description{
-    width: 48%px;
+    width: 48%;
     float: left;
     height: 209px;
     background: #fff;
