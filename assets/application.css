@@ -375,8 +375,6 @@
     width:100%;
 }
 .page_heading{
-    position: absolute;
-    bottom: 0;
     padding: 15px 10px;
     width: 100%;
     background: rgba(255,255,255,0.7);
