@@ -17,7 +17,7 @@
         <script src="http://mallmaverick.kodekloud.io/mallmaverick.js?v=0.3"></script>
         <script src="http://mallmaverick.kodekloud.io/mustache_mallmaverick.js?v=0.3"></script>
         <script>
-            setEndPoint('http://erinmills.mallmaverickstaging.com/api/v2/erinmills/all.json');
+            setEndPoint('http://erinmills.mallmaverick.com/api/v2/erinmills/all.json');
             sessionStorage.setItem('primary_locale', 'en-CA');
             sessionStorage.setItem('secondary_locale', 'fr-CA');
         </script>
