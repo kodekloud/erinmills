@@ -3,56 +3,57 @@
         display:none;
     }
 </style>
-<div class="right_nav">
-    <div class="home_hours">
-        <h4 class="home_hours_heading">HOURS</h4>
-        <table role="presentation">
-            <tr>
-                <td class="hours_day">
-                    Monday to Friday
-                </td>
-                <td>
-                    10am - 6pm
-                </td>
-            </tr>
-            <tr>
-                <td class="hours_day">
-                    Saturday
-                </td>
-                <td>
-                    9:30am - 6pm
-                </td>
-            </tr>
-            <tr>
-                <td class="hours_day">
-                    Sunday
-                </td>
-                <td>
-                    11am - 6pm
-                </td>
-            </tr>
-        </table>
+<div class="content_container">
+    <div class="right_nav">
+        <div class="home_hours">
+            <h4 class="home_hours_heading">HOURS</h4>
+            <table role="presentation">
+                <tr>
+                    <td class="hours_day">
+                        Monday to Friday
+                    </td>
+                    <td>
+                        10am - 6pm
+                    </td>
+                </tr>
+                <tr>
+                    <td class="hours_day">
+                        Saturday
+                    </td>
+                    <td>
+                        9:30am - 6pm
+                    </td>
+                </tr>
+                <tr>
+                    <td class="hours_day">
+                        Sunday
+                    </td>
+                    <td>
+                        11am - 6pm
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="home_store_directory">
+            <h4 class="home_store_directory_heading">Map & Store Directory</h4>
+            <img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/home_icon_map.png" class="" alt="map">
+        </div>
     </div>
-    <div class="home_store_directory">
-        <h4 class="home_store_directory_heading">Map & Store Directory</h4>
-        <img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/home_icon_map.png" class="" alt="map">
-    </div>
-</div>
-<div class="feature_box">
-    <h4 class="feature_box_heading">FEATURED</h4>
-    <div class="feature_container" id="feature_items">
-        <script id="feature_template" type="x-tmpl-mustache/text">
-            <div class="feature_item ">
-                <img src="{{image_url}}" />
-                <div class="feature_item_description">
-                    <p><a href="#">{{name}}<span class="feature_caret fa fa-caret-right"></span></a></p>
+    <div class="feature_box">
+        <h4 class="feature_box_heading">FEATURED</h4>
+        <div class="feature_container" id="feature_items">
+            <script id="feature_template" type="x-tmpl-mustache/text">
+                <div class="feature_item ">
+                    <img src="{{image_url}}" />
+                    <div class="feature_item_description">
+                        <p><a href="#">{{name}}<span class="feature_caret fa fa-caret-right"></span></a></p>
+                    </div>
                 </div>
-            </div>
-        </script>
+            </script>
+        </div>
+        
     </div>
-    
 </div>
-
 <script>
     
     $(document).ready(function() {
