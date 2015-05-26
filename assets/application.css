@@ -136,6 +136,7 @@
     position: absolute;
     height:100%;
     background: #fff;
+      z-index: 999;
 }
 
 .menu_heading{
