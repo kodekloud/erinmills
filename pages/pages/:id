@@ -7,8 +7,8 @@
 </style>
 <div class="position_relative page_header margin_bottom_none">
         <h4 class="page_heading"></h4>
-    
 </div>
+    <h4 class="page_heading" id="page_title"></h4>
 <div class="content_container">
     <div class="page_content" id="mm_page_content">
     </div>
