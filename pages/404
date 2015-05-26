@@ -11,7 +11,9 @@
 <div class="position_relative page_header margin_bottom_none">
         <h4 class="page_heading">Page</h4>
 </div>
-
+<div class="content_container">
+    <h4 class="page_heading2">Sorry! The page does not exist</h4>
+</div>
 <script>
     $(document).ready(function() {
         
