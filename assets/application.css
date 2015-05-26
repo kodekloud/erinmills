@@ -364,12 +364,12 @@
 }
 .page_header{
     margin-bottom:100px;
-}
-.page_header img{
-    width:100%;
     background: url(http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/848ad2ceb827ef89c8c86be14c73dc28/store_img.png);
     padding-top: 190px;
     margin-left: 222px;
+}
+.page_header img{
+    width:100%;
 }
 .page_heading{
     position: absolute;
