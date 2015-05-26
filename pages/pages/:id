@@ -5,10 +5,9 @@
     }
     
 </style>
-<div class="page_header margin_bottom_none">
-    <div class="content_container">
-        <h4 class="page_heading" id="page_title"></h4>
-    </div>
+<div class="position_relative page_header margin_bottom_none">
+    
+    <h4 class="page_heading" id="page_title"></h4>
 </div>
 <div class="content_container">
     <div class="page_content" id="mm_page_content">
