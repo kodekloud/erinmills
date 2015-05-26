@@ -385,6 +385,13 @@
     font-size: 25px;
 }
 
+.page_heading{
+    padding: 15px 10px;
+    width: 100%;
+    background: rgba(255,255,255,0.7);
+    margin: 0;
+    font-size: 25px;
+}
 .promo_box{
     position: relative;
     width: 48%;
