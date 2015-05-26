@@ -395,7 +395,7 @@
     font-size: 25px;
     margin-top: -40px;
     z-index: 9999;
-    position: absolute;
+    position: relative;
 }
 .promo_box{
     position: relative;
