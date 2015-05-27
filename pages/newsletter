@@ -31,9 +31,11 @@
                 <input class="form-control" id="fieldgdrn" name="cm-f-gdrn" type="text" />
             </div>
         </div>
-        <div class="floater-left">
-            <label for="fieldgdrx">Postal Code *</label> 
-            <input class="form-control" id="fieldgdrx" name="cm-f-gdrx" type="text" required/> 
+        <div class="row">
+            <div class="col-md-12">
+                <label for="fieldgdrx">Postal Code *</label> 
+                <input class="form-control" id="fieldgdrx" name="cm-f-gdrx" type="text" required/> 
+            </div>
         </div>
         <div style="clear:both;"></div>
         <br />
