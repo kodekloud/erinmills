@@ -16,8 +16,6 @@
                 <label for="fieldName">Name *</label>  
                 <input id="fieldName" name="cm-name" type="text" required />
             </div>
-        </div>
-        <div class="row">
             <div class="span6">
                 <label for="fieldEmail">Email *</label> 
                 <input id="fieldEmail" name="cm-tlidkt-tlidkt" type="email" required />
