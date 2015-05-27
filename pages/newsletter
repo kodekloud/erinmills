@@ -32,7 +32,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-16">
                 <label for="fieldgdrx">Postal Code *</label> 
                 <input class="form-control" id="fieldgdrx" name="cm-f-gdrx" type="text" required/> 
             </div>
