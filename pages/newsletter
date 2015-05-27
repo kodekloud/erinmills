@@ -17,9 +17,11 @@
                 <input id="fieldName" name="cm-name" type="text" required />
             </div>
         </div>
-        <div class="floater-left">
-            <label for="fieldEmail">Email *</label> 
-            <input id="fieldEmail" name="cm-tlidkt-tlidkt" type="email" required />
+        <div class="row">
+            <div class="span6">
+                <label for="fieldEmail">Email *</label> 
+                <input id="fieldEmail" name="cm-tlidkt-tlidkt" type="email" required />
+            </div>
         </div>
         <div class="floater-left">
             <label for="fieldgdrb">Address</label>
