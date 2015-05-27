@@ -12,6 +12,7 @@
 </div>
 <script>
     $(document).ready(function() {
+        $("#fieldEmail").val(getUrlVars()["email"].replace("%40", "@"));
         function renderAll (){
             $(".modal-backdrop").remove();
         }
