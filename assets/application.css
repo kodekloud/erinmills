@@ -394,6 +394,7 @@
     background: rgba(255,255,255,0.7);
     margin: 0;
     font-size: 25px;
+      height: 57px;
 }
 
 .page_heading2{
@@ -481,10 +482,6 @@
     position: absolute;
     top: 0px;
     left: 50%;
-    -webkit-transform: translate(-50%, -30%);
-    -moz-transform: translate(-50%, -30%);
-    -ms-transform: translate(-50%, -30%);
-    -o-transform: translate(-50%, -30%);
     transform: translate(-50%, -30%);
     width: 25%;
 }
@@ -612,11 +609,6 @@ select#cats:focus {
     }
     .site_map_table{
         margin-left:35px;
-    }
-}
-@media(max-width:800px){
-    .side_nav, .footer{
-        display:none;
     }
 }
 
