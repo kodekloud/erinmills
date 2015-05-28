@@ -57,7 +57,7 @@
 <script>
     
     $(document).ready(function() {
-        
+        init();
         function renderPageData (){
             var featureList = getFeatureList();
             renderFeatureItems('#feature_template', '#feature_items', featureList)
