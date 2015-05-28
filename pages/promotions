@@ -34,6 +34,7 @@
 
 <script>
     $(document).ready(function() {
+        init();
         function renderAll (){
             all_promos = getPromotionsList();
             all_promos = all_promos.reverse();
