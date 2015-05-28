@@ -34,7 +34,7 @@
 
 <script>
     $(document).ready(function() {
-        init()
+        init();
         function renderAll (){
             all_events = getEventsList();
             all_events = all_events.reverse();
