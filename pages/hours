@@ -86,7 +86,7 @@
                     val.alt_promo_image_url = getImageURL(val.event_image_url);
                 }
                 var rendered = Mustache.render(template_html,val);
-                console.log(rendered)
+                console.log(val)
                 item_rendered.push(rendered);
             });
             
