@@ -7,7 +7,7 @@
     }
 </style>
 <div class="position_relative page_header margin_bottom_none">
-        <h4 class="page_heading">Page</h4>
+        <div class="page_heading"></div>
 </div>
 <div class="content_container" id="hours_div">
     <h4 class="page_heading2">Hours</h4>
@@ -63,7 +63,6 @@
         init();
         function renderAll (){
             var hours = getPropertyHours();
-            
             var latest_store_event = getStoreEventsList().reverse()[0];
             var latest_mall_event = getPropertyEventsList().reverse()[0];
             if (latest_mall_event){
@@ -72,7 +71,6 @@
             if (latest_store_event){
                 renderSideEvents('#latest_store_event_container', '#latest_store_event_template', latest_store_event);
             } 
-            
             renderPageData('#reg_hours_container','#reg_hours_template',hours, 'reg_hours')
             renderPageData('#holiday_hours_container','#holiday_hours_template',hours, 'holiday_hours')
             renderPageData('#closed_hours_container','#closed_hours_template',hours, 'closed_hours')
