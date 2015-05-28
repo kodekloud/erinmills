@@ -143,14 +143,12 @@
                                 </tr>
                             </table>
                         </div>
-                        <div id="latest_store_event_container">
+                        <div id="latest_event_container">
                             <div class="layout_event">
                                 <h4 class="home_hours_heading">Mall Events</h4>
-                                
                                     <script id="latest_store_event_template" type="x-tmpl-mustache/text">
                                         <img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/home_icon_map.png" class="" alt="">
                                     </script>
-                                
                             </div>
                             <div class="layout_event">
                                 <h4 class="home_hours_heading">Store Events</h4>
