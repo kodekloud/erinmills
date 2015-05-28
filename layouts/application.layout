@@ -147,7 +147,7 @@
                             <script id="latest_mall_event_template" type="x-tmpl-mustache/text">
                                 <div class="layout_event">
                                     <h4 class="home_hours_heading">Mall Events</h4>
-                                    {{alt_promo_image_url}}
+                                    <img src='{{alt_promo_image_url}}'/>
                                 </div>
                             </script>
                         </div>
