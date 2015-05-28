@@ -615,7 +615,7 @@ select#cats:focus {
     }
 }
 @media(max-width:800px){
-    .side_nav{
+    .side_nav, .footer{
         display:none;
     }
 }
