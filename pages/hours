@@ -6,7 +6,7 @@
 <div class="position_relative page_header margin_bottom_none">
         <h4 class="page_heading">Page</h4>
 </div>
-<div class="content_container">
+<div class="content_container" id="hours_div">
     <h4 class="page_heading2">Hours</h4>
     <h4 class="hours_heading">REGULAR HOURS</h4>
     <table id="reg_hours_container" class="reg_hours_container">
