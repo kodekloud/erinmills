@@ -614,6 +614,11 @@ select#cats:focus {
         margin-left:35px;
     }
 }
+@media(max-width:800px){
+    .side_nav{
+        display:none;
+    }
+}
 
 
 
