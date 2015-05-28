@@ -274,6 +274,9 @@
     padding-left:25px;
     margin-bottom: 20px;
 }
+.layout_event img{
+    width:100%;
+}
 /* HOMEPAGE */
 .hours_day{
     font-weight:bold;
