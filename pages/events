@@ -2,6 +2,9 @@
     .site_content_container{
         background: none;
     }
+    #promo_list_container{
+        min-height:600px;
+    }
 </style>
 <div class="position_relative page_header margin_bottom_none">
     <div class="page_heading"></div>
