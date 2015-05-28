@@ -85,7 +85,9 @@
                 else{
                     val.alt_promo_image_url = getImageURL(val.promo_image_url);
                 }
-            }
+                var rendered = Mustache.render(template_html,val);
+                item_rendered.push(rendered);
+            });
         }
         
         function renderPageData(container, template, collection, type){
