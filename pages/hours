@@ -2,6 +2,9 @@
     .site_content_container{
         background: none;
     }
+    #hours_div{
+        display:none;
+    }
 </style>
 <div class="position_relative page_header margin_bottom_none">
         <h4 class="page_heading">Page</h4>
