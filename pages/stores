@@ -64,6 +64,7 @@
             $.each( item_list , function( key, val ) {
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
+                console.log(rendered)
             });
             console.log(item_rendered)
             $(container).html(item_rendered.join(''));
