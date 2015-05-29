@@ -64,10 +64,10 @@
             $.each( item_list , function( key, val ) {
                 val.yo= "yolo"
                 var rendered = Mustache.render(template_html,val);
-                
+                console.log(val)
                 item_rendered.push(rendered);
             });
-            console.log(item_rendered)
+            
             $(container).html(item_rendered.join(''));
         }
         
