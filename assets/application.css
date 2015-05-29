@@ -591,7 +591,6 @@ select#cats:focus {
     color: #fff;
     background: black;
     border-bottom: 2pt solid #000000;
-    display: block;
     margin-bottom: 9px;
     height: 27px;
     text-align: left;
