@@ -608,6 +608,7 @@ select#cats:focus {
     font-size: 18px;
     font-family: verdana;
     font-weight: 400;
+    padding: 0px 12px;
 }
 /* Media Queries*/
 @media(min-width:1425px){
