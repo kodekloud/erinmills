@@ -74,10 +74,12 @@
                 var current_initial = val.name[0];
                 if(store_initial == current_initial){
                     val.initial = "";
+                    val.show = "display:none;"
                 }
                 else{
                     val.initial = current_initial;
                     store_initial = current_initial;
+                    val.show = "display:inline;"
                 }
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
