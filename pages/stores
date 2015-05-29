@@ -41,7 +41,7 @@
                 <script id="store_list_template_right" type="x-tmpl-mustache/text">
                     <div class="store_list_content">
                         <p class="store_initial" style="{{show}}">{{initial}}</p>
-                        <p>{{name}}</p>
+                        <p class="store_name">{{name}}</p>
                     </div>
                 </script>
             </div>
