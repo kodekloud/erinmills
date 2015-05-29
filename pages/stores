@@ -19,6 +19,7 @@
             <a href="javascript:switch_tabs('directory')">ALPHABETICAL</a>
             <select title="show categories" name="cats" id="cats" onchange="show_cats(this);"></select>  
         </div>
+        <div class="cleafix"></div>
     </div>
     <div class="stores_tab">
         <div class="store_list_pane">
