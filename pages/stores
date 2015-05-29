@@ -89,7 +89,9 @@
                 }
                 var rendered = Mustache.render(template_html,val);
                 val upper_current_initial = current_initial.toUpperCase();
-                item_rendered.push(rendered);
+                if (upper_current_initial.charCodeAt(0) < breaker..charCodeAt(0)){
+                    item_rendered.push(rendered);
+                }
     
             });
             
