@@ -20,60 +20,9 @@
           <li id="cat_link" style="border-bottom-style: none; color: rgb(149, 149, 149);">
                 <div class="cat-dd">
                     <select title="show categories" name="cats" id="cats" onchange="show_cats(this);" style="color: rgb(149, 149, 149);">
-                        <option value="" disabled="" selected="">CATEGORIES</option>
-                        
-                            <option value="2377">Books and News</option>    
-                        
-                            <option value="2370">Cards, Stationery and Gifts</option>    
-                        
-                            <option value="2372">Children's Apparel </option>    
-                        
-                            <option value="2376">Department Stores</option>    
-                        
-                            <option value="2364">Electronic, Computers &amp; Telephones</option>    
-                        
-                            <option value="2359">Fashion Accessories</option>    
-                        
-                            <option value="2354">Fast Food</option>    
-                        
-                            <option value="2358">Footwear</option>    
-                        
-                            <option value="2378">General, Variety &amp; Lottery</option>    
-                        
-                            <option value="2371">Health &amp; Beauty</option>    
-                        
-                            <option value="2384">Housewares, Home Furnishing &amp; Décor</option>    
-                        
-                            <option value="2365">Jewellery</option>    
-                        
-                            <option value="2362">Ladies Apparel</option>    
-                        
-                            <option value="2356">Leather &amp; Luggage</option>    
-                        
-                            <option value="2374">Men's Apparel</option>    
-                        
-                            <option value="2375">Music &amp; Videos</option>    
-                        
-                            <option value="2361">Personal Care &amp; Health Services</option>    
-                        
-                            <option value="2385">Pharmacy</option>    
-                        
-                            <option value="2366">Photography &amp; Photo Equipment</option>    
-                        
-                            <option value="2381">Restaurants</option>    
-                        
-                            <option value="2355">Services</option>    
-                        
-                            <option value="2380">Specialty Apparel</option>    
-                        
-                            <option value="2369">Specialty Food</option>    
-                        
-                            <option value="2386">Specialty Retailer</option>    
-                        
-                            <option value="2373">Sporting Goods &amp; Athletic Wear</option>    
-                        
-                            <option value="2357">Unisex Apparel</option>    
-                                
+                        <option value="" disabled="" selected="">
+                            CATEGORIES
+                        </option>
                     </select>  
                 </div>
           </li>
