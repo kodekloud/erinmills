@@ -65,7 +65,7 @@
                 
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
-                console.log(item_rendered)
+                console.log(val)
             });
             
             $(container).html(item_rendered.join(''));
