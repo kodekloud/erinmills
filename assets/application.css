@@ -618,6 +618,9 @@ select#cats:focus {
     width:50%;
     float:left;
 }
+.store_name a{
+    color: #000;
+}
 
 
 /* Media Queries*/
