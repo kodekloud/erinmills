@@ -587,7 +587,17 @@ select#cats:focus {
   height: 30px;
   border: 1px solid #eeeeee;
 }
-
+.store_initial{
+    color: #fff;
+    background: black;
+    border-bottom: 2pt solid #000000;
+    display: block;
+    margin-bottom: 9px;
+    height: 27px;
+    text-align: left;
+    padding-top: 8px;
+    padding-left: 12px;
+}
 /* Media Queries*/
 @media(min-width:1425px){
     .content_container{
