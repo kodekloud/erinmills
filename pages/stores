@@ -38,8 +38,7 @@
             render_categories(categories);
             //render_category_stores();  
             
-            $("#loading_screen").hide();
-            $("#main_content").show();
+            $(".modal-backdrop").remove();
         }
         
         function render_categories(categories){
