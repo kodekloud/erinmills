@@ -55,6 +55,9 @@
             $(".modal-backdrop").remove();
         }
         
+        function renderPageData(){
+            
+        }
         
         function render_categories(categories){
             $.each( categories , function( key, val ) {
