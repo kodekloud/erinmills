@@ -66,7 +66,6 @@
                 item_rendered.push(rendered);
                 console.log(rendered)
             });
-            console.log(item_rendered)
             $(container).html(item_rendered.join(''));
         }
         
