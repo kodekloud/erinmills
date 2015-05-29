@@ -70,7 +70,7 @@
                     }
                     
                 }
-                var current_initial = val.name;
+                var current_initial = val.name[0];
                 if(store_initial == current_initial){
                     val.initial = "";
                 }
@@ -83,7 +83,7 @@
             });
             
             $(container).show();
-            $(container).html(item_rendered.join('[0]'));
+            $(container).html(item_rendered.join(''));
         };  
         
         function render_categories(categories){
