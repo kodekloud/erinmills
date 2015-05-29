@@ -76,6 +76,7 @@
                 }
                 else{
                     val.initial = current_initial;
+                    store_initial = current_initial;
                 }
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
