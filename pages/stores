@@ -16,11 +16,8 @@
         </div>
         <div>
             <p class="sort_label">Sort By:</p>
-            <div id="alpha_link"><a href="javascript:switch_tabs('directory')">ALPHABETICAL</a></div>
-            <div class="cat-dd">
-                <select title="show categories" name="cats" id="cats" onchange="show_cats(this);">
-                </select>  
-            </div>
+            <a href="javascript:switch_tabs('directory')">ALPHABETICAL</a>
+            <select title="show categories" name="cats" id="cats" onchange="show_cats(this);"></select>  
         </div>
     </div>
     <div class="stores_tab">
