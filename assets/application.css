@@ -597,6 +597,7 @@ select#cats:focus {
 
 .store_list_content{
     width: 250px;
+    margin: 0 auto;
 }
 /* Media Queries*/
 @media(min-width:1425px){
