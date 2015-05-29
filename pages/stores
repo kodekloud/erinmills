@@ -83,7 +83,7 @@
             });
             
             $(container).show();
-            $(container).html(item_rendered.join(''));
+            $(container).html(item_rendered.join('[0]'));
         };  
         
         function render_categories(categories){
