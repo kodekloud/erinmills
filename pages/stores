@@ -71,7 +71,7 @@
                     
                 }
                 var current_initial = val.name;
-                if(store_inital == current_initial){
+                if(store_initial == current_initial){
                     val.initial = "";
                 }
                 else{
