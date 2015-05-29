@@ -70,9 +70,12 @@
                     }
                     
                 }
-                
-                if(){
-                    
+                var current_initial = val.name;
+                if(store_inital == current_initial){
+                    val.initial = ""
+                }
+                else{
+                    val.initial = current_initial
                 }
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
