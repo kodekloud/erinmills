@@ -602,6 +602,13 @@ select#cats:focus {
     width: 250px;
     margin: 0 auto;
 }
+
+.store_name{
+    color: #000000;
+    font-size: 18px;
+    font-family: verdana;
+    font-weight: 400;
+}
 /* Media Queries*/
 @media(min-width:1425px){
     .content_container{
