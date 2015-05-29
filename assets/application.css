@@ -610,6 +610,9 @@ select#cats:focus {
     font-weight: 400;
     padding: 0px 12px;
 }
+.stores_tab{
+    margin-bottom:40px;
+}
 /* Media Queries*/
 @media(min-width:1425px){
     .content_container{
