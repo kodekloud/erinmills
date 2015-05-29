@@ -613,6 +613,13 @@ select#cats:focus {
 .stores_tab{
     margin-bottom:40px;
 }
+
+.store_list_nav_div  div{
+    width:50%;
+    float:left;
+}
+
+
 /* Media Queries*/
 @media(min-width:1425px){
     .content_container{
