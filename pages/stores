@@ -10,16 +10,74 @@
     <h4 class="page_heading2">Store List</h4>
     <br /><br />
     <div class="store_list_nav_div">
-        <div class="store_nav_div">
-            <span id="dir_link"><a href="javascript:switch_tabs('directory')">DIRECTORY</a></span>
-            <span id="map_link"><a href="/map">CENTRE MAP</a></span>
-        </div>
-        <div class="store_nav_div">
-            <p class="sort_label">Sort By:</p>
-            <a href="javascript:switch_tabs('directory')">ALPHABETICAL</a>
-            <select title="show categories" name="cats" id="cats" onchange="show_cats(this);"></select>  
-        </div>
-        <div class="clearfix"></div>
+        <ul class="nav_1">
+            <li id="dir_link" style="border-bottom-width: 9px; border-bottom-style: solid; border-bottom-color: black; color: black;"><a href="javascript:switch_tabs('directory')">DIRECTORY</a></li>
+            <li id="map_link" style="border-bottom-style: none; color: rgb(149, 149, 149);"><a href="/map">CENTRE MAP</a></li>
+        </ul>
+        <p class="sort_label">Sort By:</p>
+        <ul class="nav_2">
+          <li id="alpha_link" style="border-bottom-style: solid; border-bottom-width: 4px; border-bottom-color: black; color: black;"><a href="javascript:switch_tabs('directory')">ALPHABETICAL</a></li>
+          <li id="cat_link" style="border-bottom-style: none; color: rgb(149, 149, 149);">
+                <div class="cat-dd">
+                    <select title="show categories" name="cats" id="cats" onchange="show_cats(this);" style="color: rgb(149, 149, 149);">
+                        <option value="" disabled="" selected="">CATEGORIES</option>
+                        
+                            <option value="2377">Books and News</option>    
+                        
+                            <option value="2370">Cards, Stationery and Gifts</option>    
+                        
+                            <option value="2372">Children's Apparel </option>    
+                        
+                            <option value="2376">Department Stores</option>    
+                        
+                            <option value="2364">Electronic, Computers &amp; Telephones</option>    
+                        
+                            <option value="2359">Fashion Accessories</option>    
+                        
+                            <option value="2354">Fast Food</option>    
+                        
+                            <option value="2358">Footwear</option>    
+                        
+                            <option value="2378">General, Variety &amp; Lottery</option>    
+                        
+                            <option value="2371">Health &amp; Beauty</option>    
+                        
+                            <option value="2384">Housewares, Home Furnishing &amp; Décor</option>    
+                        
+                            <option value="2365">Jewellery</option>    
+                        
+                            <option value="2362">Ladies Apparel</option>    
+                        
+                            <option value="2356">Leather &amp; Luggage</option>    
+                        
+                            <option value="2374">Men's Apparel</option>    
+                        
+                            <option value="2375">Music &amp; Videos</option>    
+                        
+                            <option value="2361">Personal Care &amp; Health Services</option>    
+                        
+                            <option value="2385">Pharmacy</option>    
+                        
+                            <option value="2366">Photography &amp; Photo Equipment</option>    
+                        
+                            <option value="2381">Restaurants</option>    
+                        
+                            <option value="2355">Services</option>    
+                        
+                            <option value="2380">Specialty Apparel</option>    
+                        
+                            <option value="2369">Specialty Food</option>    
+                        
+                            <option value="2386">Specialty Retailer</option>    
+                        
+                            <option value="2373">Sporting Goods &amp; Athletic Wear</option>    
+                        
+                            <option value="2357">Unisex Apparel</option>    
+                                
+                    </select>  
+                </div>
+          </li>
+        </ul>    
     </div>
     <div class="stores_tab">
         <div class="store_list_pane">
