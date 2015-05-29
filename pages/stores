@@ -27,7 +27,7 @@
     </div>
     <div class="store_list" id="store_list_container">
         <script id="store_list_template" type="x-tmpl-mustache/text">
-            <p class="store_initial">{{initial}}</p>
+            <p class="store_initial" style="{{show}}">{{initial}}</p>
             <p>{{name}}</p>
         </script>
     </div>
