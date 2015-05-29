@@ -16,15 +16,13 @@
         </div>
         <div>
             <p class="sort_label">Sort By:</p>
-            <ul class="nav_2">
-                <li id="alpha_link"><a href="javascript:switch_tabs('directory')">ALPHABETICAL</a></li>
-                <li id="cat_link">
-                    <div class="cat-dd">
-                        <select title="show categories" name="cats" id="cats" onchange="show_cats(this);">
+            <div class="nav_2">
+                <div id="alpha_link"><a href="javascript:switch_tabs('directory')">ALPHABETICAL</a></div>
+                <div class="cat-dd">
+                    <select title="show categories" name="cats" id="cats" onchange="show_cats(this);">
                     </select>  
-                    </div>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
     </div>
     <div class="stores_tab">
