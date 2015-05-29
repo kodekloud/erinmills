@@ -62,10 +62,12 @@
             Mustache.parse(template_html);   // optional, speeds up future uses
             item_list.push(collection);
             $.each( item_list , function( key, val ) {
+                val.yo= "yolo"
                 var rendered = Mustache.render(template_html,val);
+                
                 item_rendered.push(rendered);
-                console.log(rendered)
             });
+            console.log(item_rendered)
             $(container).html(item_rendered.join(''));
         }
         
