@@ -102,8 +102,7 @@
             
             $(container).show();
             $(container).html(item_rendered.join(''));
-        };  $(container).html(item_rendered.join(''));
-        }
+        };  
         
         function render_categories(categories){
             $.each( categories , function( key, val ) {
