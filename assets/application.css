@@ -594,7 +594,10 @@ select#cats:focus {
     padding: 10px 12px;
     font-weight:bold;
 }
-
+.store_list_pane{
+    float: left;
+    width:50%;
+}
 .store_list_content{
     width: 250px;
     margin: 0 auto;
