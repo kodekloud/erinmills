@@ -6,21 +6,24 @@
 <div class="position_relative page_header margin_bottom_none">
     <div class="page_heading"></div>
 </div>
-<div class="store_list_nav_div">
-    <ul class="nav_1">
-        <li id="dir_link"><a href="javascript:switch_tabs('directory')">DIRECTORY</a></li>
-        <li id="map_link"><a href="/map">CENTRE MAP</a></li>
-    </ul>
-    <p class="sort_label">Sort By:</p>
-    <ul class="nav_2">
-        <li id="alpha_link"><a href="javascript:switch_tabs('directory')">ALPHABETICAL</a></li>
-        <li id="cat_link">
-            <div class="cat-dd">
-                <select title="show categories" name="cats" id="cats" onchange="show_cats(this);">
-            </select>  
-        </div>
-      </li>
-    </ul>    
+<div class="content_container">
+    <h4 class="page_heading2">Promotions</h4>
+    <div class="store_list_nav_div">
+        <ul class="nav_1">
+            <li id="dir_link"><a href="javascript:switch_tabs('directory')">DIRECTORY</a></li>
+            <li id="map_link"><a href="/map">CENTRE MAP</a></li>
+        </ul>
+        <p class="sort_label">Sort By:</p>
+        <ul class="nav_2">
+            <li id="alpha_link"><a href="javascript:switch_tabs('directory')">ALPHABETICAL</a></li>
+            <li id="cat_link">
+                <div class="cat-dd">
+                    <select title="show categories" name="cats" id="cats" onchange="show_cats(this);">
+                </select>  
+            </div>
+          </li>
+        </ul>    
+    </div>
 </div>
 
 <script>
