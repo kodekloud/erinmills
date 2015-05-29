@@ -56,8 +56,8 @@
             var category_stores = getStoresListByCategory();
             var categories = getStoreCategories();
             
-            renderPageData('#store_list_container','#store_list_template', stores, "stores", "M");
-            renderPageData('#store_list_container_right','#store_list_template_right', stores, "stores", "M");
+            renderPageData('#store_list_container','#store_list_template', stores, "stores", "A", "M");
+            renderPageData('#store_list_container_right','#store_list_template_right', stores, "stores", "M", "Z");
             render_categories(categories);
             
             $(".modal-backdrop").remove();
