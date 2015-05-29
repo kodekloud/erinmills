@@ -47,7 +47,6 @@
             var stores = getStoresList();
             var category_stores = getStoresListByCategory();
             var categories = getStoreCategories();
-            var propertyDetails = getPropertyDetails();
             //renderPageData('#store_list_container','#store_list_template', stores, "stores");
             render_categories(categories);
             
