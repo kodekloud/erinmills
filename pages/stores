@@ -79,7 +79,7 @@
                 else{
                     val.initial = current_initial;
                     store_initial = current_initial;
-                    val.show = "display:inline;"
+                    val.show = "display:block;"
                 }
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
