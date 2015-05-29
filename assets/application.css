@@ -622,6 +622,10 @@ select#cats:focus {
     color: #000;
 }
 
+.store_name a:hover{
+    text-decoration:none;
+}
+
 
 /* Media Queries*/
 @media(min-width:1425px){
