@@ -125,7 +125,7 @@
         };  
         
         $("#cats").change(function(){
-            alert()
+            alert("s")
         })
         
         function render_categories(categories){
