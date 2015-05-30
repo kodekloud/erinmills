@@ -626,7 +626,10 @@ select#cats:focus {
     text-decoration:none;
 }
 
-
+.promo_img{
+    width: 40px;
+    float: right;
+}
 /* Media Queries*/
 @media(min-width:1425px){
     .content_container{
