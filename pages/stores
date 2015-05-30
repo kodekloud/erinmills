@@ -125,7 +125,7 @@
         };  
         
         $("#cats").change(function(){
-            alert("s")
+            $('.stores_tab').hide()
         })
         
         function render_categories(categories){
