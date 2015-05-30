@@ -124,7 +124,7 @@
             $(container).html(item_rendered.join(''));
         };  
         
-        function show_cats(category){
+        function show_cats(){
             alert("yo")
         }
         
