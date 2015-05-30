@@ -609,6 +609,7 @@ select#cats:focus {
     font-family: verdana;
     font-weight: 400;
     padding: 0px 12px;
+    float: left;
 }
 .stores_tab{
     margin-bottom:40px;
