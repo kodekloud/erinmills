@@ -124,9 +124,9 @@
             $(container).html(item_rendered.join(''));
         };  
         
-        function show_cats(){
-            alert("yo")
-        }
+        $("#cats").change(function(){
+            alert()
+        })
         
         function render_categories(categories){
             $.each( categories , function( key, val ) {
