@@ -124,6 +124,10 @@
             $(container).html(item_rendered.join(''));
         };  
         
+        function show_cats(this){
+            alert("yo")
+        }
+        
         function render_categories(categories){
             $.each( categories , function( key, val ) {
                 $('#cats').append($('<option>', {
