@@ -128,7 +128,7 @@
             $('.stores_tab').hide()
             $("#dir_link").css({"border-bottom":"9px solid black","color":"black"});
             $("#map_link").css({"border-bottom":"none","color":"#959595"});
-            $("#alpha_link").css({"border-bottom":"none","color":"#959595"});
+            $("#alpha_link a").css({"border-bottom":"none","color":"#959595"});
             $("#cat_link").css({"border-bottom":"4px solid black","color":"black"});
             $("#cats").css("color","black");
         })
