@@ -145,7 +145,7 @@
             $("#alpha_link a").css({"border-bottom":"none","color":"#959595"});
             $("#cat_link").css({"border-bottom":"4px solid black","color":"black"});
             $("#cats").css("color","black");
-            var store_list = getStoresListByCategoryID(category_id)
+            var store_list = getStoresListByCategoryID($(this).val())
             
         })
         $("#show_stores").click(function(e){
