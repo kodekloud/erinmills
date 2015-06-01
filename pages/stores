@@ -162,7 +162,7 @@
             e.preventDefault()
         })
         
-        function renderCategoriesList(container, template, collection,starter, breaker)
+        function renderCategoriesList(container, template, collection, starter, breaker)
         function render_categories(categories){
             $.each( categories , function( key, val ) {
                 $('#cats').append($('<option>', {
