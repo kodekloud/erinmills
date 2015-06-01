@@ -58,7 +58,7 @@
     <div class="categories_tab">
         <div class="store_list_pane">
             <div class="store_list" id="store_category_list_container">
-                <script id="category_store_list_template" type="x-tmpl-mustache/text">
+                <script id="store_category_list_template" type="x-tmpl-mustache/text">
                     <div class="store_list_content">
                         <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
                         <div class="clearfix"></div>
@@ -146,7 +146,7 @@
             $("#cat_link").css({"border-bottom":"4px solid black","color":"black"});
             $("#cats").css("color","black");
             var store_list = getStoresListByCategoryID(parseInt($(this).val()))
-            console.log(store_list)
+            renderCategories('#store_list_container','#store_list_template', stores, "stores", "A", "M");
             
         })
         $("#show_stores").click(function(e){
