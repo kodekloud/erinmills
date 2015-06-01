@@ -170,7 +170,7 @@
                 if(i < breaker){
                     $('#store_category_list_container').append('<div class="store_list_content"><p class="store_name"><a href="/stores/' + val.slug + '">' + val.name + '</a></p><div class="clearfix"></div></div>')
                 }
-                else){
+                else{
                     $('#store_category_list_container_right').append('<div class="store_list_content"><p class="store_name"><a href="/stores/' + val.slug + '">' + val.name + '</a></p><div class="clearfix"></div></div>')
                 }
             })
