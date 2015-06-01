@@ -141,7 +141,7 @@
             $("#cat_link").css({"border-bottom":"4px solid black","color":"black"});
             $("#cats").css("color","black");
             var stores_list = getStoresListByCategoryID(parseInt($(this).val()))
-            renderCategoriesList();
+            renderCategoriesList(stores_list);
             
         })
         $("#show_stores").click(function(e){
@@ -157,7 +157,7 @@
             e.preventDefault()
         })
         
-        function renderCategoriesList(){
+        function renderCategoriesList(list){
             
             
             
