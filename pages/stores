@@ -142,6 +142,7 @@
             $("#cat_link").css({"border-bottom":"4px solid black","color":"black"});
             $("#cats").css("color","black");
             var stores_list = getStoresListByCategoryID(parseInt($(this).val()))
+            $('#cats_title').text($(this).text())
             renderCategoriesList(stores_list);
             
         })
