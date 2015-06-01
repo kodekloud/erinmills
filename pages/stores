@@ -146,7 +146,7 @@
             $("#cat_link").css({"border-bottom":"4px solid black","color":"black"});
             $("#cats").css("color","black");
             var stores_list = getStoresListByCategoryID(parseInt($(this).val()))
-            renderCategories('#store_category_list_container','#store_category_list_template', stores_list, 1, Math.round(stores_list.length) );
+            renderCategoriesList('#store_category_list_container','#store_category_list_template', stores_list, 1, Math.round(stores_list.length) );
             
         })
         $("#show_stores").click(function(e){
@@ -162,7 +162,7 @@
             e.preventDefault()
         })
         
-        
+        function renderCategoriesList(container, template, collection,starter, breaker)
         function render_categories(categories){
             $.each( categories , function( key, val ) {
                 $('#cats').append($('<option>', {
