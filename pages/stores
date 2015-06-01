@@ -158,6 +158,7 @@
         })
         
         function renderCategoriesList(list){
+            $('#store_category_list_container').html('')
             $.each(list, function(i, val){
                 $('#store_category_list_container').append('<p>' + val.name + '</p>')
             })
