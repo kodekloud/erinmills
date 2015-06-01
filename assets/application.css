@@ -633,10 +633,11 @@ select#cats:focus {
 }
 #cats_title{
     font-family: verdana;
-    font-size: 50px;
+    font-size: 30px;
     line-height: 50px;
     margin-bottom: 35px;
     color: black;
+    text-align:center;
 }
 
 
