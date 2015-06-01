@@ -627,7 +627,9 @@ select#cats:focus {
 .store_name a:hover{
     text-decoration:none;
 }
-
+.now_hiring{
+    color:#0f0;
+}
 .promo_img{
     width: 40px;
     float: right;
