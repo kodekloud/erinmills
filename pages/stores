@@ -146,7 +146,7 @@
             $("#cat_link").css({"border-bottom":"4px solid black","color":"black"});
             $("#cats").css("color","black");
             var stores_list = getStoresListByCategoryID(parseInt($(this).val()))
-            renderCategories('#store_category_list_container','#store_category_list_template', stores_list, "stores", "A", "M");
+            renderCategories('#store_category_list_container','#store_category_list_template', stores_list, 1, Math.round(stores_list.length) );
             
         })
         $("#show_stores").click(function(e){
