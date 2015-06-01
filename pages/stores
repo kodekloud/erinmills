@@ -20,7 +20,7 @@
           <li id="cat_link" style="border-bottom-style: none; color: rgb(149, 149, 149);">
                 <div class="cat-dd">
                     <select title="show categories" name="cats" id="cats" style="color: rgb(149, 149, 149);">
-                        <option value="" disabled="" selected="">
+                        <option value="categories" disabled="" selected="">
                             CATEGORIES
                         </option>
                     </select>  
@@ -141,7 +141,7 @@
             $("#map_link").css({"border-bottom":"none","color":"#959595"});
             $("#cat_link").css({"border-bottom":"none","color":"#959595"});
             $('.stores_tab').show()
-            $("#cats")selectedIndex = 0;
+            $("#cats").selectedIndex = 0;
             e.preventDefault()
         })
         
