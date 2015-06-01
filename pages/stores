@@ -141,7 +141,7 @@
             $("#map_link").css({"border-bottom":"none","color":"#959595"});
             $("#cat_link").css({"border-bottom":"none","color":"#959595"});
             $('.stores_tab').show()
-            $("#cats").selectedIndex = 0;
+            $("#cats").val('categories')
             e.preventDefault()
         })
         
