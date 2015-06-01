@@ -16,7 +16,7 @@
         </ul>
         <p class="sort_label">Sort By:</p>
         <ul class="nav_2">
-          <li id="alpha_link" style="border-bottom-style: solid; border-bottom-width: 4px; border-bottom-color: black; color: black;"><a href="javascript:switch_tabs('directory')">ALPHABETICAL</a></li>
+          <li id="alpha_link" style="border-bottom-style: solid; border-bottom-width: 4px; border-bottom-color: black; color: black;"><a href="#" id="show_stores">ALPHABETICAL</a></li>
           <li id="cat_link" style="border-bottom-style: none; color: rgb(149, 149, 149);">
                 <div class="cat-dd">
                     <select title="show categories" name="cats" id="cats" style="color: rgb(149, 149, 149);">
@@ -127,6 +127,10 @@
         $("#cats").change(function(){
             $('.stores_tab').hide()
         })
+        $("#cats").change(function(){
+            $('.stores_tab').hide()
+        })
+        
         
         function render_categories(categories){
             $.each( categories , function( key, val ) {
