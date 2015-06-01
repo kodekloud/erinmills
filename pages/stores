@@ -145,26 +145,7 @@
             $("#alpha_link a").css({"border-bottom":"none","color":"#959595"});
             $("#cat_link").css({"border-bottom":"4px solid black","color":"black"});
             $("#cats").css("color","black");
-            var category_stores = [];
-            var item_rendered = [];
-            var all_stores = getStoresList();
-            var all_categories = getStoreCategories();
-            var test = []
-            var template_html = $("#category_store_list_template").html();
-            Mustache.parse(template_html);
-            for (i = 0; i < all_categories.length; i++) {
-                var stores_per_cat = [];
-                for (j = 0; j < all_stores.length; j++) {
-                    if($.inArray(parseInt(all_categories[i].id), all_stores[j].categories) > -1){
-                        all_stores[j].cat_name = all_categories[i].name;
-                        category_stores.push(all_stores[j]);
-                        stores_per_cat.push(all_stores[j]);
-                    }
-                
-                }
-                var rendered = Mustache.render(template_html,all_categories[i]);
-                item_rendered.push(rendered);
-            }
+            
         })
         $("#show_stores").click(function(e){
             $("#dir_link").css({"border-bottom":"9px solid black","color":"black"});
