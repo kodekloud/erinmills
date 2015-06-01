@@ -56,7 +56,31 @@
         <div class="clearfix"></div>
     </div>
     <div class="categories_tab">
-        
+        <div class="store_list_pane">
+            <div class="store_list" id="cat_list_container">
+                <script id="cat_list_template" type="x-tmpl-mustache/text">
+                    <div class="store_list_content">
+                        <p class="store_initial" style="{{show}}">{{initial}}</p>
+                        <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
+                        <img class="promo_img" style="{{promotion_exist}}" src="http://assets.kodekloud.io/sites/554a79236e6f64713f000000/366c709f0e864b0b8dd5643cf226a4cc/store_icon_promo.jpg" class="" alt="sale">
+                        <div class="clearfix"></div>
+                    </div>
+                </script>
+            </div>
+        </div>
+        <div class="store_list_pane">
+            <div class="store_list" id="cat_list_container_right">
+                <script id="cat_list_template_right" type="x-tmpl-mustache/text">
+                    <div class="store_list_content">
+                        <p class="store_initial" style="{{show}}">{{initial}}</p>
+                        <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
+                        <img class="promo_img" style="{{promotion_exist}}" src="http://assets.kodekloud.io/sites/554a79236e6f64713f000000/366c709f0e864b0b8dd5643cf226a4cc/store_icon_promo.jpg" class="" alt="sale">
+                        <div class="clearfix"></div>
+                    </div>
+                </script>
+            </div>
+        </div>
+        <div class="clearfix"></div>
     </div>
 </div>
 
