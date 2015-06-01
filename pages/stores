@@ -134,6 +134,11 @@
             $("#cats").css("color","black");
         })
         $("#show_stores").click(function(e){
+            $("#dir_link").css({"border-bottom":"9px solid black","color":"black"});
+            $("#alpha_link").css({"border-bottom":"4px solid black","color":"black"});
+            $("#cats").css("color","#959595");
+            $("#map_link").css({"border-bottom":"none","color":"#959595"});
+            $("#cat_link").css({"border-bottom":"none","color":"#959595"});
             $('.stores_tab').show()
             e.preventDefault()
         })
