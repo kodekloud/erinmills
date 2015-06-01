@@ -128,6 +128,12 @@
                 else{
                     val.promotion_exist = "display:none"
                 }
+                if (val.jobs.length > 0){
+                    val.job_exist = "display:inline"
+                }
+                else{
+                    val.promotion_exist = "display:none"
+                }
                 var rendered = Mustache.render(template_html,val);
                 var upper_current_initial = current_initial.toUpperCase();
                 if (upper_current_initial.charCodeAt(0) < breaker.charCodeAt(0) && upper_current_initial.charCodeAt(0) >= starter.charCodeAt(0)){
