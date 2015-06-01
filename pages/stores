@@ -168,6 +168,7 @@
             $("#map_link").css({"border-bottom":"none","color":"#959595"});
             $("#cat_link").css({"border-bottom":"none","color":"#959595"});
             $('.stores_tab').show()
+            $('.categories_tab').show()
             $("#cats").val('categories')
             e.preventDefault()
         })
