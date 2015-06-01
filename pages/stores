@@ -62,6 +62,11 @@
                     
             </div>
         </div>
+        <div class="store_list_pane">
+            <div class="store_list" id="store_category_list_container">
+                    
+            </div>
+        </div>
         <div class="clearfix"></div>
     </div>
 </div>
