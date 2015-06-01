@@ -631,6 +631,16 @@ select#cats:focus {
     width: 40px;
     float: right;
 }
+#cats_title{
+    font-family: verdana;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 35px;
+    color: black;
+}
+
+
+
 /* Media Queries*/
 @media(min-width:1425px){
     .content_container{
