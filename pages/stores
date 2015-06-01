@@ -127,8 +127,9 @@
         $("#cats").change(function(){
             $('.stores_tab').hide()
         })
-        $("#cats").change(function(){
-            $('.stores_tab').hide()
+        $("#show_stores").click(function(e){
+            $('.stores_tab').show()
+            e.preventDefault()
         })
         
         
