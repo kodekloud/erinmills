@@ -160,7 +160,7 @@
         function renderCategoriesList(list){
             $('#store_category_list_container').html('')
             $.each(list, function(i, val){
-$('#store_category_list_container').append('<div class="store_list_content"><p class="store_name"><a href="/stores/' + val.slug + '">' + val.name + '</a></p></div>')
+$('#store_category_list_container').append('<div class="store_list_content"><p class="store_name"><a href="/stores/' + val.slug + '">' + val.name + '</a></p></div><div></div>')
             })
             
             
