@@ -646,7 +646,9 @@ select#cats:focus {
     text-align:center;
 }
 
-
+.store_level{
+    font-size:25px;
+}
 
 /* Media Queries*/
 @media(min-width:1425px){
