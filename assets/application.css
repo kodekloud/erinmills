@@ -649,6 +649,10 @@ select#cats:focus {
 .store_level{
     font-size:25px;
 }
+.store_column_left {
+  width: 286px;
+  float: left;
+}
 
 /* Media Queries*/
 @media(min-width:1425px){
