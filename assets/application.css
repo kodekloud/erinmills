@@ -656,7 +656,11 @@ select#cats:focus {
 .store_column_left img{
     width:100%;
 }
-
+.store_detail_cat_label {
+    color: #a7a7a7;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
 /* Media Queries*/
 @media(min-width:1425px){
     .content_container{
