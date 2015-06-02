@@ -661,6 +661,11 @@ select#cats:focus {
     font-size: 14px;
     margin-bottom: 0px;
 }
+.store_detail_cat_name {
+    color: black;
+    font-size: 14px;
+    margin-bottom: 22px;
+}
 /* Media Queries*/
 @media(min-width:1425px){
     .content_container{
