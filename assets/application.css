@@ -653,6 +653,9 @@ select#cats:focus {
   width: 286px;
   float: left;
 }
+.store_column_left img{
+    width:100%;
+}
 
 /* Media Queries*/
 @media(min-width:1425px){
