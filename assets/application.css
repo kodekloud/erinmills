@@ -654,6 +654,11 @@ select#cats:focus {
   float: left;
   display:table-cell;
 }
+.store_column_right{
+    display: table-cell;
+    width: 100%;
+    vertical-align: top;
+}
 .store_column_left img{
     width:100%;
 }
