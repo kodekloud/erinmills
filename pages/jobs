@@ -30,19 +30,19 @@
             if (latest_store_event){
                 renderSideEvents('#latest_store_event_container', '#latest_store_event_template', latest_store_event);
             }        
-            all_promos = getJobsList();
-            all_promos = all_promos.reverse();
-            promo_array = []
-            $.each( all_promos , function( key, val ){
+            all_jobs = getJobsList();
+            all_jobs = all_jobs.reverse();
+            jobs_array = []
+            $.each( jobs_array , function( key, val ){
                 today = new Date();
                 webDate = new Date(val.show_on_web_date)
                 if (today >= webDate) {
                     promo_array.push(val)
                 } 
             });
-            all_promos = promo_array;
-            if (all_promos.length > 0 ) {
-                renderPageData("#promo_list_container","#promo_list_template", all_promos, "promos");    
+            all_jobs = jobs_array;
+            if (all_jobs.length > 0 ) {
+                renderPageData("#promo_list_container","#promo_list_template", all_jobs, );    
             } else {
                 $("#no_event_container").show();
             } 
