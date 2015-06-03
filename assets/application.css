@@ -723,7 +723,14 @@ select#cats:focus {
   background-color: #FFFFFF;
   border: 1px solid #b2aaab;
 }
-
+promo_name {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 19px;
+  margin-bottom: 0;
+  display: inline-block;
+}
 
 
 /* Media Queries*/
