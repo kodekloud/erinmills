@@ -31,13 +31,9 @@
             if (latest_store_event){
                 renderSideEvents('#latest_store_event_container', '#latest_store_event_template', latest_store_event);
             }        
-            all_jobs = getJobsList();
-            all_jobs = all_jobs.reverse();
-            if (all_jobs.length > 0 ) {
-                renderPageData("#job_list_container","#job_list_template", all_jobs);    
-            } else {
-                $("#no_event_container").show();
-            } 
+            function renderPageData(){
+                renderJobsListTemplate('#job_item_template','#jobs_list','#jobs_not_empty_section','#jobs_empty_section',getJobsList());
+            }
             $(".modal-backdrop").remove();
         }
         function renderPageData(container, template, collection){
