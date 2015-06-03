@@ -30,7 +30,7 @@
             if (latest_store_event){
                 renderSideEvents('#latest_store_event_container', '#latest_store_event_template', latest_store_event);
             }        
-            all_promos = getPromotionsList();
+            all_promos = getJobsList();
             all_promos = all_promos.reverse();
             promo_array = []
             $.each( all_promos , function( key, val ){
