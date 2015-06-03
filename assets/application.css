@@ -723,7 +723,7 @@ select#cats:focus {
   background-color: #FFFFFF;
   border: 1px solid #b2aaab;
 }
-promo_name {
+.promo_name {
   color: black;
   font-size: 14px;
   font-weight: bold;
