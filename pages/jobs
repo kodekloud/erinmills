@@ -11,9 +11,11 @@
     <br /><br /><br />
     <div class="row" id ="job_list_container">
         <script id="job_list_template" type="x-tmpl-mustache/text">
-            <div class="col-md-6 job_container">
-            {{id}}
-            </div>
+            <div class="col-md-6">
+                <div class="job_container">
+                    {{id}}
+                </div>
+            <?div>
         </script>
     </div>
 </div>
