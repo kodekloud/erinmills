@@ -756,6 +756,9 @@ select#cats:focus {
     padding-top: 15px;
     overflow: hidden;
 }
+.job_container:nth-child(even){
+    float:right;
+}
 
 /* Media Queries*/
 @media(min-width:1425px){
