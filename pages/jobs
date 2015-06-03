@@ -33,9 +33,8 @@
             if (latest_store_event){
                 renderSideEvents('#latest_store_event_container', '#latest_store_event_template', latest_store_event);
             }        
-            function renderPageData(){
-                renderJobsListTemplate('#job_list_template','#job_list_container','#jobs_not_empty_section','#jobs_empty_section',getJobsList());
-            }
+            renderJobsListTemplate('#job_list_template','#job_list_container','#jobs_not_empty_section','#jobs_empty_section',getJobsList());
+            
             $(".modal-backdrop").remove();
         }
         function renderPageData(container, template, collection){
