@@ -684,7 +684,12 @@ select#cats:focus {
 .stores_column{
     display:table-row;
 }
-
+.store_detail_sub_title {
+  margin-top: 52px;
+  color: black;
+  font-size: 24px;
+  font-family: verdana;
+}
 .popup {
   background: none repeat scroll 0 0 #000000;
   border: 1px solid #808080;
