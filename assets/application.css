@@ -738,7 +738,7 @@ select#cats:focus {
   font-weight: normal;
   margin-bottom: 0;
 }
-.promo_date:hover{
+.no_hover:hover{
     text-decoration: none;
 }
 .read_more {
