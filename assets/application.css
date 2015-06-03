@@ -659,7 +659,7 @@ select#cats:focus {
     width: 100%;
     vertical-align: top;
 }
-.store_column_left img{
+.row img{
     width:100%;
 }
 .store_detail_cat_label {
