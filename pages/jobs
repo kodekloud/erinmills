@@ -18,8 +18,8 @@
     </div>
 </div>
 <div class="content_container" id="jobs_empty_section" style="display:none;">
-                <h2 data-i18n="general.no_jobs"></h2>
-            </div>
+    <h2>No jobs</h2>
+</div>
 
 <script>
     $(document).ready(function() {
