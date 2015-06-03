@@ -12,7 +12,7 @@
     <div class="" id ="job_list_container">
         <script id="job_list_template" type="x-tmpl-mustache/text">
             <div class="job_container">
-                {{id}}
+                <p class="promo_page_box_store_name">American Eagle</p>
             </div>
         </script>
     </div>
