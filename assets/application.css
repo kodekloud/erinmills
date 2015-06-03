@@ -675,7 +675,9 @@ select#cats:focus {
     border: 1px solid rgba(0,0,0,0.15);
     color: #333333;
 }
-
+.stores_column{
+    display:table-row;
+}
 .popup {
   background: none repeat scroll 0 0 #000000;
   border: 1px solid #808080;
