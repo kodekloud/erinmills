@@ -9,7 +9,7 @@
 <div class="content_container">
     <h4 class="page_heading2">Careers</h4>
     <br /><br /><br />
-    <div class="row">
+    <div class="row" id ="job_list_container">
         <script id="job_list_template" type="x-tmpl-mustache/text">
             <div class="col-md-6 job_container">
             </div>
