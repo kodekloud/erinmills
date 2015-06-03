@@ -652,6 +652,7 @@ select#cats:focus {
 .store_column_left {
   width: 286px;
   float: left;
+  display:table-cell;
 }
 .store_column_left img{
     width:100%;
@@ -678,6 +679,7 @@ select#cats:focus {
 .stores_column{
     display:table-row;
 }
+
 .popup {
   background: none repeat scroll 0 0 #000000;
   border: 1px solid #808080;
