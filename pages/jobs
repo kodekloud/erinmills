@@ -6,7 +6,7 @@
 <div class="position_relative page_header margin_bottom_none">
     <div class="page_heading"></div>
 </div>
-<div class="content_container">
+<div class="content_container" id="jobs_not_empty_section">
     <h4 class="page_heading2">Careers</h4>
     <br /><br /><br />
     <div class="" id ="job_list_container">
@@ -32,7 +32,7 @@
                 renderSideEvents('#latest_store_event_container', '#latest_store_event_template', latest_store_event);
             }        
             function renderPageData(){
-                renderJobsListTemplate('#job_item_template','#jobs_list','#jobs_not_empty_section','#jobs_empty_section',getJobsList());
+                renderJobsListTemplate('#job_list_template','#job_list_container','#jobs_not_empty_section','#jobs_empty_section',getJobsList());
             }
             $(".modal-backdrop").remove();
         }
