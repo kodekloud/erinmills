@@ -35,7 +35,7 @@
             }        
             
             var job_list = getJobsList().reverse()
-            renderJobsListTemplate('#job_list_template','#job_list_container','#jobs_not_empty_section','#jobs_empty_section',jobs_list);
+            renderJobsListTemplate('#job_list_template','#job_list_container','#jobs_not_empty_section','#jobs_empty_section',job_list);
             
             $(".modal-backdrop").remove();
         }
