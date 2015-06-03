@@ -747,7 +747,15 @@ select#cats:focus {
   font-size: 11px;
 }
 
-
+.job_container{
+    border: 1px solid #DFDFDF;
+    display: inline-table;
+    min-height: 188px;
+    margin-right: 24px;
+    margin-bottom: 19px;
+    padding-top: 15px;
+    overflow: hidden;
+}
 
 /* Media Queries*/
 @media(min-width:1425px){
