@@ -750,8 +750,6 @@ select#cats:focus {
 .job_container{
     border: 1px solid #DFDFDF;
     min-height: 188px;
-    margin-bottom: 20px;
-    overflow: hidden;
 }
 
 /* Media Queries*/
