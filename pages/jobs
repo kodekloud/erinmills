@@ -33,15 +33,6 @@
             }        
             all_jobs = getJobsList();
             all_jobs = all_jobs.reverse();
-            jobs_array = []
-            $.each( jobs_array , function( key, val ){
-                today = new Date();
-                webDate = new Date(val.show_on_web_date)
-                if (today >= webDate) {
-                    promo_array.push(val)
-                } 
-            });
-            all_jobs = jobs_array;
             if (all_jobs.length > 0 ) {
                 renderPageData("#job_list_container","#job_list_template", all_jobs);    
             } else {
