@@ -34,7 +34,7 @@
                 renderSideEvents('#latest_store_event_container', '#latest_store_event_template', latest_store_event);
             }        
             
-            var job_list = getJobsList().reverse()
+            var job_list = getJobsList().sort()
             renderJobsListTemplate('#job_list_template','#job_list_container','#jobs_not_empty_section','#jobs_empty_section',job_list);
             
             $(".modal-backdrop").remove();
