@@ -739,6 +739,14 @@ select#cats:focus {
   margin-bottom: 0;
 }
 
+.read_more {
+  color: #828282;
+  padding: 0;
+  font-size: 11px;
+}
+
+
+
 /* Media Queries*/
 @media(min-width:1425px){
     .content_container{
