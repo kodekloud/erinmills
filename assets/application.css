@@ -753,7 +753,6 @@ select#cats:focus {
     height: 188px;
     margin-right: 24px;
     width: 47%;
-    position: relative;
     margin-bottom: 19px;
     padding-top: 15px;
     overflow: hidden;
