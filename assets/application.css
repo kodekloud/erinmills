@@ -751,7 +751,6 @@ select#cats:focus {
     border: 1px solid #DFDFDF;
     min-height: 188px;
     margin-bottom: 20px;
-    padding-top: 15px;
     overflow: hidden;
 }
 
