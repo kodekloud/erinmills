@@ -760,6 +760,14 @@ select#cats:focus {
     float:right;
 }
 
+.promo_page_box_store_name {
+  font-family: verdana;
+  color: black;
+  font-size: 12pt;
+  padding-left: 30px;
+  padding-top: 3px;
+}
+
 /* Media Queries*/
 @media(min-width:1425px){
     .content_container{
