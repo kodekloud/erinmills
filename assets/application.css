@@ -753,7 +753,7 @@ select#cats:focus {
     height: 188px;
     width: 49%;
     margin-bottom: 19px;
-    padding: 15px;
+    padding: 15px 20px;
     overflow: hidden;
 }
 .job_container:nth-child(even){
