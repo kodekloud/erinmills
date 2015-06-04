@@ -633,7 +633,6 @@ select#cats:focus {
 .store_name_map:hover{
     text-decoration: none;
     color:#000;
-    font-weight: bold;
 }
 
 .stores_tab{
