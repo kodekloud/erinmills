@@ -12,14 +12,12 @@
     <br />
     <br />
     <div class="row">        
-        <div class="controls">           
-            <!--drop_down-->
+        <div class="controls">
         	<div class="dropdown custom_dropdown">                          
                 <a class="btn-prime"  id="map_button">
         	        Select a Store <span class="arrow_down"></span>
         	    </a>		    
             </div>            
-        	<!--end drop down-->
         </div> 
         <div class="map">
             <div class="demo1 map3" style="height:650px; width:100%;">            
