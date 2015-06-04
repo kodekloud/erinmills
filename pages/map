@@ -18,3 +18,23 @@
         </div>
     </div>
 </div>
+<script>
+    $(function(){
+        $("#map_button").click(function(){
+            $("#store_table").toggle();
+        });
+    });
+    function hide_table(){
+        $("#store_table").hide();
+        show_table = false;
+    }
+    $('.map3').craftmap({
+    image:{
+        width:1975,
+        height:1278
+    },
+    map: {
+        position: '0 190'
+    }
+});
+</script>
