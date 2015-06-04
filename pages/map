@@ -77,6 +77,7 @@
             var stores = getStoresList();
             
             renderPageData('#store_list_container','#store_list_template', stores);
+            renderPageData('#store_marker_container','#store_marker_template', stores);
             
             $(".modal-backdrop").remove();
         }
