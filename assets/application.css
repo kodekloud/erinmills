@@ -788,6 +788,38 @@ select#cats:focus {
     margin-left: 30px;
     margin-top: 21px;
 }
+.controls {
+  background-color: #4d413e;
+  left: 0;
+  opacity: 0.7;
+  top: 0;
+  width: 100%;
+}
+.dropdown {
+  position: relative;
+}
+
+a.btn-prime {
+  background-color: #b4b4b4;
+  color: #ffffff;
+  height: 35px;
+  line-height: 35px;
+  margin-bottom: 10px;
+  padding-left: 25px;
+}
+
+.controls a {
+  background: url("/system/site_images/photos/000/000/773/original/arrow_down.png?1381269994") no-repeat scroll 95% 40% / 14px 10px white;
+  border-radius: 0;
+  box-shadow: none;
+  color: #555555;
+  cursor: pointer;
+  height: auto;
+  margin: 5px;
+  padding-left: 5px;
+  width: 200px;
+}
+
 
 /* Media Queries*/
 @media(min-width:1425px){
