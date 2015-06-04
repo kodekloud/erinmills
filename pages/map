@@ -15,7 +15,7 @@
         <div class="controls">
         	<div class="dropdown custom_dropdown">                          
                 <a class="btn-prime"  id="map_button">
-                    Select a Store <span class="caret-down"></span>
+                    Select a Store <span class="caret-down pull-right"></span>
                 </a>		    
             </div>            
         </div> 
