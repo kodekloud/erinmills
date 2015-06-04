@@ -628,6 +628,7 @@ select#cats:focus {
     font-weight: 400;
     padding: 5px 12px;
     width:250px;
+    display: block;
 }
 .stores_tab{
     margin-bottom:40px;
