@@ -31,14 +31,12 @@
                 </div>          
             </div>                
         </div> 
-        <div class="map">
+        <div class="map" id="store_marker_container">
             <div class="demo1 map3" style="height:650px; width:100%;">            
                 <img alt="map_image" id="map_image" src="http://assets.kodekloud.io/sites/554a79236e6f64713f000000/3d06ba58835c09e86dadf408b6c16f2a/EMTC_map_3.jpg" />   
-                <div id="store_marker_container">
-                    <script id="store_marker_template" type="x-tmpl-mustache/text">
-                        <div class="marker" id="store_{{id}}" data-coords="{{x_coordinate}}, {{y_coordinate}}" style="display:none">{{name }}</div>
-                    </script>
-                </div>
+                <script id="store_marker_template" type="x-tmpl-mustache/text">
+                    <div class="marker" id="store_{{id}}" data-coords="{{x_coordinate}}, {{y_coordinate}}" style="display:none">{{name }}</div>
+                </script>
     		</div>
         </div>
     </div>
