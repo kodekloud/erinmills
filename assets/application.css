@@ -808,6 +808,11 @@ select#cats:focus {
     cursor: pointer;
 }
 
+.btn-prime:hover{
+    text-decoration:none;
+    color: #fff;
+}
+
 /* Media Queries*/
 @media(min-width:1425px){
     .content_container{
