@@ -620,6 +620,15 @@ select#cats:focus {
     float: left;
     width:250px;
 }
+
+.store_name_map{
+    color: #000000;
+    font-size: 18px;
+    font-family: verdana;
+    font-weight: 400;
+    padding: 0px 12px;
+    width:250px;
+}
 .stores_tab{
     margin-bottom:40px;
 }
