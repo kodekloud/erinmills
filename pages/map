@@ -17,8 +17,7 @@
         			<div class="marker" id="store_{{id}}" data-coords="{{store_x_coordinate}}, {{store_y_coordinate}}" style="display:none">
            				{{name }}
            		    </div>
-    			</div>	
-    			{% endfor %}
+    			</div>
     		</div>
         </div>
     </div>
