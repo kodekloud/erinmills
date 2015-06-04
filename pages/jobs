@@ -16,6 +16,7 @@
                 <div style="width:100%; display:inline-block;">
                     <p class="promo_page_box_name" style="float:left;width:45%">{{name}}</p>
                     <p class="promo_page_box_dates" style="float:left;">{{job_type}}</p>
+                    <div class="clearfix"></div>
                     <a href="/jobs/{{slug}}"><p class="read_more" style="margin-left:30px;float:left;margin-top:21px">READ MORE</p></a>
                 </div>
             </div>
