@@ -28,7 +28,7 @@
     </div>
 </div>
 <script>
-    $(document).ready(function() {
+    $(function(){
         $("#map_button").click(function(){
             $("#store_table").toggle();
         });
@@ -45,8 +45,9 @@
         map: {
             position: '0 190'
         }
+    });
+    $(document).ready(function() {
         init()
-        
         function renderAll (){
             var latest_store_event = getStoreEventsList().reverse()[0];
             var latest_mall_event = getPropertyEventsList().reverse()[0];
@@ -67,8 +68,6 @@
             
             $(".modal-backdrop").remove();
         }
-        
-        
         
         function renderPageData(container, template, collection, type,starter, breaker){
             var item_list = [];
