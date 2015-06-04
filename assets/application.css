@@ -799,27 +799,6 @@ select#cats:focus {
   position: relative;
 }
 
-a.btn-prime {
-  background-color: #b4b4b4;
-  color: #ffffff;
-  height: 35px;
-  line-height: 35px;
-  margin-bottom: 10px;
-  padding-left: 25px;
-}
-
-.controls a {
-  background: url("http://assets.kodekloud.io/sites/554a79236e6f64713f000000/862ca2c9b240e8721b299bb7dd7d06f0/arrow_down.png") no-repeat scroll 95% 40% / 14px 10px white;
-  border-radius: 0;
-  box-shadow: none;
-  color: #555555;
-  cursor: pointer;
-  height: auto;
-  margin: 5px;
-  padding-left: 5px;
-  width: 200px;
-}
-
 
 /* Media Queries*/
 @media(min-width:1425px){
