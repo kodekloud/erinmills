@@ -29,7 +29,6 @@
 </div>
 <script>
     $(document).ready(function() {
-        init()
         $("#map_button").click(function(){
             $("#store_table").toggle();
         });
@@ -46,6 +45,8 @@
         map: {
             position: '0 190'
         }
+        init()
+        
         function renderAll (){
             var latest_store_event = getStoreEventsList().reverse()[0];
             var latest_mall_event = getPropertyEventsList().reverse()[0];
