@@ -33,7 +33,11 @@
         </div> 
         <div class="map">
             <div class="demo1 map3" style="height:650px; width:100%;">            
-                <img alt="map_image" id="map_image" src="http://assets.kodekloud.io/sites/554a79236e6f64713f000000/3d06ba58835c09e86dadf408b6c16f2a/EMTC_map_3.jpg" />    			
+                <img alt="map_image" id="map_image" src="http://assets.kodekloud.io/sites/554a79236e6f64713f000000/3d06ba58835c09e86dadf408b6c16f2a/EMTC_map_3.jpg" />   
+                <script id="store_list_template" type="x-tmpl-mustache/text">
+                            <p class="store_initial" style="{{show}}">{{initial}}</p>
+                            <a href="#" class="store_name_map" store_id="store_{{id}}">{{name}}</a>
+                        </script>
     		</div>
         </div>
     </div>
