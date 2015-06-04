@@ -38,7 +38,7 @@
                     <script id="store_marker_template" type="x-tmpl-mustache/text">
                         <div class="marker" id="store_{{id}}" data-coords="{{x_coordinate}}, {{y_coordinate}}" style="display:none">{{name }}</div>
                     </script>
-                ,?div>
+                </div>
     		</div>
         </div>
     </div>
