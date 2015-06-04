@@ -15,7 +15,7 @@
                 <img alt="map_image" id="map_image" src="{{site.property.map_image_path}}" />    			
     			{% for store in stores %}  
     			<div class="marker" id="store_{{id}}" data-coords="{{store_x_coordinate}}, {{store_y_coordinate}}" style="display:none">
-    				{{ store.name }}
+    				{{name }}
     			</div>	
     			{% endfor %}
     		</div>
