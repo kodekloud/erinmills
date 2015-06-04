@@ -15,8 +15,8 @@
         <div class="controls">
         	<div class="dropdown custom_dropdown">                          
                 <a class="btn-prime"  id="map_button">
-        	        Select a Store <span class="arrow_down"></span>
-        	    </a>		    
+                    Select a Store <span class="arrow_down"></span>
+                </a>		    
             </div>            
         </div> 
         <div class="map">
