@@ -206,12 +206,12 @@
                                     </tr>
                                     <tr>
                                         <td class="bottom_nav_list">
-                                            <a href="#" target="_self">Stores</a>
+                                            <a href="/stores" target="_self">Stores</a>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td class="bottom_nav_list">
-                                            <a href="#" target="_self">Centre Map</a>
+                                            <a href="/map" target="_self">Centre Map</a>
                                         </td>
                                     </tr>
                                     <tr>
