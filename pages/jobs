@@ -13,6 +13,10 @@
         <script id="job_list_template" type="x-tmpl-mustache/text">
             <div class="job_container">
                 <p class="promo_page_box_store_name">{{store_name}}</p>
+                <div style="width:100%; display:inline-block;">
+                    <p class="promo_page_box_name" style="float:left;width:45%"></p>
+                    <p class="promo_page_box_dates" style="float:left;margin-top:20px">Full Time</p>
+                </div>
             </div>
         </script>
     </div>
