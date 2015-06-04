@@ -46,4 +46,106 @@
         position: '0 190'
     }
 });
+    $(document).ready(function() {
+        init()
+        function renderAll (){
+            var latest_store_event = getStoreEventsList().reverse()[0];
+            var latest_mall_event = getPropertyEventsList().reverse()[0];
+            if (latest_mall_event){
+                renderSideEvents('#latest_mall_event_container', '#latest_mall_event_template', latest_mall_event);
+            }
+            if (latest_store_event){
+                renderSideEvents('#latest_store_event_container', '#latest_store_event_template', latest_store_event);
+            } 
+            
+            var stores = getStoresList();
+            var category_stores = getStoresListByCategory();
+            var categories = getStoreCategories();
+            
+            renderPageData('#store_list_container','#store_list_template', stores, "stores", "A", "M");
+            renderPageData('#store_list_container_right','#store_list_template_right', stores, "stores", "M", "Z");
+            render_categories(categories);
+            
+            $(".modal-backdrop").remove();
+        }
+        
+        function renderPageData(container, template, collection, type,starter, breaker){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(template).html();
+            Mustache.parse(template_html);   // optional, speeds up future uses
+            var store_initial=""
+            $.each( collection , function( key, val ) {
+                if (type == "stores" || type == "category_stores"){
+                    if(!val.store_front_url ||  val.store_front_url.indexOf('missing.png') > -1 || val.store_front_url.length === 0){
+                        val.alt_store_front_url = "http://kodekloud.s3.amazonaws.com/sites/54cfab316e6f6433ad020000/77c900d783abeb362232339ece231335/10dundas_default.jpg"    
+                    } else {
+                        val.alt_store_front_url = getImageURL(val.store_front_url);    
+                    }
+                    
+                }
+                var current_initial = val.name[0];
+                if(store_initial == current_initial){
+                    val.initial = "";
+                    val.show = "display:none;"
+                }
+                else{
+                    val.initial = current_initial;
+                    store_initial = current_initial;
+                    val.show = "display:block;"
+                }
+                if (val.promotions.length > 0){
+                    val.promotion_exist = "display:inline"
+                }
+                else{
+                    val.promotion_exist = "display:none"
+                }
+                if (val.jobs.length > 0){
+                    val.job_exist = "display:inline"
+                }
+                else{
+                    val.job_exist = "display:none"
+                }
+                var rendered = Mustache.render(template_html,val);
+                var upper_current_initial = current_initial.toUpperCase();
+                if (upper_current_initial.charCodeAt(0) < breaker.charCodeAt(0) && upper_current_initial.charCodeAt(0) >= starter.charCodeAt(0)){
+                    item_rendered.push(rendered);
+                }
+    
+            });
+            
+            $(container).show();
+            $(container).html(item_rendered.join(''));
+        };  
+        
+        $("#cats").change(function(){
+            $('.stores_tab').hide()
+            $("#dir_link").css({"border-bottom":"9px solid black","color":"black"});
+            $("#map_link").css({"border-bottom":"none","color":"#959595"});
+            $("#alpha_link").css({"border-bottom":"none","color":"#959595"});
+            $("#alpha_link a").css({"border-bottom":"none","color":"#959595"});
+            $("#cat_link").css({"border-bottom":"4px solid black","color":"black"});
+            $("#cats").css("color","black");
+            var stores_list = getStoresListByCategoryID(parseInt($(this).val()))
+            $('#cats_title').text($(this).find('option:selected').text())
+            renderCategoriesList(stores_list, Math.round(stores_list.length/2));
+            $('.categories_tab').show()
+            
+        })
+        $("#show_stores").click(function(e){
+            $("#dir_link").css({"border-bottom":"9px solid black","color":"black"});
+            $("#alpha_link").css({"border-bottom":"4px solid black","color":"black"});
+            $("#alpha_link a").css({"color":"black"});
+            $("#cats").css("color","#959595");
+            $("#map_link").css({"border-bottom":"none","color":"#959595"});
+            $("#cat_link").css({"border-bottom":"none","color":"#959595"});
+            $('.stores_tab').show()
+            $('.categories_tab').hide()
+            $("#cats").val('categories')
+            e.preventDefault()
+        })
+        
+        
+        loadMallData(renderAll);  
+    })
 </script>
