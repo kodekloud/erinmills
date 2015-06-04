@@ -799,7 +799,13 @@ select#cats:focus {
 .dropdown {
   position: relative;
 }
-
+.btn-prime{
+    width: 200px;
+    display: block;
+    padding: 5px;
+    color: #fff;
+    background-color: #b4b4b4;
+}
 
 /* Media Queries*/
 @media(min-width:1425px){
