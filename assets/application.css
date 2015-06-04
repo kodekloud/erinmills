@@ -767,6 +767,17 @@ select#cats:focus {
   padding-top: 3px;
 }
 
+.promo_page_box_name{
+    color: black;
+    font-family: verdana;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 18px;
+    margin-bottom: 12px;
+    line-height: 25px;
+    width: 220px;
+}
+
 /* Media Queries*/
 @media(min-width:1425px){
     .content_container{
