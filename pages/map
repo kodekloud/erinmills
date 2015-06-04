@@ -14,7 +14,7 @@
             <div class="demo1 map3" style="height:650px; width:100%;">            
                 <img alt="map_image" id="map_image" src="{{site.property.map_image_path}}" />    			
     			{% for store in stores %}  
-    			<div class="marker" id="store_{{store.id}}" data-coords="{{store_x_coordinate}}, {{store_y_coordinate | minus:y_offset}}" style="display:none">
+    			<div class="marker" id="store_{{store.id}}" data-coords="{{store_x_coordinate}}, {{store_y_coordinate}}" style="display:none">
     				{{ store.name }}
     			</div>	
     			{% endfor %}
