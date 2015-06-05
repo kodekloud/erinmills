@@ -423,6 +423,7 @@
     width: 113px;
     position: absolute;
     top: -60px;
+    display: none;
 }
 .logo_circle_heading{
     position: absolute;
