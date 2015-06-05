@@ -618,7 +618,6 @@ select#cats:focus {
     font-weight: 400;
     padding: 0px 12px;
     float: left;
-    width:250px;
 }
 
 .store_name_map{
