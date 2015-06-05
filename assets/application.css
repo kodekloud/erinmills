@@ -62,7 +62,8 @@
     margin-bottom: 5px;
 }
 .site_logo{
-    width:320px;
+    width:250px;
+    opacity: 0.8;
 }
 .logo_a{
     float: left;
