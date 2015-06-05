@@ -655,7 +655,6 @@ select#cats:focus {
 }
 .promo_img{
     width: 40px;
-    float: right;
 }
 #cats_title{
     font-family: verdana;
