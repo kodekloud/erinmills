@@ -1,9 +1,5 @@
 <div class="content_container">
     <div class="right_nav">
-        <div class="home_store_directory">
-            <h4 class="home_store_directory_heading">Map & Store Directory</h4>
-            <img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/home_icon_map.png" class="" alt="map">
-        </div>
         <div class="home_hours">
             <h4 class="home_hours_heading">HOURS</h4>
             <table role="presentation">
@@ -34,6 +30,10 @@
             </table>
         </div>
         
+        <div class="home_store_directory">
+            <h4 class="home_store_directory_heading">Map & Store Directory</h4>
+            <img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/home_icon_map.png" class="" alt="map">
+        </div>
     </div>
     <div class="feature_box">
         <h4 class="feature_box_heading">FEATURED</h4>
