@@ -495,12 +495,12 @@
     display:none;
 }
 .promo_details_name{
-    width: 32%;
+    width: 45%;
     font-size: 25px;
     font-weight: bold;
 }
 .promo_details_image{
-    width: 32%;
+    width: 45%;
     float:right;
     border: 5px solid #fff;
     border-radius: 4px;
