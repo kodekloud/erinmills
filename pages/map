@@ -172,6 +172,6 @@
         
         
         loadMallData(renderAll);
-        
+        $('.content_container').show()
     })
 </script>
