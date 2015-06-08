@@ -36,7 +36,7 @@
             init_hours();
             $(".modal-backdrop").remove();
             var fashions = getFashions();
-            renderTrendReport(fashions);
+            renderTrendReport('#fashion_template', '#fashionsItem', fashions);
         }
         function getUrlVars(){
             var vars = [], hash;
