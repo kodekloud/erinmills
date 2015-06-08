@@ -54,6 +54,7 @@ $(function(){
     <br />
     
     <hr/>
+    <div class="trend-contents">
     
 </div>
 <script>
