@@ -120,6 +120,7 @@
         $(function(){
  
             function contentSwitcher(settings){
+                alert('hi');
 		        var settings = {
 		           contentClass : '.trend-item',
 		           navigationId : '#trend-navi'
