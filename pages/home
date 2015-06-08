@@ -1,4 +1,8 @@
-
+<style>
+    .layout_hours{
+        display:none;
+    }
+</style>
 <div class="content_container">
     <div class="right_nav">
         <div class="home_hours">
