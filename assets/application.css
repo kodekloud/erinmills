@@ -582,7 +582,7 @@ select#cats:focus {
   background-position: right 5px;
   background-repeat: no-repeat;
   overflow: hidden;
-  width: 305px;
+  width: 150px;
 }
 
 .hours_left{
