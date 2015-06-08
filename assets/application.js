@@ -59,17 +59,17 @@ function renderSideEvents(container, template, collection){
     $(container).html(item_rendered.join(''));
 }
 function convert_hour(d){
-            var h = (d.getUTCHours());
-            var m = addZero(d.getUTCMinutes());
-            var s = addZero(d.getUTCSeconds());
-            if (h >= 12) {
-                if ( h != 12) {
-                    h = h - 12;    
-                }
-                
-                i = "PM"
-            } else {
-                i = "AM"
-            }
-            return h+":"+m+" "+i;
+    var h = (d.getUTCHours());
+    var m = addZero(d.getUTCMinutes());
+    var s = addZero(d.getUTCSeconds());
+    if (h >= 12) {
+        if ( h != 12) {
+            h = h - 12;    
         }
+        
+        i = "PM"
+    } else {
+        i = "AM"
+    }
+    return h+":"+m+" "+i;
+}
