@@ -16,6 +16,9 @@
     
 </div>
 <script>
+    function getFashion(){
+        
+    }
     function renderTrendReport(){
         
     }
