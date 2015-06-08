@@ -95,9 +95,12 @@
             var stores = getStoresList();
             
             renderPageData('#store_list_container','#store_list_template', stores);
-            render_markers(stores);
+            renderMarker(stores);
             
             $(".modal-backdrop").remove();
+        }
+        renderMarker(collection){
+            
         }
         
         
