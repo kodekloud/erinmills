@@ -74,7 +74,9 @@ $(function(){
         Mustache.parse(trend_template_html);
         
         $.each( fashionItems , function( key, val ) {  
-             
+             if( val.name == "Trends Report"){
+                 
+             }
         });
         
         
