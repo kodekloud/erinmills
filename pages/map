@@ -59,6 +59,8 @@
 			$("#m_show_pin_"+store_id).show();
 		}
 		$('#store_table').hide()
+		
+		return false;
     }
     $(function(){
         $("#map_button").click(function(){
