@@ -71,6 +71,7 @@
                     if (count > 0){
                         val.showItem = 'display:none;'; 
                     }
+                    val.redevelopment_id = count + 1;
                     val.caption_link = val.caption.replace(/ /g,'-');
                     val.photo_source = getImageURL(val.photo_url);
                     var trend_rendered = Mustache.render(trend_template_html,val);
