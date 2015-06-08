@@ -104,6 +104,7 @@
                     position: '0 190'
                 }
             });
+            $('.content_container').show()
         }
         
         function renderMarker(collection){
