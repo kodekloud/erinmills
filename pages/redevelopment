@@ -122,8 +122,8 @@
                 //simple contentSwitcher
         function contentSwitcher(settings){
 		        var settings = {
-		           contentClass : '.trend-items',
-		           navigationId : '#trend-nav'
+		           contentClass : '.trend-item',
+		           navigationId : '#trend-navi'
 		        };
  
 		        //Hide all of the content except the first one on the nav
