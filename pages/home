@@ -14,7 +14,7 @@
                     </td>
                     <td id="monday_home_container">
                         <script id="monday_home_template" type="x-tmpl-mustache/text">
-                            {% raw %}{{h}}{% endraw %}
+                            {{h}}
                         </script>
                     </td>
                 </tr>
