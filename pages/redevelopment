@@ -5,32 +5,7 @@
     .col-md-6{
         margin-top: 20px;
     }
-    .trend-contents {
-      display: inline-block;
-      position: relative;
-      width: 100%;
-      margin-bottom:20px;
-    }
-    .trend-navi {
-      float: left;
-      width: 220px;
-    }
-    .trend-thumbnail {
-      width: 100px;
-      height: 100px;
-    }
-    #trend-holders {
-      border-left: 1px solid #ddd;
-      float: left;
-      width: 75%;
-    }
-    .trend-item {
-      width: 100%;
-      margin-left: 4%;
-    }
-    .trend-item img{
-        width: 100%;
-    }
+
 </style>
 
 <div class="position_relative page_header margin_bottom_none">
@@ -45,7 +20,7 @@
     <div class="trend-holder-img" id="trend-holders">
         <script id="trend_holder_template" type="x-tmpl-mustache">
             <div class="trend-item" id="redevelopment{{redevelopment_id}}" style="{{showItem}}">
-                <img alt="{title}" src="{{photo_source}}" />
+                <img alt="" src="{{photo_source}}" />
             </div>
         </script>
     </div>
