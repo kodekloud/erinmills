@@ -65,6 +65,7 @@
             } 
         $("#fieldEmail").val(getUrlVars()["email"].replace("%40", "@"));
         function renderAll (){
+            init_hours();
             $(".modal-backdrop").remove();
         }
         function getUrlVars(){
