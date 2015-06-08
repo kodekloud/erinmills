@@ -38,7 +38,7 @@ function init(){
             });
     
     
-    renderhours();
+    renderLayoutHours();
 }
 
 function renderSideEvents(container, template, collection){
