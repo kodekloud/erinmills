@@ -5,7 +5,7 @@
     .col-md-6{
         margin-top: 20px;
     }
-    #trend-holder-img{
+    .trend-holder-img{
         margin-bottom: 28px;
     }
     #trend-navi {
