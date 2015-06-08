@@ -44,7 +44,7 @@
        
     <div class="trend-holder-img" id="trend-holders">
         <script id="trend_holder_template" type="x-tmpl-mustache">
-            <div class="trend-item" id="redevelopment1">
+            <div class="trend-item" id="redevelopment{{redevelopment_id}}">
                 <img alt="{title}" src="{{photo_source}}" />
             </div>
         </script>
