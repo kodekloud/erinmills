@@ -76,7 +76,7 @@
             position: '0 190'
         }
     });
-    $(".store_row_name").on("click",function() {
+    $(".store_row_name").click(function() {
 			store_id = $(this).attr('store_id');
 			alert(store_id)
 			if($("#"+store_id).is(":visible")){
