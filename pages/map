@@ -76,7 +76,7 @@
             position: '0 190'
         }
     });
-    $(".map_table .stores_pin, .map_table .store_row_name").on("click",function() {
+    $(".store_row_name").on("click",function() {
 			store_id = $(this).attr('store_id');
 			if($("#"+store_id).is(":visible")){
 				$("."+store_id).hide();				
