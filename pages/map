@@ -58,7 +58,7 @@
     </div>
 </div>
 <script>
-    function show_pin(){
+    function show_pin(param){
 		store_id = $(this).attr('store_id');
 		alert(store_id)
 		if($("#"+store_id).is(":visible")){
