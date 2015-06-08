@@ -73,9 +73,9 @@ $(function(){
         var trend_template_html = $(trend_template).html();
         Mustache.parse(trend_template_html);
         
-         $.each( fashionItems , function( key, val ) {  
+        $.each( fashionItems , function( key, val ) {  
              
-         });
+        });
         
         
     }
