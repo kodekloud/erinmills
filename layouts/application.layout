@@ -122,7 +122,8 @@
                                         Monday to Friday
                                     </td>
                                     <td id="monday_hours">
-                                        
+                                        <script id="monday_hours_template" type="x-tmpl-mustache/text">
+                                        </script>
                                     </td>
                                 </tr>
                                 <tr>
