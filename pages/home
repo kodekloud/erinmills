@@ -100,7 +100,6 @@
                 item_rendered.push(featureitem_rendered);
                 count = count + 1    
                 }
-                console.log(val)
                
             });
             
