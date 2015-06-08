@@ -365,6 +365,7 @@
 .feature_item_description a{
     color: white;
     display: block;
+    text-transform: capitalize;
 }
 .feature_item_description a:hover{
     text-decoration: none;
