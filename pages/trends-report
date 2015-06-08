@@ -63,7 +63,6 @@
             if (latest_store_event){
                 renderSideEvents('#latest_store_event_container', '#latest_store_event_template', latest_store_event);
             } 
-        $("#fieldEmail").val(getUrlVars()["email"].replace("%40", "@"));
         function renderAll (){
             init_hours();
             $(".modal-backdrop").remove();
