@@ -61,7 +61,6 @@
                                     <a href="/hours">HOURS</a>
                                     <a href="/stores">STORES</a>
                                     <a href="/map">CENTRE MAPS</a>
-                                    <a href="/promotions">STORE PROMOTIONS</a>
                                     <a href="/pages/erinmills-location">DRIVING DIRECTIONS / MAP</a>
                                 </div>
                             </div>
@@ -75,6 +74,7 @@
                             <div id="collapse_events" class="panel-collapse collapse">
                                 <div class="menu_body">
                                     <a href="/events">MALL EVENTS</a>
+                                    <a href="/promotions">STORE PROMOTIONS</a>
                                     <a href="/pages/erinmills-redevelopment">REDEVELOPMENT</a>
                                     <a href="/pages/erinmills-trend-report">TREND REPORT</a>
                                     <a href="/pages/erinmills-pr-releases">PRESS RELEASES</a>
@@ -100,7 +100,7 @@
                         <div class="panel menu_panel">
                             <div class="menu_heading">
                                 <h4 class="menu_title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse_centre_info">CENTRE INFO</a>
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse_centre_info">ABOUT US</a>
                                 </h4>
                             </div>
                             <div id="collapse_centre_info" class="panel-collapse collapse">
