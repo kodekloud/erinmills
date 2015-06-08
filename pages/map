@@ -87,7 +87,7 @@
             var stores = getStoresList();
             
             renderPageData('#store_list_container','#store_list_template', stores);
-            // renderMarker(stores);
+            renderMarker(stores);
             
             $(".modal-backdrop").remove();
             $('.map3').craftmap({
