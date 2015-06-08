@@ -5,6 +5,9 @@
     .col-md-6{
         margin-top: 20px;
     }
+    #trend-holder{
+        margin-bottom: 28px;
+    }
     #trend-navi {
       text-align: center;
     }
