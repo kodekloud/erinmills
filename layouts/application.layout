@@ -121,7 +121,7 @@
                                     <td class="hours_day">
                                         Monday to Friday
                                     </td>
-                                    <td id="monday_hours">
+                                    <td id="monday_hours_container">
                                         <script id="monday_hours_template" type="x-tmpl-mustache/text">
                                             {{h}}
                                         </script>
