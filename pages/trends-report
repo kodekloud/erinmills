@@ -53,6 +53,7 @@ $(function(){
     <h4 class="page_heading2">Trend Report</h4>
     <br />
     
+    <hr/ >
     
 </div>
 <script>
