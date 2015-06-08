@@ -141,8 +141,10 @@
                                     <td class="hours_day">
                                         Sunday
                                     </td>
-                                    <td>
-                                        11am - 6pm
+                                    <td id="sunday_hours_container">
+                                        <script id="sunday_hours_template" type="x-tmpl-mustache/text">
+                                            {% raw %}{{h}}{% endraw %}
+                                        </script>
                                     </td>
                                 </tr>
                             </table>
