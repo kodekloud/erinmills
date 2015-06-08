@@ -76,7 +76,6 @@
             position: '0 190'
         }
     });
-    
     $(document).ready(function() {
         init()
         function renderAll (){
