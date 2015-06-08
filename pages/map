@@ -58,7 +58,9 @@
     </div>
 </div>
 <script>
-    
+    function yo(){
+        alert("ad")
+    }
     $(function(){
         $("#map_button").click(function(){
             $("#store_table").toggle();
