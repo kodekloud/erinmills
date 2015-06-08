@@ -51,7 +51,7 @@
     </div>
       <div class="trend-navi" id="trend-navi">
         <script id="trend_template" type="x-tmpl-mustache">
-            <a href="#{{caption_link}}">
+            <a href="#redevelopment{{redevelopment_id}}">
                 <img class="trend-thumbnail" alt="{{caption}}" src="{{photo_source}}" />
             </a>
         </script>
