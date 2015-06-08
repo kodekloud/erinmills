@@ -121,8 +121,8 @@
                                     <td class="hours_day">
                                         Monday to Friday
                                     </td>
-                                    <td>
-                                        10am - 6pm
+                                    <td id="monday_hours">
+                                        
                                     </td>
                                 </tr>
                                 <tr>
