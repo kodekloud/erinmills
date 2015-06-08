@@ -93,7 +93,7 @@
             } 
             
             var stores = getStoresList();
-            
+            renderMarker(stores);
             renderPageData('#store_list_container','#store_list_template', stores);
             renderMarker(stores);
             
