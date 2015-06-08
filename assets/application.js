@@ -52,7 +52,6 @@ function renderLayoutHours(container, template, collection){
             val.h = val.open_time+ " - " + val.close_time;
             
             var rendered = Mustache.render(template_html,val);
-            console.log(val);
             item_rendered.push(rendered);
         });
         $(container).html(item_rendered.join(''));
