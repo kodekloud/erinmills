@@ -103,7 +103,7 @@
         
         function renderMarker(collection){
             $.each(collection, function(i, val){
-               $('#map_image').after('<div class="marker" id="store_' + val.id ' + " data-coords="{{store.x_coordinate | minus:x_offset}}, {{store.y_coordinate | minus:y_offset}}" style="display:none">' + val.name + '</div>')
+               $('#map_image').after('<div class="marker" id="store_' + val.id ' + " data-coords="' + store.x_coordinate | minus:x_offset + ', {{store.y_coordinate | minus:y_offset}}" style="display:none">' + val.name + '</div>')
             });
         }
         
