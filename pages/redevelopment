@@ -44,12 +44,8 @@
        
     <div class="trend-holder-img" id="trend-holders">
         <script id="trend_holder_template" type="x-tmpl-mustache">
-            <div class="trend-items" id="redevelopment1">
+            <div class="trend-item" id="redevelopment1">
                 <img alt="{title}" src="/system/site_images/photos/000/007/812/original/Food_Court.jpg?1427390288" />
-            </div>
-            <div class="trend-item" id="{{caption_link}}" style={{showItem}}>
-                <img alt="{{caption}}" src="{{photo_source}}" />
-               
             </div>
         </script>
     </div>
