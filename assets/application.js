@@ -52,7 +52,6 @@ function renderLayoutHours(container, template, collection){
             } else {
                 "Closed";
             }
-            
             var rendered = Mustache.render(template_html,val);
             console.log(val);
             item_rendered.push(rendered);
