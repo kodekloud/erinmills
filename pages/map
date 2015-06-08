@@ -3,6 +3,9 @@
     .site_content_container{
         background: none;
     }
+    .content_container{
+        display:none;
+    }
 </style>
 <div class="position_relative page_header margin_bottom_none">
     <div class="page_heading"></div>
@@ -101,6 +104,7 @@
                     position: '0 190'
                 }
             });
+            $('.content_container').show()
         }
         
         function renderMarker(collection){
