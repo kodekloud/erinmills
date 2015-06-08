@@ -57,7 +57,7 @@ $(function(){
     <div class="trend-contents">
          <div class="trend-navi" id="trend-navi">
             <script id="trend_template" type="x-tmpl-mustache">
-                <a href="#{{image.caption | replace:' ', '-'}}">
+                <a href="#{{caption}}">
                     <img class="trend-thumbnail" alt="{{image.caption}}" src="{{image.photo_url}}" />
                 </a>
             </script>
