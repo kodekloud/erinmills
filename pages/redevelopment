@@ -15,7 +15,6 @@
     <h4 class="page_heading2">Trend Report</h4>
     <br />
     
-    <hr/>
        
     <div class="trend-holder-img" id="trend-holders">
         <script id="trend_holder_template" type="x-tmpl-mustache">
