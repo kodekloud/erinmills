@@ -75,7 +75,17 @@ $(function(){
                 </a>
             </script>
         </div>
-        
+        <div class="trend-holder-img" id="trend-holders">
+            <script id="trend_holder_template" type="x-tmpl-mustache">
+                <div class="trend-item" id="{{image.caption |  replace:' ', '-'}}" style={{showItem}}>
+                    <img alt="{{image.caption}}" src="{{image.photo_url}}" />
+                   
+                    <p>
+                        {{image.description}}
+                    </p>
+                </div>
+            </script>
+        </div>
     </div>
     
 </div>
