@@ -57,6 +57,7 @@ function renderLayoutHours(container, template, collection){
         //     item_rendered.push(rendered);
         // });
         var rendered = Mustache.render(template_html,collection);
+        item_rendered.push(rendered);
         $(container).html(item_rendered.join(''));
 }
 
