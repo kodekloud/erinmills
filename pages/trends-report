@@ -18,6 +18,15 @@
       width: 100px;
       height: 100px;
     }
+    #trend-holders {
+      border-left: 1px solid #ddd;
+      float: left;
+      width: 75%;
+    }
+    .trend-item {
+      width: 100%;
+      margin-left: 4%;
+    }
 </style>
 
 
