@@ -77,7 +77,7 @@
         }
     });
     $(document).ready(function() {
-        init()
+        init();
         function renderAll (){
             var latest_store_event = getStoreEventsList().reverse()[0];
             var latest_mall_event = getPropertyEventsList().reverse()[0];
