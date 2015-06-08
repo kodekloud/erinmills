@@ -58,10 +58,6 @@
     </div>
 </div>
 <script>
-    $(function(){
-        $(".store_row_name").click(function() {
-			alert("yo")
-		});
         $("#map_button").click(function(){
             $("#store_table").toggle();
         });
