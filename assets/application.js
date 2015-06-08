@@ -58,6 +58,8 @@ function renderSideEvents(container, template, collection){
     
     $(container).html(item_rendered.join(''));
 }
+
+
 function convert_hour(d){
     var h = (d.getUTCHours());
     var m = addZero(d.getUTCMinutes());
