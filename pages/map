@@ -148,7 +148,9 @@
         
         
         loadMallData(renderAll);
-        function hide_table(){
+        
+    })
+    function hide_table(){
         $("#store_table").hide();
         show_table = false;
     }
@@ -161,5 +163,4 @@
             position: '0 190'
         }
     });
-    })
 </script>
