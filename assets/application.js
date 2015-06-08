@@ -91,7 +91,7 @@ function convert_hour(d){
     } else {
         i = "am"
     }
-    return h+":"+m+" "+i;
+    return h+":"+m+""+i;
 }
 
 
