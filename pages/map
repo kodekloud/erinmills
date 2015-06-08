@@ -78,6 +78,7 @@
     });
     $(".store_row_name").on("click",function() {
 			store_id = $(this).attr('store_id');
+			alert(store_id)
 			if($("#"+store_id).is(":visible")){
 				$("."+store_id).hide();				
 				$("#"+store_id).hide();
