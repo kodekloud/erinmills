@@ -68,7 +68,7 @@ $(function(){
 </div>
 <script>
 
-    function renderTrendReport(fashionItems){
+    function renderTrendReport(trend_template, trend_item, fashionItems){
         
     }
     $(document).ready(function() {
