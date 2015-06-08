@@ -52,9 +52,8 @@ function renderLayoutHours(container, template, collection){
             } else {
                 "Closed"
             }
-                var rendered = Mustache.render(template_html,val);
-                item_rendered.push(rendered);
-            }
+            var rendered = Mustache.render(template_html,val);
+            item_rendered.push(rendered);
         });
 }
 
