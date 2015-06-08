@@ -102,7 +102,9 @@
         }
         
         function renderMarker(collection){
-            
+            $.each(collection, function(i, val){
+                
+            });
         }
         
         function renderPageData(container, template, collection){
