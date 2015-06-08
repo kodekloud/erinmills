@@ -35,6 +35,8 @@
         function renderAll (){
             init_hours();
             $(".modal-backdrop").remove();
+            var fashions = getFashions();
+            renderTrendReport();
         }
         function getUrlVars(){
             var vars = [], hash;
