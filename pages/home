@@ -53,7 +53,7 @@
                 <div class="feature_item ">
                     <img src="{{image_url}}" />
                     <div class="feature_item_description">
-                        <p><a href="/events/{{url}}">{{name}}<span class="feature_caret fa fa-caret-right"></span></a></p>
+                        <p><a href="">{{name}}<span class="feature_caret fa fa-caret-right"></span></a></p>
                     </div>
                 </div>
             </script>
