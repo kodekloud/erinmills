@@ -103,7 +103,7 @@
         
         function renderMarker(collection){
             $.each(collection, function(i, val){
-                
+               console.log(val) 
             });
         }
         
