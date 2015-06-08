@@ -101,6 +101,7 @@ $(function(){
                     if (count > 0){
                         val.showItem = 'display:none;'; 
                     }
+                    val.caption_link = val.caption.replace(' ','-');
                     val.photo_source = getImageURL(val.photo_url);
                     var trend_rendered = Mustache.render(trend_template_html,val);
                     item_list.push(trend_rendered);
