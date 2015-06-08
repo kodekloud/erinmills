@@ -578,11 +578,11 @@ select#cats:focus {
     margin-top:20px;
 }
 .cat-dd {
-  background:url(http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/2108e972fdd10fc81d8ccad08f1f4e0c/arrow.jpg);
+  /*background:url(http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/2108e972fdd10fc81d8ccad08f1f4e0c/arrow.jpg);*/
   background-position: right 5px;
   background-repeat: no-repeat;
   overflow: hidden;
-  width: 150px;
+  width: 120px;
 }
 
 .hours_left{
