@@ -5,6 +5,19 @@
     .col-md-6{
         margin-top: 20px;
     }
+    .trend-contents {
+      display: inline-block;
+      position: relative;
+      width: 100%;
+    }
+    .trend-navi {
+      float: left;
+      width: 220px;
+    }
+    .trend-thumbnail {
+      width: 100px;
+      height: 100px;
+    }
 </style>
 
 
