@@ -34,9 +34,25 @@
         <div class="map">
             <div class="demo1 map3" style="height:650px; width:100%;">            
                 <img alt="map_image" id="map_image" src="http://assets.kodekloud.io/sites/554a79236e6f64713f000000/3d06ba58835c09e86dadf408b6c16f2a/EMTC_map_3.jpg" />   
-                <div id="store_marker_container">
-                    <script id="store_marker_template" type="x-tmpl-mustache/text">
-                        <div class="marker" id="store_{{id}}" data-coords="{{x_coordinate}}, {{y_coordinate}}" style="display:none">{{name }}</div>
+                <div class="marker" id="store_16698" data-coords="691.26, 465.03" style="display:none">
+    				A&W
+    			</div>	
+    			  
+    			<div class="marker" id="store_16701" data-coords="247.0, 313.0" style="display:none">
+    				Aeropostale
+    			</div>	
+    			  
+    			<div class="marker" id="store_16702" data-coords="1506.97, 373.55" style="display:none">
+    				Aldo & Aldo Accessories
+    			</div>	
+    			  
+    			<div class="marker" id="store_16703" data-coords="432.0, 557.56" style="display:none">
+    				Alia n Tan Jay
+    			</div>	
+    			  
+    			<div class="marker" id="store_16704" data-coords="379.11, 481.86" style="display:none">
+    				Altima Dental
+    			</div>	
                     </script>
                 </div>
     		</div>
