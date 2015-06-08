@@ -117,7 +117,7 @@
         loadMallData(renderAll); 
         
         //simple contentSwitcher
-$(function(){
+        $(function(){
  
             function contentSwitcher(settings){
 		        var settings = {
