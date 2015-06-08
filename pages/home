@@ -68,25 +68,25 @@
     $(document).ready(function() {
         // init();
         function renderPageData (){
-            // // var hours = getPropertyHours();
-            // var latest_store_event = getStoreEventsList().reverse()[0];
-            // var latest_mall_event = getPropertyEventsList().reverse()[0];
-            // if (latest_mall_event){
-            //     renderSideEvents('#latest_mall_event_container', '#latest_mall_event_template', latest_mall_event);
-            // }
-            // if (latest_store_event){
-            //     renderSideEvents('#latest_store_event_container', '#latest_store_event_template', latest_store_event);
-            // } 
-            // var featureList = getFeatureList();
-            // renderFeatureItems('#feature_template', '#feature_items', featureList)
+            var hours = getPropertyHours();
+            var latest_store_event = getStoreEventsList().reverse()[0];
+            var latest_mall_event = getPropertyEventsList().reverse()[0];
+            if (latest_mall_event){
+                renderSideEvents('#latest_mall_event_container', '#latest_mall_event_template', latest_mall_event);
+            }
+            if (latest_store_event){
+                renderSideEvents('#latest_store_event_container', '#latest_store_event_template', latest_store_event);
+            } 
+            var featureList = getFeatureList();
+            renderFeatureItems('#feature_template', '#feature_items', featureList)
             
-            // var monday_hours = getRegHoursForDayIndex(1);
-            // var saturday_hours = getRegHoursForDayIndex(6);
-            // var sunday_hours = getRegHoursForDayIndex(0);
+            var monday_hours = getRegHoursForDayIndex(1);
+            var saturday_hours = getRegHoursForDayIndex(6);
+            var sunday_hours = getRegHoursForDayIndex(0);
             
-            // renderLayoutHours('#monday_home_container', '#monday_home_template', monday_hours);
-            // renderLayoutHours('#saturday_home_container', '#saturday_home_template', saturday_hours);
-            // renderLayoutHours('#sunday_home_container', '#sunday_home_template', sunday_hours);
+            renderLayoutHours('#monday_home_container', '#monday_home_template', monday_hours);
+            renderLayoutHours('#saturday_home_container', '#saturday_home_template', saturday_hours);
+            renderLayoutHours('#sunday_home_container', '#sunday_home_template', sunday_hours);
         }
         
         function renderFeatureItems(feature_template,feature_items,featureList){
