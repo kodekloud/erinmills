@@ -104,7 +104,7 @@
                     position: '0 190'
                 }
             });
-            $('.map').show()
+            
         }
         
         function renderMarker(collection){
