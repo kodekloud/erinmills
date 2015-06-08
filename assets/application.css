@@ -836,6 +836,9 @@ select#cats:focus {
     .content_container{
         margin:0 auto !important;   
     }
+    .sort_label{
+        padding-left:15px;
+    }
 }
 @media(max-width:1024px){
     .promo_description, .promo_image{
