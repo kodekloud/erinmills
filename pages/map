@@ -76,9 +76,7 @@
             position: '0 190'
         }
     });
-    $(".store_row_name").click(function() {
-			
-		});
+    
     $(document).ready(function() {
         init()
         function renderAll (){
