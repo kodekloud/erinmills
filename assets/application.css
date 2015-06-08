@@ -780,7 +780,9 @@ select#cats:focus {
 .job_container:nth-child(even){
     float:right;
 }
-
+.latest_mall_event_container{
+    margin-top:15px;
+}
 .promo_page_box_store_name {
   font-family: verdana;
   color: black;
