@@ -123,9 +123,10 @@
                                     </td>
                                     <td >
                                         <div id="monday_hours_container">
-                                        <script id="monday_hours_template" type="x-tmpl-mustache/text">
-                                            {% raw %}{{h}}{% endraw %}
-                                        </script>
+                                            <script id="monday_hours_template" type="x-tmpl-mustache/text">
+                                                {% raw %}{{h}}{% endraw %}
+                                            </script>
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
