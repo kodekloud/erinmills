@@ -73,3 +73,11 @@ function convert_hour(d){
     }
     return h+":"+m+" "+i;
 }
+
+
+function addZero(i) {
+    if (i < 10) {
+        i = "0" + i;
+    }
+    return i;
+}
