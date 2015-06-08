@@ -70,15 +70,7 @@
         $("#store_table").hide();
         show_table = false;
     }
-    $('.map3').craftmap({
-        image:{
-            width:1975,
-            height:1278
-        },
-        map: {
-            position: '0 190'
-        }
-    });
+    
     $(document).ready(function() {
         init()
         
