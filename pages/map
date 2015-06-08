@@ -77,6 +77,7 @@
         }
     });
     $(document).ready(function() {
+        init()
         $(".store_name_map").click(function() {
 			store_id = $(this).attr('store_id');
 			alert(store_id)
@@ -97,7 +98,6 @@
 				$("#m_show_pin_"+store_id).show();
 			}
 		});
-        init()
         function renderAll (){
             var latest_store_event = getStoreEventsList().reverse()[0];
             var latest_mall_event = getPropertyEventsList().reverse()[0];
