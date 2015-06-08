@@ -36,7 +36,10 @@ function init(){
                     
                 }
             });
-
+    
+    
+    var monday_hours = getRegHoursForDayIndex(1)
+    
 }
 
 function renderSideEvents(container, template, collection){
