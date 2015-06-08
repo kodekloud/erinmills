@@ -6,6 +6,9 @@
     .h1, .h2, .h3, h1, h2, h3{
         margin-top:0;
     }
+    #404_msg{
+        display:none;
+    }
     
 </style>
 <div class="position_relative page_header margin_bottom_none">
