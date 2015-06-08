@@ -56,13 +56,11 @@ $(function(){
     <hr/>
     <div class="trend-contents">
          <div class="trend-navi" id="trend-navi">
-            {% for image in fashion.fashion_images_arrary %}
-                {% if fashion.name == "Trends Report" %}
+            <script id="trend_template" type="x-tmpl-mustache">
                     <a href="#{{image.caption | replace:' ', '-'}}">
                         <img class="trend-thumbnail" alt="{{image.caption}}" src="{{image.photo_url}}" />
                     </a>
-                {% endif %}
-            {% endfor %}
+            </script>
         </div>
         
     </div>
@@ -89,7 +87,7 @@ $(function(){
             init_hours();
             $(".modal-backdrop").remove();
             var fashions = getFashions();
-            renderTrendReport('#fashion_template', '#fashionsItem', fashions);
+            renderTrendReport('#trend_template', '#trend-navi', fashions);
         }
         function getUrlVars(){
             var vars = [], hash;
