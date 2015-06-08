@@ -106,7 +106,7 @@
             });
             
         }
-        
+        $('.content_container').show()
         function renderMarker(collection){
             $.each(collection, function(i, val){
                 x = val.x_coordinate ;
