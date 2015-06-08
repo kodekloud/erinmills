@@ -153,6 +153,7 @@
         
         loadMallData(renderAll);  
         $(".store_row_name").click(function() {
+            alert("h")
 			store_id = $(this).attr('store_id');
 			alert(store_id)
 			if($("#"+store_id).is(":visible")){
