@@ -209,12 +209,7 @@
         
         
         
-        function addZero(i) {
-            if (i < 10) {
-                i = "0" + i;
-            }
-            return i;
-        }
+        
         
         function get_month (id){
             switch(id) {
