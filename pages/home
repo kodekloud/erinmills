@@ -23,7 +23,7 @@
                         Saturday
                     </td>
                     <td id="saturday_home_container">
-                        <script id="saturay_home_template" type="x-tmpl-mustache/text">
+                        <script id="satudray_home_template" type="x-tmpl-mustache/text">
                             {{h}}
                         </script>
                     </td>
