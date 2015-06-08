@@ -13,7 +13,43 @@
     <h4 class="page_heading2">Newsletter Sign Up</h4>
     <br />
     <h4>Sign up below to receive our e-newsletter and you will get advance notice on promotions, contests and events happening at Erin Mills Town Centre.</h4>
-   
+    <form accept-charset="UTF-8" action="http://mobilefringe.createsend.com/t/d/s/tlidkt/" onsubmit="return validateNewsletterForm()" id="newsletter_form" method="post">
+        <div class="row">
+            <div class="col-md-6">
+                <label for="fieldName">Name *</label>  
+                <input class="form-control" id="fieldName" name="cm-name" type="text" required />
+            </div>
+            <div class="col-md-6">
+                <label for="fieldEmail">Email *</label> 
+                <input class="form-control" id="fieldEmail" name="cm-tlidkt-tlidkt" type="email" required />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label for="fieldgdrb">Address</label>
+                <input class="form-control" id="fieldgdrb" name="cm-f-gdrb" type="text" />
+            </div>
+            <div class="col-md-6">
+                <label for="fieldgdrn">City</label>
+                <input class="form-control" id="fieldgdrn" name="cm-f-gdrn" type="text" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label for="fieldgdrx">Postal Code *</label> 
+                <input class="form-control" id="fieldgdrx" name="cm-f-gdrx" type="text" required/> 
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <br />
+        <input class="margin-5-top" id ="agree_newsletter" type="checkbox" required/>
+        <span> 
+            I have read the <a style="text-decoration: underline;" href="/pages/erinmills-privacy-policy">privacy policy</a> and agree to receive newsletters from Erin Mills Town Centre via electronic messaging.
+
+        <br />  <br />       
+        <input class="btn btn-primary" name="commit" type="submit" value="SUBMIT" style="width:325px; height: 45px;" />            
+        </span>
+   </form>
 </div>
 <script>
     $(document).ready(function() {
