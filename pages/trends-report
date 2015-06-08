@@ -75,7 +75,10 @@ $(function(){
         
         $.each( fashionItems , function( key, val ) {  
              if( val.name == "Trends Report"){
+                 $.each( val.fashion_images , function( key, val ) {
                  
+                     
+                 });
              }
         });
         
