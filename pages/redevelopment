@@ -5,7 +5,14 @@
     .col-md-6{
         margin-top: 20px;
     }
-
+    #trend-nav {
+      text-align: center;
+    }
+    #trend-nav img {
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+    }
 </style>
 
 <div class="position_relative page_header margin_bottom_none">
