@@ -69,14 +69,14 @@
         init();
         function renderPageData (){
             // // var hours = getPropertyHours();
-            var latest_store_event = getStoreEventsList().reverse()[0];
-            var latest_mall_event = getPropertyEventsList().reverse()[0];
-            if (latest_mall_event){
-                renderSideEvents('#latest_mall_event_container', '#latest_mall_event_template', latest_mall_event);
-            }
-            if (latest_store_event){
-                renderSideEvents('#latest_store_event_container', '#latest_store_event_template', latest_store_event);
-            } 
+            // var latest_store_event = getStoreEventsList().reverse()[0];
+            // var latest_mall_event = getPropertyEventsList().reverse()[0];
+            // if (latest_mall_event){
+            //     renderSideEvents('#latest_mall_event_container', '#latest_mall_event_template', latest_mall_event);
+            // }
+            // if (latest_store_event){
+            //     renderSideEvents('#latest_store_event_container', '#latest_store_event_template', latest_store_event);
+            // } 
             // var featureList = getFeatureList();
             // renderFeatureItems('#feature_template', '#feature_items', featureList)
             
