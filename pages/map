@@ -4,7 +4,7 @@
         background: none;
     }
     .map{
-        display:none;
+        opacity: 0;
     }
 </style>
 <div class="position_relative page_header margin_bottom_none">
@@ -104,7 +104,6 @@
                     position: '0 190'
                 }
             });
-            
         }
         
         function renderMarker(collection){
