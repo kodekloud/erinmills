@@ -101,7 +101,9 @@
             });
         }
         
-        
+        function renderMarker(collection){
+            
+        }
         
         function renderPageData(container, template, collection){
             var item_list = [];
