@@ -121,12 +121,10 @@
                                     <td class="hours_day">
                                         Monday to Friday
                                     </td>
-                                    <td>
-                                        <div id="monday_hours_container">
-                                            <script id="monday_hours_template" type="x-tmpl-mustache/text">
-                                                {% raw %}{{h}}{% endraw %}
-                                            </script>
-                                        </div>
+                                    <td id="monday_hours_container">
+                                        <script id="monday_hours_template" type="x-tmpl-mustache/text">
+                                            {% raw %}{{h}}{% endraw %}
+                                        </script>
                                     </td>
                                 </tr>
                                 <tr>
