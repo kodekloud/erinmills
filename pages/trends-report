@@ -118,8 +118,7 @@
             return vars;
         }
                 //simple contentSwitcher
-function contentSwitcher(settings){
-                alert('hi');
+        function contentSwitcher(settings){
 		        var settings = {
 		           contentClass : '.trend-item',
 		           navigationId : '#trend-navi'
