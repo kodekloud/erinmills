@@ -34,7 +34,7 @@ function init(){
     var saturday_hours = getRegHoursForDayIndex(1);
     var sunday_hours = getRegHoursForDayIndex(0);
     
-    renderLayoutHours(monday_hours_container, monday_hours_template, monday_hours);
+    renderLayoutHours('#monday_hours_container', '#monday_hours_template', monday_hours);
 }
 function renderLayoutHours(container, template, collection){
     var item_list = [];
