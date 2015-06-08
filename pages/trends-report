@@ -125,7 +125,9 @@ $(function(){
             init_hours();
             $(".modal-backdrop").remove();
             var fashions = getFashions();
-            renderTrendReport('#trend_template', '#trend-navi', fashions);
+            renderTrendReport('#trend_template', '#trend-navi', fashions);            
+            renderTrendReport('#trend_holder_template', '#trend-holders', fashions);
+
         }
         function getUrlVars(){
             var vars = [], hash;
