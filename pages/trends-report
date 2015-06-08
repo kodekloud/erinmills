@@ -80,7 +80,7 @@ $(function(){
                 <div class="trend-item" id="{{caption_link}}" style={{showItem}}>
                     <img alt="{{caption}}" src="{{photo_source}}" />
                     <p>
-                        {{description}}
+                        {{{description}}}
                     </p>
                 </div>
             </script>
