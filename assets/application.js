@@ -8,15 +8,12 @@ function init(){
                     case 'gift':
                         $('#'+this.id+'-img').attr("src",'http://cdn.mallmaverick.com/system/site_images/photos/000/004/163/original/footer_giftcard-selected.png?1411422793');
                         break;
-                    ;
                     case 'video':
                         $('#'+this.id+'-img').attr("src",'http://cdn.mallmaverick.com/system/site_images/photos/000/004/169/original/footer_video-selected.png?1411422884');
                         break;
-                    ;
                     case 'redev':
                         $('#'+this.id+'-img').attr("src",'http://cdn.mallmaverick.com/system/site_images/photos/000/004/165/original/footer_redev-selected.png?1411422846');
                         break;
-                    ;
                 }
             },function(){
         
@@ -24,22 +21,26 @@ function init(){
                     case 'gift':
                         $('#'+this.id+'-img').attr("src",'http://cdn.mallmaverick.com/system/site_images/photos/000/004/164/original/footer_giftcard.png?1411422811');
                         break;
-                    ;
                     case 'video':
                         $('#'+this.id+'-img').attr("src",'http://cdn.mallmaverick.com/system/site_images/photos/000/004/171/original/footer_video.png?1411422902');
                         break;
-                    ;
                     case 'redev':
                         $('#'+this.id+'-img').attr("src",'http://cdn.mallmaverick.com/system/site_images/photos/000/004/167/original/footer_redev.png?1411422860');
                         break;
-                    ;
-                    
                 }
             });
     
+    var monday_hours = getRegHoursForDayIndex(1);
+    var saturday_hours = getRegHoursForDayIndex(1);
+    var sunday_hours = getRegHoursForDayIndex(0);
     
     renderLayoutHours();
 }
+function renderLayoutHours(container, template, collection){
+    
+        
+}
+
 
 function renderSideEvents(container, template, collection){
     var item_list = [];
