@@ -38,10 +38,7 @@ function init(){
             });
     
     
-    var monday_hours = getRegHoursForDayIndex(1)
-    var saturday_hours = getRegHoursForDayIndex(1)
-    var sunday_hours = getRegHoursForDayIndex(0)
-    
+    renderhours();
 }
 
 function renderSideEvents(container, template, collection){
