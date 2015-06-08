@@ -104,6 +104,7 @@ $(function(){
                     val.photo_source = getImageURL(val.photo_url);
                     var trend_rendered = Mustache.render(trend_template_html,val);
                     item_list.push(trend_rendered);
+                    count += 1;
                  });
              }
         });
