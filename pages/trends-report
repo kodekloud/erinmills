@@ -28,7 +28,7 @@
       width: 100%;
       margin-left: 4%;
     }
-    .trend-item image{
+    .trend-item img{
         width: 100%;
     }
 </style>
