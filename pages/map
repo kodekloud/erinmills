@@ -78,6 +78,24 @@
     });
     $(document).ready(function() {
         init()
+        
+        function renderAll (){
+            var latest_store_event = getStoreEventsList().reverse()[0];
+            var latest_mall_event = getPropertyEventsList().reverse()[0];
+            if (latest_mall_event){
+                renderSideEvents('#latest_mall_event_container', '#latest_mall_event_template', latest_mall_event);
+            }
+            if (latest_store_event){
+                renderSideEvents('#latest_store_event_container', '#latest_store_event_template', latest_store_event);
+            } 
+            
+            var stores = getStoresList();
+            
+            renderPageData('#store_list_container','#store_list_template', stores);
+            renderPageData('#store_marker_container','#store_marker_template', stores);
+            
+            $(".modal-backdrop").remove();
+        }
         $(".store_name_map").click(function() {
 			store_id = $(this).attr('store_id');
 			alert(store_id)
@@ -98,24 +116,6 @@
 				$("#m_show_pin_"+store_id).show();
 			}
 		});
-        function renderAll (){
-            var latest_store_event = getStoreEventsList().reverse()[0];
-            var latest_mall_event = getPropertyEventsList().reverse()[0];
-            if (latest_mall_event){
-                renderSideEvents('#latest_mall_event_container', '#latest_mall_event_template', latest_mall_event);
-            }
-            if (latest_store_event){
-                renderSideEvents('#latest_store_event_container', '#latest_store_event_template', latest_store_event);
-            } 
-            
-            var stores = getStoresList();
-            
-            renderPageData('#store_list_container','#store_list_template', stores);
-            renderPageData('#store_marker_container','#store_marker_template', stores);
-            
-            $(".modal-backdrop").remove();
-        }
-        
         
         function renderPageData(container, template, collection){
             var item_list = [];
