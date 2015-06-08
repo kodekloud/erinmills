@@ -77,7 +77,7 @@
 			$("#m_no_pin_"+store_id).hide();
 			$("#m_show_pin_"+store_id).show();
 		}
-		$('.store_list_container').hide()
+		$('#store_table').hide()
     }
     $(function(){
         $("#map_button").click(function(){
