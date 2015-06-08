@@ -58,28 +58,7 @@
     </div>
 </div>
 <script>
-    $(window).load(function(){
-        $(".store_name_map").click(function() {
-			store_id = $(this).attr('store_id');
-			alert(store_id)
-			if($("#"+store_id).is(":visible")){
-				$("."+store_id).hide();				
-				$("#"+store_id).hide();
-				$("#no_pin_"+store_id).show();
-				$("#show_pin_"+store_id).hide();
-				$("#m_no_pin_"+store_id).show();
-				$("#m_show_pin_"+store_id).hide();
-			}else{
-				$(".marker").hide();
-				$("#"+store_id).show();
-				$("#"+store_id).click();
-				$("#no_pin_"+store_id).hide();
-				$("#show_pin_"+store_id).show();
-				$("#m_no_pin_"+store_id).hide();
-				$("#m_show_pin_"+store_id).show();
-			}
-		});
-    })
+    
     $(function(){
         $("#map_button").click(function(){
             $("#store_table").toggle();
