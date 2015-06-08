@@ -82,6 +82,8 @@ $(function(){
              }
         });
         
+        $(trend_item).show();
+        $(trend_item).html(item_list.join(''));
         
     }
     $(document).ready(function() {
