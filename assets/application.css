@@ -975,6 +975,7 @@ select#cats:focus {
       line-height: 50px;
       color: black;
       border: none;
+      height: 40px;
     }
 }
 
