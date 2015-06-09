@@ -19,7 +19,7 @@
           <li id="alpha_link" style="border-bottom-style: solid; border-bottom-width: 4px; border-bottom-color: black; color: black;"><a href="#" id="show_stores">ALPHABETICAL</a></li>
           <li id="cat_link" style="border-bottom-style: none; color: rgb(149, 149, 149);">
                 <div class="cat-dd">
-                    <select title="show categories" name="" id="cats" style="color: rgb(149, 149, 149);">
+                    <select title="show categories" name="cats" id="cats" style="color: rgb(149, 149, 149);">
                         <option value="categories" disabled="" selected="">
                             CATEGORIES
                         </option>
