@@ -193,13 +193,13 @@
             Mustache.parse(template_html);   // optional, speeds up future uses
             
             $.each(category_list , function( key, category ) {
-                var category_id = category.id;
+                var category_id = parseInt(category.id);
                 var category_name = category.name;
                 $.each( stores , function( i, store ) {
                     var store_category = store.categories;
           
                    
-                   var a = store.categories.indexOf(category.id);
+                   var a = store.categories.indexOf(category_id);
                     if(a > -1){
                         console.log('in if');
                         var rendered = Mustache.render(template_html,store);
