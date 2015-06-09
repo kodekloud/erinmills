@@ -899,6 +899,20 @@ select#cats:focus {
         position: inherit;
         right:none;
     }
+    .mobile_menu_item {
+      font-family: verdana;
+      font-size: 12pt;
+      color: black;
+      text-align: center;
+      border: none;
+      line-height: 30px;
+      font-weight: normal;
+    margin: 0px;
+      padding: 7px;
+      padding-left: 20px;
+      background-color: #FFFFFF;
+      border-top: solid;
+    }
 }
 
 
