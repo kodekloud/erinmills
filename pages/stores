@@ -223,9 +223,19 @@
             e.preventDefault()
         })
          function toggle_filter(){
-            $("#mobile-A-Z-list").hide();
-            $("#mobile-cat-list").show();
-            $("#toggle_filter").text("Filter Stores");
+            if ($("#alphabet_filter").is(":visible")){
+                $("#alphabet_filter").hide();
+                $("#category_filter").show();
+                $("#mobile-A-Z-list").hide();
+                $("#mobile-cat-list").show();
+                $("#toggle_filter").text("Filter Stores");
+          } else {
+                $("#alphabet_filter").show();
+                $("#category_filter").hide();
+                $("#mobile-A-Z-list").show();
+                $("#mobile-cat-list").hide();
+                $("#toggle_filter").text("Filter Categories");
+          }
          });
         function renderCategoriesList(list, breaker){
             $('#store_category_list_container').html('')
