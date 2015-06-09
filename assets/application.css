@@ -977,6 +977,7 @@ select#cats:focus {
       border: none;
       height: 40px;
       width: 100%;
+      background-color: #000000;
     }
 }
 
