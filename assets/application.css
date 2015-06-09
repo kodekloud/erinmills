@@ -862,6 +862,9 @@ select#cats:focus {
 /*************** MOBILE CSS *****************/
 
 @media (max-width: 767px) {  
+    .hidden-phone{
+        display:none;
+    }
     .side_nav{
         display: none;
     }
