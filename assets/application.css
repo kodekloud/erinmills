@@ -871,6 +871,9 @@ select#cats:focus {
     .footer{
         display:none;
     }
+    .privacy_policy{
+        display:none;
+    }
 }
 
 
