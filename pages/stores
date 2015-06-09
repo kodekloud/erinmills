@@ -332,6 +332,10 @@
         loadMallData(renderAll);  
     })
     
+    function mobile_show_stores(store){
+        
+    }
+    
      function toggle_filter(){
             if ($("#alphabet_filter").is(":visible")){
                 $("#alphabet_filter").hide();
