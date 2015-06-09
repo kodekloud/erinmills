@@ -216,7 +216,7 @@
                     
                 }
                 //var categories = getStoreCategories();
-                console.log(val);
+                console.log(val.categories);
                 var current_initial = val.name[0];
                 
                 if(store_initial == current_initial){
