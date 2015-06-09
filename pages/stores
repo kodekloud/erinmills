@@ -193,9 +193,11 @@
             $.each(category_list , function( key, category ) {
                 var category_id = parseInt(category.id);
                 var category_name = category.name;
+                
+                 
                  var header = category_name;
-                $.each( stores , function( i, store ) {
-                    if(store_initial == header){
+                
+                if(store_initial == header){
                         category.initial = "";
                         category.show = "display:none;"
                     }
@@ -204,8 +206,13 @@
                         store_initial = header;
                         category.show = "display:block;"
                     }
-                    var cat = category.show
-                    console.log(cat);
+                    var cat = category.show;
+                
+               
+                $.each( stores , function( i, store ) {
+                  
+                    
+                  
                     
                     var store_category = store.categories;
                    var a = store.categories.indexOf(category_id);
