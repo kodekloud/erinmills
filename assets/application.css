@@ -976,6 +976,7 @@ select#cats:focus {
       color: black;
       border: none;
       height: 40px;
+      width: 100%;
     }
 }
 
