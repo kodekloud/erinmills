@@ -869,6 +869,12 @@ select#cats:focus {
         margin-left: 0px;
     }
     
+    #trend-navi {
+      border-right: 1px solid #ddd;
+      float: left;
+      width: 23%;
+    }
+    
 }
 
 
