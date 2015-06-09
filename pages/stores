@@ -205,6 +205,8 @@
                 });
             
             });
+             $(container).show();
+            $(container).html(item_rendered.join(''));
             
         }
         function renderPageData(container, template, collection, type,starter, breaker){
