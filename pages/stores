@@ -143,7 +143,7 @@
             <div class="store_list" id="category_list_container_mobile">
                 <script id="category_list_template_mobile" type="x-tmpl-mustache/text">
                     <div class="store_list_content">
-                        <p class="store_initial" style="{{show}}">{{header}}</p>
+                        <p class="store_initial" style="">{{header}}</p>
                         <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
                         <img class="promo_img" style="{{promotion_exist}}" src="http://assets.kodekloud.io/sites/554a79236e6f64713f000000/366c709f0e864b0b8dd5643cf226a4cc/store_icon_promo.jpg" alt="sale">
                         <p class="now_hiring" style="{{job_exist}}">NOW HIRING</p>
@@ -189,13 +189,13 @@
             var item_rendered = [];
             var template_html = $(template).html();
             Mustache.parse(template_html);   // optional, speeds up future uses
-         
+            var store_initial = '';
             $.each(category_list , function( key, category ) {
-                   var store_initial = '';
                 var category_id = parseInt(category.id);
                 var category_name = category.name;
                 
-                var header = category_name;
+                
+                 var header = category_name;
                 
                 if(store_initial == header){
                     category.initial = "";
@@ -210,7 +210,7 @@
                     var store_category = store.categories;
                    var a = store.categories.indexOf(category_id);
                     if(a > -1){
-                        store.header = store_initial;
+                        store.header = category_name;
                         var rendered = Mustache.render(template_html,store);
                         item_rendered.push(rendered);
                     }
