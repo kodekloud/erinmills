@@ -198,7 +198,7 @@
                     var store_category = store.categories;
                     var a = store.categories.indexOf(category_id);
                     if(a > -1){
-                        if first_category == category_name{
+                        if (category_name == first_category){
                             
                         }
                         store.header = category_name;
