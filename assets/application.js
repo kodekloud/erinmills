@@ -106,3 +106,28 @@ function addZero(i) {
     }
     return i;
 }
+
+function toggle_mobile_menu(){
+        if($(".mobile_menu").is(":visible")){
+            $(".mobile_menu").slideUp();    
+        } else {
+            $(".mobile_menu").slideDown();
+        }
+    
+    }
+    
+    function show_mobile_sub_menu(id){   
+        
+        if ($("#mobile-"+id).is(":visible")){
+                $("#mobile-"+id).slideUp();
+            } else {
+                if ($(".mobile_sub_menu_div").is(":visible")){
+                    $(".mobile_sub_menu_div").slideUp();
+                     $("#mobile-"+id).slideDown();
+                     
+                } else {
+                    $("#mobile-"+id).slideDown(); 
+                }
+                
+        }
+    }
