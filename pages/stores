@@ -184,22 +184,22 @@
             
             $(".modal-backdrop").remove();
         }
-        function renderCatetoryList(container, template, category_list,stores){
-            var item_list = [];
-            var item_rendered = [];
-            var template_html = $(template).html();
-            Mustache.parse(template_html);   // optional, speeds up future uses
+        // function renderCatetoryList(container, template, category_list,stores){
+        //     var item_list = [];
+        //     var item_rendered = [];
+        //     var template_html = $(template).html();
+        //     Mustache.parse(template_html);   // optional, speeds up future uses
             
-            $.each( category_list , function( key, val ) {
-                var category_id = val.id;
-                $.each( stores , function( key, val ) {
-                    var store_category = val.id;
+        //     $.each( category_list , function( key, val ) {
+        //         var category_id = val.id;
+        //         $.each( stores , function( key, val ) {
+        //             var store_category = val.categories[0];
                     
-                });
+        //         });
             
-            });
+        //     });
             
-        }
+        // }
         function renderPageData(container, template, collection, type,starter, breaker){
             var item_list = [];
             var item_rendered = [];
@@ -216,7 +216,7 @@
                     
                 }
                 //var categories = getStoreCategories();
-                
+                console.log(val.categories);
                 var current_initial = val.name[0];
                 
                 if(store_initial == current_initial){
