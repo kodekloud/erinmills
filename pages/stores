@@ -198,11 +198,14 @@
                     var store_category = store.categories;
                     var a = store.categories.indexOf(category_id);
                     if(a > -1){
-                        if (category_name == first_category){
+                        if (category_name != first_category){
                             new entry
                         }
+                        else{
+                            same
+                        }
                         store.header = category_name;
-                        store.show = category_name
+                        store.show = print
                         var rendered = Mustache.render(template_html,store);
                         item_rendered.push(rendered);
                     }
