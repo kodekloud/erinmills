@@ -917,12 +917,17 @@ select#cats:focus {
       display: none;
     }
     .menu_button {
-  border-bottom: 1pt solid #C8C8C8;
-  padding-left: 30px;
-  padding-right: 30px;
-  text-align: center;
-}
-
+      border-bottom: 1pt solid #C8C8C8;
+      padding-left: 30px;
+      padding-right: 30px;
+      text-align: center;
+    }
+    .mobile_menu_arrow {
+      float: left;
+      margin-right: -25px;
+      height: 15px;
+      width: 28px;
+    }
 }
 
 
