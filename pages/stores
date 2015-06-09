@@ -191,7 +191,6 @@
             Mustache.parse(template_html);   // optional, speeds up future use
             var first_category_id = 0
             $.each(category_list , function( key, category ) {
-                
                 var category_id = parseInt(category.id);
                 var category_name = category.name;
                 var print = "display:block"
