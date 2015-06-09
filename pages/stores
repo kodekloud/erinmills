@@ -195,19 +195,18 @@
                 var category_name = category.name;
                 
                  
-                 var header = category_name;
                 
         
                 var cat = category.show
                 
                 $.each( stores , function( i, store ) {
-                    if(store_initial == header){
+                    if(store_initial == category_name){
                         category.initial = "";
                         category.show = "display:none;"
                     }
                     else{
-                        category.initial = header;
-                        store_initial = header;
+                        category.initial = category_name;
+                        store_initial = category_name;
                         category.show = "display:block;"
                     }
                     
