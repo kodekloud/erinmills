@@ -868,12 +868,6 @@ select#cats:focus {
     .content_container{
         margin-left: 0px;
     }
-    .footer{
-        display:none;
-    }
-    .privacy_policy{
-        display:none;
-    }
     .mobile_footer{
         
     }
