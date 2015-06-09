@@ -198,8 +198,9 @@
                     var store_category = store.categories;
                     var a = store.categories.indexOf(category_id);
                     if(a > -1){
+                        var print =""
                         if (category_name != first_category){
-                            new entry
+                            print = "display:block"
                         }
                         else{
                             same
