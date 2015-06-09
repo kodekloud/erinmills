@@ -197,7 +197,7 @@
                  
                 
         
-               
+                var cat = category.show
                 
                 $.each( stores , function( i, store ) {
                     if(store_initial == category_name){
@@ -209,7 +209,7 @@
                         store_initial = category_name;
                         category.show = "display:block;"
                     }
-                     var cat = category.show
+                    
                     var store_category = store.categories;
                    var a = store.categories.indexOf(category_id);
                     if(a > -1){
