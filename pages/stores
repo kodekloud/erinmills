@@ -194,7 +194,6 @@
                 var category_id = parseInt(category.id);
                 var category_name = category.name;
                 
-                
                  var header = category_name;
                 
                 if(store_initial == header){
