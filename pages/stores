@@ -198,16 +198,8 @@
                     var store_category = store.categories;
                     var a = store.categories.indexOf(category_id);
                     if(a > -1){
-                        var print =""
-                        if (category_id != first_category){
-                            print = "display:block"
-                        }
-                        else{
-                            print = "display:none"
-                            first_category = category_id
-                        }
+                        
                         store.header = category_name;
-                        store.show = print
                         var rendered = Mustache.render(template_html,store);
                         item_rendered.push(rendered);
                     }
