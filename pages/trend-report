@@ -31,20 +31,20 @@
     .trend-item img{
         width: 100%;
     }
-@media (max-width: 767px) {  
-    
-    #trend-navi {
-      border-right: 1px solid #ddd;
-      float: left;
-      width: 23%;
+    @media (max-width: 767px) {  
+        
+        #trend-navi {
+          border-right: 1px solid #ddd;
+          float: left;
+          width: 23%;
+        }
+        #trend-holders {
+          border-left: 0px;
+          float: left;
+          width: 75%;
+        }
+        
     }
-    #trend-holders {
-      border-left: 0px;
-      float: left;
-      width: 75%;
-    }
-    
-}
 </style>
 
 <div class="position_relative page_header margin_bottom_none">
