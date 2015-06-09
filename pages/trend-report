@@ -33,7 +33,7 @@
     }
     @media (max-width: 767px) {  
         
-        #trend-navi {
+        .trend-navi {
           border-right: 1px solid #ddd;
           float: left;
           width: 25%;
