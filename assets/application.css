@@ -888,6 +888,7 @@ select#cats:focus {
         float:none;
         text-align: center;
         margin-top:10px;
+        margin-bottom:15px;
     }
     .newsletter_div {
         text-align: center;
