@@ -952,6 +952,9 @@ select#cats:focus {
     .promo_box{
         width:100%;
     }
+    .store_list_pane{
+        width:100%;
+    }
 }
 
 
