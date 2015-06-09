@@ -203,7 +203,7 @@
                     if(a > -1){
                         console.log('in if');
                         var rendered = Mustache.render(template_html,store);
-                        store.initial = category_name;
+                        store.header = category_name;
                       
                         item_rendered.push(rendered);
                     }
