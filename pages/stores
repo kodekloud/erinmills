@@ -179,27 +179,27 @@
             renderPageData('#store_list_container_right','#store_list_template_right', stores, "stores", "M", "Z");
             
             renderPageData('#store_list_container_mobile','#store_list_template_mobile', stores, "stores", "A", "Z");
-            renderCatetoryList('#category_list_container_mobile','#category_list_template_mobile', categories, stores);
+            //renderCatetoryList('#category_list_container_mobile','#category_list_template_mobile', categories, stores);
             render_categories(categories);
             
             $(".modal-backdrop").remove();
         }
-        function renderCatetoryList(container, template, category_list,stores){
-            var item_list = [];
-            var item_rendered = [];
-            var template_html = $(template).html();
-            Mustache.parse(template_html);   // optional, speeds up future uses
+        // function renderCatetoryList(container, template, category_list,stores){
+        //     var item_list = [];
+        //     var item_rendered = [];
+        //     var template_html = $(template).html();
+        //     Mustache.parse(template_html);   // optional, speeds up future uses
             
-            $.each( category_list , function( key, val ) {
-                var category_id = val.id;
-                $.each( stores , function( key, val ) {
-                    var store_category = val.id;
+        //     $.each( category_list , function( key, val ) {
+        //         var category_id = val.id;
+        //         $.each( stores , function( key, val ) {
+        //             var store_category = val.id;
                     
-                });
+        //         });
             
-            });
+        //     });
             
-        }
+        // }
         function renderPageData(container, template, collection, type,starter, breaker){
             var item_list = [];
             var item_rendered = [];
