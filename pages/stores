@@ -198,13 +198,13 @@
                  var header = category_name;
                 
                 if(store_initial == header){
-                    val.initial = "";
-                    val.show = "display:none;"
+                    category.initial = "";
+                    category.show = "display:none;"
                 }
                 else{
-                    val.initial = header;
+                    category.initial = header;
                     store_initial = header;
-                    val.show = "display:block;"
+                    category.show = "display:block;"
                 }
                 $.each( stores , function( i, store ) {
                     var store_category = store.categories;
