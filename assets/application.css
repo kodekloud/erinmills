@@ -868,6 +868,9 @@ select#cats:focus {
     .visible-phone{
         display: inherit;
     }
+    .page_heading{
+        height: 60px;
+    }
     .page_heading2{
         margin-top:-50px;
     }
