@@ -865,6 +865,9 @@ select#cats:focus {
     .side_nav{
         display: none;
     }
+    .content_container{
+        margin-left: 0px;
+    }
     
 }
 
