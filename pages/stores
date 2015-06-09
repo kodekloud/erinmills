@@ -193,13 +193,7 @@
             $.each(category_list , function( key, category ) {
                 var category_id = parseInt(category.id);
                 var category_name = category.name;
-                
-                 
                  var header = category_name;
-                
-        
-                
-               
                 $.each( stores , function( i, store ) {
                     if(store_initial == header){
                         category.initial = "";
