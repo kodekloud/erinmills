@@ -190,12 +190,15 @@
             var template_html = $(template).html();
             Mustache.parse(template_html);   // optional, speeds up future uses
             
-            $.each( category_list , function( key, val ) {
-                var category_id = val.id;
-                $.each( stores , function( key, val ) {
-                    var store_category = val.categories;
-                    if(category_id == store_category[0]){
-                        
+            $.each( category_list , function( key, category ) {
+                var category_id = category.id;
+                $.each( stores , function( key, store ) {
+                    var store_category = store.categories;
+                    
+                    var found = $.inArray(category_id, store_category) > -1;
+                    if(found){
+                        var rendered = Mustache.render(template_html,val);
+                        item_rendered.push(rendered);
                     }
                 });
             
