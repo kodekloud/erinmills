@@ -868,18 +868,7 @@ select#cats:focus {
     .content_container{
         margin-left: 0px;
     }
-    
-    #trend-navi {
-      border-right: 1px solid #ddd;
-      float: left;
-      width: 23%;
-    }
-    #trend-holders {
-      border-left: 0px;
-      float: left;
-      width: 75%;
-    }
-    
+
 }
 
 
