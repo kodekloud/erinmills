@@ -198,7 +198,6 @@
                  
 
                 $.each( stores , function( i, store ) {
-                    
                     var header = category_name;
                     if(store_initial == header){
                         category_name = "";
