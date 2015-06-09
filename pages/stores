@@ -121,9 +121,9 @@
     </div>
     <div class="stores_tab" id="mobile-A-Z-list">
         <div class="store_list_pane">
-            <div class="store_list" id="store_list_container">
+            <div class="store_list" id="store_list_container_mobile">
                 <script id="store_list_template" type="x-tmpl-mustache/text">
-                    <div class="store_list_content">
+                    <div class="store_list_content_mobile">
                         <p class="store_initial" style="{{show}}">{{initial}}</p>
                         <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
                         <img class="promo_img" style="{{promotion_exist}}" src="http://assets.kodekloud.io/sites/554a79236e6f64713f000000/366c709f0e864b0b8dd5643cf226a4cc/store_icon_promo.jpg" alt="sale">
@@ -134,9 +134,9 @@
             </div>
         </div>
         <div class="store_list_pane">
-            <div class="store_list" id="store_list_container_right">
+            <div class="store_list" id="store_list_container_right_mobile">
                 <script id="store_list_template_right" type="x-tmpl-mustache/text">
-                    <div class="store_list_content">
+                    <div class="store_list_content_mobile">
                         <p class="store_initial" style="{{show}}">{{initial}}</p>
                         <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
                         <img class="promo_img" style="{{promotion_exist}}" src="http://assets.kodekloud.io/sites/554a79236e6f64713f000000/366c709f0e864b0b8dd5643cf226a4cc/store_icon_promo.jpg" alt="sale">
