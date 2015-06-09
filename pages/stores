@@ -188,15 +188,17 @@
            
             var item_rendered = [];
             var template_html = $(template).html();
-            Mustache.parse(template_html);   // optional, speeds up future uses
-       var store_initial = '';
+            Mustache.parse(template_html);   // optional, speeds up future use
             $.each(category_list , function( key, category ) {
+                var store_initial = '';
                 var category_id = parseInt(category.id);
                 var category_name = category.name;
                 
                  
-                 var header = category_name;
-                console.log(header +  " - " +store_initial);
+                 
+
+                $.each( stores , function( i, store ) {
+                  var header = category_name;
                 if(store_initial == header){
                         category_name = "";
                         category.show = "display:none;"
@@ -208,9 +210,6 @@
                     }
                     var cat = category.show;
                 
-                    console.log(cat);
-                $.each( stores , function( i, store ) {
-                  
                     
                   
                     
