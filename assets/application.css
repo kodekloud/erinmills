@@ -949,6 +949,9 @@ select#cats:focus {
       text-align: center;
       font-weight: normal;
     }
+    .promo_box{
+        width:100%;
+    }
 }
 
 
