@@ -184,29 +184,29 @@
             
             $(".modal-backdrop").remove();
         }
-        // function renderCatetoryList(container, template, category_list,stores){
-        //     var item_list = [];
-        //     var item_rendered = [];
-        //     var template_html = $(template).html();
-        //     Mustache.parse(template_html);   // optional, speeds up future uses
+        function renderCatetoryList(container, template, category_list,stores){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(template).html();
+            Mustache.parse(template_html);   // optional, speeds up future uses
             
-        //     $.each( category_list , function( key, category ) {
-        //         var category_id = category.id;
-        //         var category_name = 
-        //         $.each( stores , function( key, store ) {
-        //             var store_category = store.categories;
+            $.each( category_list , function( key, category ) {
+                var category_id = category.id;
+                var category_name = 
+                $.each( stores , function( key, store ) {
+                    var store_category = store.categories;
                     
-        //             var found = $.inArray(category_id, store_category) > -1;
-        //             if(found){
-        //                 var rendered = Mustache.render(template_html,store);
-        //                 store.initial = 
-        //                 item_rendered.push(rendered);
-        //             }
-        //         });
+                    var found = $.inArray(category_id, store_category) > -1;
+                    if(found){
+                        var rendered = Mustache.render(template_html,store);
+                        store.initial = 
+                        item_rendered.push(rendered);
+                    }
+                });
             
-        //     });
+            });
             
-        // }
+        }
         function renderPageData(container, template, collection, type,starter, breaker){
             var item_list = [];
             var item_rendered = [];
