@@ -237,7 +237,7 @@
                 $("#mobile-cat-list").hide();
                 $("#toggle_filter").text("Filter Categories");
           }
-         });
+         }
         function renderCategoriesList(list, breaker){
             $('#store_category_list_container').html('')
             $('#store_category_list_container_right').html('')
