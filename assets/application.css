@@ -985,6 +985,9 @@ select#cats:focus {
     .mobile_filters{
         margin-bottom:20px;
     }
+    .store_name{
+        font-size: 14px;
+    }
 }
 
 
