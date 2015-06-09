@@ -967,6 +967,15 @@ select#cats:focus {
     #alphabet_filter {
       border-bottom: 1pt solid #c8c8c8;
     }
+    .mobile_cats {
+      font-family: verdana;
+      text-align: center !important;
+      font-weight: bold;
+      font-size: 10pt;
+      line-height: 50px;
+      color: black;
+      border: none;
+    }
 }
 
 
