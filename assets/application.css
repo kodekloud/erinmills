@@ -874,6 +874,11 @@ select#cats:focus {
       float: left;
       width: 23%;
     }
+    #trend-holders {
+      border-left: 0px;
+      float: left;
+      width: 75%;
+    }
     
 }
 
