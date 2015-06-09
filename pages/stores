@@ -199,7 +199,7 @@
                     var found = $.inArray(category_id, store_category) > -1;
                     if(found){
                         var rendered = Mustache.render(template_html,store);
-                        store.initial = 
+                        store.initial = category_name
                         item_rendered.push(rendered);
                     }
                 });
