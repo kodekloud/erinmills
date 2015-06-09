@@ -197,7 +197,7 @@
                 var category_name = category.name;
                 $.each( stores , function( i, store ) {
                     var store_category = store.categories;
-                   
+                   console.log(store_category)l
                    var a = store.categories.indexOf(category.id);
                    console.log(a);
                     if(a > -1){
