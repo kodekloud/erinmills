@@ -190,9 +190,9 @@
             var template_html = $(template).html();
             Mustache.parse(template_html);   // optional, speeds up future uses
             
-            $.each( collection , function( key, val ) {
+            $.each( category_list , function( key, val ) {
+                var category_id = val.id;
             
-                
             });
             
         }
