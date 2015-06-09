@@ -882,6 +882,9 @@ select#cats:focus {
         float:none;
         text-align: center;
     }
+    .newsletter_div {
+        text-align: center;
+    }
 }
 
 
