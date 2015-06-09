@@ -199,7 +199,7 @@
                 $.each( stores , function( key, store ) {
                     var store_category = store.categories;
                    
-                   var a = store_category.indexOf(category_id);
+                   var a = store_category.indexOf(category.id);
                     if(a > -1){
                         console.log('in if');
                         var rendered = Mustache.render(template_html,store);
