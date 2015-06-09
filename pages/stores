@@ -198,7 +198,6 @@
                     var store_category = store.categories;
                     var a = store.categories.indexOf(category_id);
                     if(a > -1){
-                        
                         store.header = category_name;
                         var rendered = Mustache.render(template_html,store);
                         item_rendered.push(rendered);
