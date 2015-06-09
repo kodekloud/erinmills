@@ -189,6 +189,7 @@
             var item_rendered = [];
             var template_html = $(template).html();
             Mustache.parse(template_html);   // optional, speeds up future use
+            var first_category = ""
             $.each(category_list , function( key, category ) {
                 var initial_category = '';
                 var category_id = parseInt(category.id);
