@@ -195,7 +195,7 @@
                 var category_id = parseInt(category.id);
                 var category_name = category.name;
                 var current_id = category.id
-                var print = "display:block"
+                var print = 
                 var count = 0;
                 
                 $.each( stores , function( i, store ) {
@@ -203,8 +203,13 @@
                     var a = store.categories.indexOf(category_id);
                     
                     if(a > -1){
+                        if (count == 0){
+                           store.show  = "display:block"; 
+                        }else{
+                            store.show  = "display:none"; 
+                        }
                         store.header = category_name;
-                        store.show  = print
+                        
                         var rendered = Mustache.render(template_html,store);
                         item_rendered.push(rendered);
                         count += 1;
