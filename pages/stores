@@ -198,8 +198,8 @@
                  
 
                 $.each( stores , function( i, store ) {
-                  var header = category_name;
-                if(store_initial == header){
+                    var header = category_name;
+                    if(store_initial == header){
                         category_name = "";
                         category.show = "display:none;"
                     }
@@ -214,7 +214,7 @@
                   
                     
                     var store_category = store.categories;
-                   var a = store.categories.indexOf(category_id);
+                    var a = store.categories.indexOf(category_id);
                     if(a > -1){
                         store.header = category_name;
                         store.show = cat;
