@@ -186,7 +186,7 @@
         }
         function renderCatetoryList(container, template, category_list,stores){
             var b = [235,234];
-            console.log(b.indexOf(235));
+           
             var item_list = [];
             var item_rendered = [];
             var template_html = $(template).html();
