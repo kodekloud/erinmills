@@ -195,6 +195,7 @@
                 var category_name = category.name;
                 
                  
+                 var header = category_name;
                 
         
                 var cat = category.show
@@ -206,7 +207,7 @@
                     }
                     else{
                         category.initial = category_name;
-                        store_initial = category_name;
+                        store_initial = header;
                         category.show = "display:block;"
                     }
                     
