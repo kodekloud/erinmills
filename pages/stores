@@ -244,6 +244,10 @@
                     value: val.id,
                         text: val.name
                     }));
+                $('#mobile_cats').append($('<option>', {
+                    value: val.id,
+                        text: val.name
+                    }));
                 
                 
             });
