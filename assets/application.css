@@ -937,6 +937,17 @@ select#cats:focus {
       font-family: verdana;
       font-size: 12pt;
     }
+    .mobile_sub_menu {
+      background: black;
+      color: white;
+      font-family: verdana;
+      font-size: 12pt;
+      font-weight: normal;
+      line-height: 30px;
+      margin: 0;
+      text-align: center;
+      font-weight: normal;
+    }
 }
 
 
