@@ -859,6 +859,13 @@ select#cats:focus {
 }
 
 
+/*************** MOBILE CSS *****************/
+
+@media (max-width: 767px) {  
+    
+    
+}
+
 
 
 
