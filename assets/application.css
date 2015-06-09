@@ -969,7 +969,6 @@ select#cats:focus {
     }
     .mobile_cats {
       font-family: verdana;
-      text-align: center !important;
       font-weight: bold;
       font-size: 10pt;
       line-height: 50px;
