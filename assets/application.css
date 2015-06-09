@@ -880,6 +880,7 @@ select#cats:focus {
     }
     .mobile-header .logo_a{
         float:none;
+        text-align: center;
     }
 }
 
