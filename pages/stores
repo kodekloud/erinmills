@@ -185,6 +185,8 @@
             $(".modal-backdrop").remove();
         }
         function renderCatetoryList(container, template, category_list,stores){
+            var b = [235,234];
+            console.log()
             var item_list = [];
             var item_rendered = [];
             var template_html = $(template).html();
@@ -195,6 +197,7 @@
                 var category_name = category.name;
                 $.each( stores , function( key, store ) {
                     var store_category = store.categories;
+                   
                    var a = store_category.indexOf(category_id);
                     if(a > -1){
                         console.log('in if');
