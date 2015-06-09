@@ -988,6 +988,9 @@ select#cats:focus {
     .store_name{
         font-size: 14px;
     }
+    .promo_img{
+        width: 30px;
+    }
 }
 
 
