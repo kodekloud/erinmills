@@ -194,6 +194,7 @@
             
             $.each( category_list , function( key, category ) {
                 var category_id = category.id;
+                console.log(category_id)''
                 var category_name = category.name;
                 $.each( stores , function( key, store ) {
                     var store_category = store.categories;
