@@ -206,8 +206,6 @@
                             print = "display:none"
                             first_category = category_name
                         }
-                        console.log(category_name)
-                        console.log(first_category)
                         store.header = category_name;
                         store.show = print
                         var rendered = Mustache.render(template_html,store);
