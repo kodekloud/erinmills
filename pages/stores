@@ -199,6 +199,7 @@
 
                 $.each( stores , function( i, store ) {
                     var header = category_name;
+                    
                     if(initial_category == header){
                         category_name = "";
                         category.show = "display:none;"
