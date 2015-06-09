@@ -200,7 +200,7 @@
                     if(found){
                         var rendered = Mustache.render(template_html,store);
                         store.initial = category_name;
-                        console.log('found');
+                      
                         item_rendered.push(rendered);
                     }
                 });
