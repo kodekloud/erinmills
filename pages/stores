@@ -201,6 +201,11 @@
                     
                 }
                 var current_initial = val.name[0];
+                if (type == "category_stores"){
+                    current_initial = val.name;
+                }
+                
+                
                 if(store_initial == current_initial){
                     val.initial = "";
                     val.show = "display:none;"
