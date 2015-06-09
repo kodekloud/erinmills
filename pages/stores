@@ -195,8 +195,6 @@
                 var category_name = category.name;
                 $.each( stores , function( i, store ) {
                     var store_category = store.categories;
-          
-                   
                    var a = store.categories.indexOf(category_id);
                     if(a > -1){
                         store.header = category_name;
