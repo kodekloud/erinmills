@@ -194,6 +194,7 @@
                 
                 var category_id = parseInt(category.id);
                 var category_name = category.name;
+                store.show
                 $.each( stores , function( i, store ) {
                     var store_category = store.categories;
                     var a = store.categories.indexOf(category_id);
