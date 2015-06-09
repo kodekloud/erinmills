@@ -355,6 +355,9 @@
                     </div>
                 </div>
             </div>
+            <div class="mobile_footer visible-phone">
+                
+            </div>
             <div class="privacy_policy">
                 <div class="content_container margin_bottom_none">
                     <span>© 2014 Erin Mills Town Centre</span>
