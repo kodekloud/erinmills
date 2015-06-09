@@ -928,6 +928,13 @@ select#cats:focus {
       height: 15px;
       width: 28px;
     }
+    .mobile_menu_label {
+      margin-top: 14px;
+      margin-bottom: 14px;
+      color: black;
+      font-family: verdana;
+      font-size: 12pt;
+    }
 }
 
 
