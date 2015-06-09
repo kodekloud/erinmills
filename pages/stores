@@ -222,7 +222,11 @@
             $("#cats").val('categories')
             e.preventDefault()
         })
-        
+         function toggle_filter(){
+            $("#mobile-A-Z-list").hide();
+            $("#mobile-cat-list").show();
+            $("#toggle_filter").text("Filter Stores");
+         });
         function renderCategoriesList(list, breaker){
             $('#store_category_list_container').html('')
             $('#store_category_list_container_right').html('')
