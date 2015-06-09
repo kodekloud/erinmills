@@ -32,9 +32,142 @@
     <body>
         <div id="content">
             <div class="mobile-header visible-phone">
-                <div class="mobile_nav">
+                <div class="mobile_menu" style="display: block;">
+            <p class="mobile_menu_item" tabindex="1" onkeypress="javascript:if(event.keyCode == 13) show_mobile_sub_menu('shopping')" onclick="javascript:show_mobile_sub_menu('shopping')">SHOPPING</p>
+            <div class="mobile_sub_menu_div" id="mobile-shopping">
+                
                     
-                </div>
+                        <a href="/hours" target="_self">
+                            <p class="mobile_sub_menu">HOURS </p>     
+                        </a>   
+                           
+                
+                    
+                        <a href="/stores" target="_self">
+                            <p class="mobile_sub_menu">STORES </p>     
+                        </a>   
+                           
+                
+                    
+                        <a href="/map" target="_self">
+                            <p class="mobile_sub_menu">CENTRE MAP </p>     
+                        </a>   
+                           
+                
+                    
+                        <a href="/promotions" target="_self">
+                            <p class="mobile_sub_menu">STORE PROMOTIONS </p>     
+                        </a>   
+                           
+                
+                    
+                        <a href="/pages/erinmills-location" target="_self">
+                            <p class="mobile_sub_menu">DRIVING DIRECTIONS / MAP </p>     
+                        </a>   
+                           
+                    
+            </div>
+            <p class="mobile_menu_item" tabindex="2" onkeypress="javascript:if(event.keyCode == 13) show_mobile_sub_menu('events')" onclick="javascript:show_mobile_sub_menu('events')">EVENTS</p>
+            <div class="mobile_sub_menu_div" id="mobile-events">
+                
+                    
+                        <a href="/events" target="_self">
+                            <p class="mobile_sub_menu">EVENTS </p>     
+                        </a>   
+                           
+                
+                    
+                        <a href="/pages/erinmills-redevelopment" target="_self">
+                            <p class="mobile_sub_menu">REDEVELOPMENT </p>     
+                        </a>   
+                           
+                
+                    
+                        <a href="/fashions/erinmills-trends-report" target="_self">
+                            <p class="mobile_sub_menu">TREND REPORT </p>     
+                        </a>   
+                           
+                
+                    
+                        <a href="/pages/erinmills-pr-releases" target="_self">
+                            <p class="mobile_sub_menu">PRESS RELEASES </p>     
+                        </a>   
+                           
+                
+                    
+                        <a href="/pages/erinmills-video-gallery" target="_self">
+                            <p class="mobile_sub_menu">VIDEO GALLERY </p>     
+                        </a>   
+                           
+                    
+            </div>
+            <p class="mobile_menu_item" tabindex="3" onkeypress="javascript:if(event.keyCode == 13) show_mobile_sub_menu('guest_services')" onclick="javascript:show_mobile_sub_menu('guest_services')">GUEST SERVICES</p>
+            <div class="mobile_sub_menu_div" id="mobile-guest_services">
+                
+                    
+                        <a href="/pages/erinmills-accessibility" target="_self">
+                            <p class="mobile_sub_menu">ACCESSIBILITY </p>     
+                        </a>   
+                           
+                
+                    
+                        <a href="/pages/erinmills-gift-cards" target="_self">
+                            <p class="mobile_sub_menu">GIFT CARD </p>     
+                        </a>   
+                           
+                
+                    
+                        <a href="/pages/erinmills-guest-services" target="_self">
+                            <p class="mobile_sub_menu">MALL SERVICES </p>     
+                        </a>   
+                           
+                
+                    
+                        <a href="/pages/erinmills-security-services" target="_self">
+                            <p class="mobile_sub_menu">SECURITY SERVICES </p>     
+                        </a>   
+                           
+                    
+            </div>
+            <p class="mobile_menu_item" tabindex="4" onkeypress="javascript:if(event.keyCode == 13) show_mobile_sub_menu('centre_info')" onclick="javascript:show_mobile_sub_menu('centre_info')">CENTRE INFO</p>
+            <div class="mobile_sub_menu_div" id="mobile-centre_info">
+                
+                    
+                        <a href="/pages/erinmills-contact-us" target="_self">
+                            <p class="mobile_sub_menu">CONTACT US </p>     
+                        </a>   
+                           
+                
+                    
+                        <a href="/pages/erinmills-being-green-environmental-initiatives" target="_self">
+                            <p class="mobile_sub_menu">GREEN INITIATIVES </p>     
+                        </a>   
+                           
+                
+                    
+                        <a href="/pages/erinmills-community-partners" target="_self">
+                            <p class="mobile_sub_menu">COMMUNITY PARTNERS </p>     
+                        </a>   
+                           
+                
+                    
+                        <a href="/pages/erinmills-leasing-information" target="_self">
+                            <p class="mobile_sub_menu">LEASING INFORMATION </p>     
+                        </a>   
+                           
+                    
+            </div>
+            <p class="mobile_menu_item" tabindex="5" onkeypress="javascript:if(event.keyCode == 13) show_mobile_sub_menu('careers')" onclick="javascript:show_mobile_sub_menu('careers')">CAREERS</p>
+            <div class="mobile_sub_menu_div" id="mobile-careers">
+                
+                    
+                        <a href="/jobs" target="_self">
+                            <p class="mobile_sub_menu">OPPORTUNITIES </p>     
+                        </a>   
+                           
+                    
+            </div>
+        </div>
             
                 <a class="logo_a" href="/"><img alt="logo" class="site_logo" src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/172a94a0e1dd6a2eeec91e2cea4e8b92/logo.png"></a>
             </div>
