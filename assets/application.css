@@ -888,6 +888,9 @@ select#cats:focus {
     .newsletter_div form {
         width: 100%;
     }
+    .social_div{
+        right:none;
+    }
 }
 
 
