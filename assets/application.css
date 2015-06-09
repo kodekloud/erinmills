@@ -873,6 +873,7 @@ select#cats:focus {
     }
     .content_container{
         margin-left: 0px;
+        padding:10px;
     }
     .mobile_footer .content_container{
         margin-top:20px;
