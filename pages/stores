@@ -197,11 +197,9 @@
                 var category_name = category.name;
                 $.each( stores , function( i, store ) {
                     var store_category = store.categories;
-                    console.log('category: ' + category.id);
-                   console.log(store_category);
+          
                    
                    var a = store.categories.indexOf(category.id);
-                   console.log(a);
                     if(a > -1){
                         console.log('in if');
                         var rendered = Mustache.render(template_html,store);
