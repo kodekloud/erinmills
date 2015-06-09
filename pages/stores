@@ -196,19 +196,19 @@
                 
                  
                  var header = category_name;
-                console.log(header +  " - " +store_initial);
-                if(store_initial == header){
-                        category.initial = "";
-                        category.show = "display:none;"
-                    }
-                    else{
-                        category.initial = header;
-                        store_initial = header;
-                        category.show = "display:block;"
-                    }
-                    var cat = category.show;
                 
-                    console.log(cat);
+                if(store_initial == header){
+                    category.initial = "";
+                    category.show = "display:none;"
+                }
+                else{
+                    category.initial = header;
+                    store_initial = header;
+                    category.show = "display:block;"
+                }
+                var cat = category.show;
+            
+                console.log(cat);
                 $.each( stores , function( i, store ) {
                   
                     
