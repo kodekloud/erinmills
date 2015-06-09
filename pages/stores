@@ -224,6 +224,7 @@
         })
          function toggle_filter(){
             if ($("#alphabet_filter").is(":visible")){
+                alert('hi');
                 $("#alphabet_filter").hide();
                 $("#category_filter").show();
                 $("#mobile-A-Z-list").hide();
