@@ -207,8 +207,9 @@
                         store.show  = print
                         var rendered = Mustache.render(template_html,store);
                         item_rendered.push(rendered);
+                        count += 1;
                     }
-                    count += 1;
+                    
                 });
             
             });
