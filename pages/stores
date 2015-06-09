@@ -192,11 +192,10 @@
             var template_html = $(template).html();
             Mustache.parse(template_html);   // optional, speeds up future uses
             
-            $.each( category_list , function( key, category ) {
+            $.each(category_list , function( key, category ) {
                 var category_id = category.id;
-             
                 var category_name = category.name;
-                $.each( stores , function( key, store ) {
+                $.each( stores , function( a, store ) {
                     var store_category = store.categories;
                    
                    var a = store.categories.indexOf(category.id);
