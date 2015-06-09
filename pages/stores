@@ -199,13 +199,13 @@
 
                 $.each( stores , function( i, store ) {
                     var header = category_name;
-                    if(store_initial == header){
+                    if(initial_category == header){
                         category_name = "";
                         category.show = "display:none;"
                     }
                     else{
                         category_name = header;
-                        store_initial = header;
+                        initial_category = header;
                         category.show = "display:block;"
                     }
                     var cat = category.show;
