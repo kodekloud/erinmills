@@ -208,7 +208,7 @@
                     }
                     var cat = category.show;
                 
-               
+                    console.log(cat);
                 $.each( stores , function( i, store ) {
                   
                     
