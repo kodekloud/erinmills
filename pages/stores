@@ -189,11 +189,11 @@
             var item_rendered = [];
             var template_html = $(template).html();
             Mustache.parse(template_html);   // optional, speeds up future uses
-            
+            var store_initial = '';
             $.each(category_list , function( key, category ) {
                 var category_id = parseInt(category.id);
                 var category_name = category.name;
-                var store_initial = '';
+                
                 
                  var header = category_name;
                 
