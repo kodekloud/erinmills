@@ -913,6 +913,16 @@ select#cats:focus {
       background-color: #FFFFFF;
       border-top: solid;
     }
+    .mobile_sub_menu_div {
+      display: none;
+    }
+    .menu_button {
+  border-bottom: 1pt solid #C8C8C8;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
+
 }
 
 
