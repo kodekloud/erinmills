@@ -866,7 +866,7 @@ select#cats:focus {
         display:none;
     }
     .visible-phone{
-        display: inherit !important;
+        display: inherit;
     }
     .content_container{
         margin-left: 0px;
