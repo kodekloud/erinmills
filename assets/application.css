@@ -886,7 +886,7 @@ select#cats:focus {
         text-align: center;
     }
     .newsletter_div form {
-        margin-left: none;
+        margin-left: none !important;
     }
 }
 
