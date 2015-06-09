@@ -195,7 +195,6 @@
                 var category_id = parseInt(category.id);
                 var category_name = category.name;
                 var current_id = category.id
-                var print = 
                 var count = 0;
                 
                 $.each( stores , function( i, store ) {
