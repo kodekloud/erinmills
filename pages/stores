@@ -192,6 +192,10 @@
             
             $.each( category_list , function( key, val ) {
                 var category_id = val.id;
+                $.each( stores , function( key, val ) {
+                    
+                    
+                });
             
             });
             
