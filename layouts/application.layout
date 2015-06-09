@@ -359,7 +359,19 @@
                 </div>
             </div>
             <div class="mobile_footer visible-phone">
-                
+                <div class="content_container middle_align">
+                    <div class="newsletter_div">
+                        <div class="social_div">
+                            <a target="_blank" href="http://www.facebook.com/erinmillstowncentre"><span class="social_icons" id="social_fb"></span></a>
+                            <a target="_blank" href="http://twitter.com/erinmillstown"><span class="social_icons" id="social_twitter"></span></a>
+                            <a target="_blank" href="https://www.youtube.com/channel/UCL2jEULzhWtGxl9czW4ia4w"><span class="social_icons"  id="social_youtube"></span></a>
+                        </div>
+                        <form action="/newsletter" method="get">
+                            <input title="email" type="text" name="email" placeholder="Join our newsletter!" class="newsletter_input">
+                            <input type="submit" value="Subscribe" class="newsletter_btn">
+                        </form>
+                    </div>
+                </div>
             </div>
             <div class="privacy_policy hidden-phone">
                 <div class="content_container margin_bottom_none">
