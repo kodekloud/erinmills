@@ -206,7 +206,7 @@
                     store_initial = header;
                     category.show = "display:block;"
                 }
-                console.log(store_initial + " - " + header)
+                console.log(category)
                 $.each( stores , function( i, store ) {
                     var store_category = store.categories;
                    var a = store.categories.indexOf(category_id);
