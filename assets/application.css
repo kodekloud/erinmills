@@ -874,6 +874,10 @@ select#cats:focus {
     .mobile_footer{
         
     }
+    .mobile-header{
+          height: 90px;
+  margin-bottom: 5px;
+    }
 }
 
 
