@@ -204,6 +204,7 @@
                         }
                         else{
                             print = "display:none"
+                            first_category = category_name
                         }
                         store.header = category_name;
                         store.show = print
