@@ -113,6 +113,14 @@
             </select>
             
         </div>
+        <div id="category_filter" style="display:none;overflow:hidden;text-align:center">
+            <select title="show categories" name="cats" id="mobile_cats" class="mobile_cats" onchange="mobile_show_cats(this.value);">
+                <option value="all">All Categories</option>
+                    {% for category in {{categories}} %}
+                        <option value="{{category.name}}">{{category.name}}</option>    
+                    {% endfor %}        
+            </select>    
+        </div>
     </div>
     
 </div>
