@@ -964,6 +964,9 @@ select#cats:focus {
       line-height: 50px;
       color: black;
     }
+    #alphabet_filter {
+      border-bottom: 1pt solid #c8c8c8;
+    }
 }
 
 
