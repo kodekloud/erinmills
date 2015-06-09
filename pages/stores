@@ -184,7 +184,7 @@
             
             $(".modal-backdrop").remove();
         }
-        function renderCatetoryList(container, template, stores){
+        function renderCatetoryList(container, template, category_list,stores){
             var item_list = [];
             var item_rendered = [];
             var template_html = $(template).html();
