@@ -913,7 +913,6 @@ select#cats:focus {
       padding: 7px;
       padding-left: 20px;
       background-color: #FFFFFF;
-      border-top: solid;
     }
     .mobile_sub_menu_div {
       display: none;
