@@ -201,9 +201,9 @@
                    
                    var a = store.categories.indexOf(category_id);
                     if(a > -1){
-                        console.log('in if');
-                        var rendered = Mustache.render(template_html,store);
                         store.header = category_name;
+                        var rendered = Mustache.render(template_html,store);
+                        
                       
                         item_rendered.push(rendered);
                     }
