@@ -203,7 +203,7 @@
                             print = "display:block"
                         }
                         else{
-                            same
+                            print = "display:block"
                         }
                         store.header = category_name;
                         store.show = print
