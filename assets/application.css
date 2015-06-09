@@ -868,7 +868,9 @@ select#cats:focus {
     .content_container{
         margin-left: 0px;
     }
-
+    .footer{
+        display:none;
+    }
 }
 
 
