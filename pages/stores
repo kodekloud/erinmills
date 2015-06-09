@@ -222,7 +222,7 @@
                     }
                     
                 }
-                var categories = getStoreCategories();
+                //var categories = getStoreCategories();
                 var current_initial = val.name[0];
                 
                 if(store_initial == current_initial){
