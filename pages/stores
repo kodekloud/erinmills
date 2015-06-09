@@ -199,7 +199,7 @@
                 
         
                 var cat = category.show
-                console.log(cat);
+               
                 $.each( stores , function( i, store ) {
                     if(store_initial == category_name){
                         category.initial = "";
