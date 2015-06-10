@@ -255,7 +255,10 @@
     margin: 0px 20px;
     text-align: right;
 }
-
+.demo1{
+    height:650px; 
+    width:100%;
+}
 .privacy_policy {
     background: #4b4b4b;
     color: #969696;
