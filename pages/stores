@@ -138,7 +138,6 @@
     </div>
     <div class="categories_tab" id="mobile-cat-list" style="display:none;">
     <br />
-        <p id="cats_title"></p>
         <div class="store_list_pane">
             <div class="store_list" id="category_list_container_mobile">
                 <script id="category_list_template_mobile" type="x-tmpl-mustache/text">
