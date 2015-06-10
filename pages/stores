@@ -190,7 +190,7 @@
             var template_html = $(template).html();
             Mustache.parse(template_html);   // optional, speeds up future use
             var initial_id = 0;
-           
+            var category_index = 0;
             $.each(category_list , function( key, category ) {
                 var category_id = parseInt(category.id);
                 var category_name = category.name;
@@ -208,13 +208,14 @@
                             store.show  = "display:none"; 
                         }
                         store.header = category_name;
-                        store.block = category_name[0] + '-block';
+                        store.block = "category" + category_index;
                         var rendered = Mustache.render(template_html,store);
                         item_rendered.push(rendered);
                         count += 1;
                     }
                     
                 });
+                category_index += 1;
             
             });
              $(container).show();
