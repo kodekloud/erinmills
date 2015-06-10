@@ -125,19 +125,6 @@
     <div class="visible-phone">
         <div class="mobile_hours">
             <span class="label_sub mobile_hours_label">TODAYS HOURS</span>
-            <div id="todays-hours">
-               <script id="todays_hours_template" type="x-tmpl-mustache">
-                    <h5 data-i18n="days_of_week.{{day_of_week}}"></h5>
-                    <div>{{holiday_name}}</div>
-                    <span style="{{is_open_css}}; font-size:15px;">
-                        {{open_time_localized}} - {{close_time_localized}}
-                    </span>
-                    <span style="{{is_closed_css}};">
-                        Closed
-                    </span>
-                </script>
-            </div>
-            
             <span class="label_sub mobile_hours_day" id="todays-hours">
                 <script id="todays_hours_template" type="x-tmpl-mustache">
                     <li>WEDNESDAY</li>
