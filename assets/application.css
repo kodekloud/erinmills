@@ -998,6 +998,9 @@ select#cats:focus {
         height: 350px;
         width: 100% !important;
     }
+    .feature_item {
+      width: 100%;
+    }
 }
 
 
