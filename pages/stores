@@ -208,7 +208,7 @@
                             store.show  = "display:none"; 
                         }
                         store.header = category_name;
-                        store.block = "category" + category_index;
+                        store.block = category.id;
                         var rendered = Mustache.render(template_html,store);
                         item_rendered.push(rendered);
                         count += 1;
