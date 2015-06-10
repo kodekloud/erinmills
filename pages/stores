@@ -136,7 +136,7 @@
 
         <div class="clearfix"></div>
     </div>
-    <div class="categories_tab" id="mobile-cat-list">
+    <div class="categories_tab" id="mobile-cat-list" style="display:none;">
     <br />
         <p id="cats_title"></p>
         <div class="store_list_pane">
