@@ -991,6 +991,9 @@ select#cats:focus {
     .promo_img{
         width: 30px;
     }
+    .job_container{
+        width: 100%;
+    }
 }
 
 
