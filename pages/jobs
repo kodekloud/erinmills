@@ -44,7 +44,7 @@
             var job_list = getJobsList().sort()
             renderJobsListTemplate('#job_list_template','#job_list_container','#jobs_not_empty_section','#jobs_empty_section',job_list);
             
-            //$(".modal-backdrop").remove();
+            $(".modal-backdrop").remove();
         }
         function renderPageData(container, template, collection){
             var item_list = [];
