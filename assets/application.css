@@ -1003,7 +1003,7 @@ select#cats:focus {
         min-height: 500px;
     }
     .hours_left{
-        width:50%;
+        float:left;
     }
     .hours_right{
         float:right;
