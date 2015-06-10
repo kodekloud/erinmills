@@ -843,6 +843,9 @@ select#cats:focus {
     }
 }
 @media(max-width:1024px){
+    .cat-dd{
+        width:130px;
+    }
     .promo_description, .promo_image{
         width: 48%;
     }
