@@ -332,7 +332,15 @@
         };
         loadMallData(renderAll);  
     })
-    
+    function mobile_show_cats(category){
+        var className = '.' + category;
+        if (store == "all"){
+            $('#category_list_container_mobile').find('.store_list_content').show();
+        }else{
+            $('#category_list_container_mobile').find('.store_list_content').hide();
+            $('#category_list_container_mobile').find(className).show();
+        }
+    }
     function mobile_show_stores(store){
         var className = '.' + store;
         if (store == "all"){
