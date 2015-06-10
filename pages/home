@@ -40,6 +40,9 @@
           width: 100%;
           text-align: left !important;
         }
+        .directory_link a {
+          padding-left: 20px;
+        }
  
     }
 </style>
