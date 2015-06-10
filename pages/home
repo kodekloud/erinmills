@@ -130,8 +130,8 @@
                     <li>WEDNESDAY</li>
                  
                                                                     
-                    <li style="font-weight:400 {{is_open_css}}"> {{open_time}} - {{close_time}}</li>
-                    <li style="font-weight:400 {{is_closed_css}}"> Closed</li>
+                    <li style="font-weight:400; {{is_open_css}}"> {{open_time}} - {{close_time}}</li>
+                    <li style="font-weight:400; {{is_closed_css}}"> Closed</li>
                 </script>
             </span>
         </div>
