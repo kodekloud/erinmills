@@ -12,6 +12,7 @@
         }
     }
 </style>
+<img class="visible-phone" src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/home_img.jpg" />
 <div class="content_container">
     <div class="right_nav hidden-phone">
         <div class="home_hours">
