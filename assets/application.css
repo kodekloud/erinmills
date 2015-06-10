@@ -1003,12 +1003,18 @@ select#cats:focus {
         min-height: 500px;
     }
     .hours_left{
+        
+        width: 50%;
+    }
+    .hours_left span{
         float:left;
-        width: auto;
     }
     .hours_right{
         float:right;
         padding: 10px 0;
+    }
+    .hours_right span{
+        float:left;
     }
     .reg_hours_container{
         width: 100%;
