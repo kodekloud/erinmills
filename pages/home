@@ -12,7 +12,7 @@
     }
 </style>
 <div class="content_container">
-    <div class="right_nav">
+    <div class="right_nav hidden-phone">
         <div class="home_hours">
             <h4 class="home_hours_heading">HOURS</h4>
             <table role="presentation">
