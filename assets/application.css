@@ -994,7 +994,7 @@ select#cats:focus {
     .job_container{
         width: 100%;
     }
-    iframe .boxy{
+    p iframe{
         width: 100% !important;
     }
 }
