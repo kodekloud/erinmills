@@ -1014,6 +1014,10 @@ select#cats:focus {
     .reg_hours_container, .closed_hours_container, .holiday_hours_container{
         width: 100%;
     }
+    .demo1{
+        height:650px; 
+        width:100%;
+    }
 }
 
 
