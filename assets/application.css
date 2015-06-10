@@ -1013,12 +1013,10 @@ select#cats:focus {
         padding: 9px 17px;
     }
     .feature_item_description{
-        font-size: 14px;
-        font-weight: bold;
         height: 40px;
     }
     .feature_item_description p{
-        font-size: 14px;
+        font-size: 13px;
         font-weight: bold;
     }
 }
