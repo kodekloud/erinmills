@@ -958,7 +958,6 @@ select#cats:focus {
     .toggle_filter {
       font-family: verdana;
       text-align: center;
-      border-bottom: 1pt solid #c8c8c8;
       font-weight: bold;
       font-size: 10pt;
       line-height: 50px;
