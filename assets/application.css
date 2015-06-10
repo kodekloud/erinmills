@@ -1000,6 +1000,7 @@ select#cats:focus {
     }
     .feature_item {
       width: 100%;
+      margin: 0;
     }
     .feature_item:first-child {
        margin-left: 0px;
