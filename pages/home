@@ -46,6 +46,7 @@
         .directory_link a {
           padding-left: 20px;
           color: #616161;
+          text-decoration: none;
         }
  
     }
