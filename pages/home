@@ -2,6 +2,9 @@
     .layout_hours{
         display:none;
     }
+    .site_content_container{
+        background: none;
+    }
 </style>
 <div class="content_container">
     <div class="right_nav">
