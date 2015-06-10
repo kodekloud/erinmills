@@ -1004,6 +1004,7 @@ select#cats:focus {
     }
     .hours_left{
         float:left;
+        width: auto;
     }
     .hours_right{
         float:right;
