@@ -1007,6 +1007,7 @@ select#cats:focus {
     }
     .hours_right{
         float:right;
+        padding: 10px 0;
     }
     .reg_hours_container{
         width: 100%;
