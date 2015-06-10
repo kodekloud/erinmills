@@ -958,17 +958,13 @@ select#cats:focus {
     .toggle_filter {
       font-family: verdana;
       text-align: center;
+      border-bottom: 1pt solid #c8c8c8;
       font-weight: bold;
       font-size: 10pt;
       line-height: 50px;
       color: black;
     }
-    #alphabet_filter {
-      border-bottom: 1pt solid #c8c8c8;
-    }
-    #category_filter {
-      border-bottom: 1pt solid #c8c8c8;
-    }
+  
     .mobile_cats {
       font-family: verdana;
       text-align: center !important;
