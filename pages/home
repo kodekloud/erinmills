@@ -143,7 +143,8 @@
                 <li>WEDNESDAY</li>
              
                                                                 
-                <li style="font-weight:400">10:00AM -  9:00PM</li>
+                <li style="font-weight:400 {{is_open_css}}"> {{open_time}} - {{close_time}}</li>
+                <li style="font-weight:400 {{is_closed_css}}"> Closed</li>
                
             </span>
         </div>
