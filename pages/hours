@@ -34,11 +34,15 @@
         <script id="holiday_hours_template" type="x-tmpl-mustache/text">
             <tr>
                 <td class="hours_left">
-                    <strong>{{holiday_name}}</strong><br>
-                    {{formatted_date}}
+                    <span>
+                        <strong>{{holiday_name}}</strong><br>
+                        {{formatted_date}}
+                    </span>
                 </td>
                 <td class="hours_right">
-                    {{h}}
+                    <span>
+                        {{h}}
+                    </span>
                 </td>
             </tr>
         </script>
