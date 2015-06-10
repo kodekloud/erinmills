@@ -1002,6 +1002,7 @@ select#cats:focus {
       width: 100%;
       height: auto;
       margin: 0;
+      margin-bottom: 15px;
     }
     .feature_item:first-child {
        margin-left: 0px;
