@@ -10,9 +10,12 @@
             background: none;
             margin-bottom: 50px;
         }
+        .phone-banner{
+            width: 100%;
+        }
     }
 </style>
-<img class="banner visible-phone" src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/home_img.jpg" />
+<img class="phone-banner visible-phone" src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/home_img.jpg" />
 <div class="content_container">
     <div class="right_nav hidden-phone">
         <div class="home_hours">
