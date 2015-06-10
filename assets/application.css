@@ -1017,6 +1017,10 @@ select#cats:focus {
         font-weight: bold;
         height: 40px;
     }
+    .feature_item_description p{
+        font-size: 14px;
+        font-weight: bold;
+    }
 }
 
 
