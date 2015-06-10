@@ -333,7 +333,8 @@
     })
     
     function mobile_show_stores(store){
-        
+        var className = '.' + store;
+        $('#store_list_container_mobile').find(className).show();
     }
     
      function toggle_filter(){
