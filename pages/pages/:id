@@ -9,7 +9,12 @@
     #404_msg{
         display:none;
     }
-    
+    @media only screen and (max-width: 767px) {  
+        .site_content_container{
+            min-height: 400px;
+        }   
+        
+    }
 </style>
 <div class="position_relative page_header margin_bottom_none">
         <div class="page_heading"></div>
