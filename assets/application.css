@@ -998,6 +998,10 @@ select#cats:focus {
         height: 350px;
         width: 100% !important;
     }
+    
+    .site_content_container{
+        min-height: 500px;
+    }
   
 }
 
