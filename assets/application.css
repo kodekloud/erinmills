@@ -1014,7 +1014,7 @@ select#cats:focus {
         padding: 10px 0;
     }
     .hours_right span{
-        float:left;
+        float:right;
     }
     .reg_hours_container{
         width: 100%;
