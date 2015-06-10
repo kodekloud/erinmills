@@ -1016,13 +1016,10 @@ select#cats:focus {
     .hours_right span{
         float:right;
     }
-    .reg_hours_container{
+    .reg_hours_container, .closed_hours_container, .holiday_hours_container{
         width: 100%;
     }
-    .holiday_hours_container{
-        width: 100%;
-    }
-  
+
 }
 
 
