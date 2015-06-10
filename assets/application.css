@@ -998,28 +998,7 @@ select#cats:focus {
         height: 350px;
         width: 100% !important;
     }
-    .feature_item {
-      width: 100%;
-      height: auto;
-      margin: 0;
-      margin-bottom: 20px;
-    }
-    .feature_item:first-child {
-       margin-left: 0px;
-    }
-    .feature_caret{
-        width:40px;
-        height: 40px;
-        padding: 9px 17px;
-    }
-    .feature_item_description{
-        height: 40px;
-        padding: 10px 10px;
-    }
-    .feature_item_description p{
-        font-size: 13px;
-        font-weight: bold;
-    }
+  
 }
 
 
