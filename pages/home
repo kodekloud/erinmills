@@ -17,6 +17,7 @@
           display: block;
           margin-bottom: 5px;
           margin-top: 15px;
+          color:#616161;
         }
         .mobile_hours_label {
           width: 55%;
@@ -26,6 +27,7 @@
           font-family: verdana;
           line-height: 30px;
           margin-top: 3px;
+          color: #616161;
         }
         .mobile_hours_day li {
           list-style: none;
