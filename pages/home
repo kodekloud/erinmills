@@ -61,6 +61,7 @@
             </a>
         </div>
     </div>
+    <div class="visible-phone"></div>
     <div class="feature_box">
         <h4 class="feature_box_heading hidden-phone">FEATURED</h4>
         <div class="feature_container" id="feature_items">
