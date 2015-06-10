@@ -298,7 +298,7 @@
                             <script id="latest_mall_event_template" type="x-tmpl-mustache/text">
                                 <div class="layout_event">
                                     <h4 class="home_hours_heading">Mall Events</h4>
-                                    {% raw %}<a href><img alt="Events" src="{{alt_promo_image_url}}"></a>{% endraw %}
+                                    {% raw %}<a href="/events/{{slug}}"><img alt="Events" src="{{alt_promo_image_url}}"></a>{% endraw %}
                                 </div>
                             </script>
                         </div>
