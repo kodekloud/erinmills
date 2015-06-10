@@ -8,6 +8,7 @@
     @media (max-width: 767px) { 
         .site_content_container{
             background: none;
+            margin-bottom: 50px;
         }
     }
 </style>
