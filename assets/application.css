@@ -1012,6 +1012,9 @@ select#cats:focus {
         height: 40px;
         padding: 9px 17px;
     }
+    .feature_item_description{
+        height: 40px;
+    }
 }
 
 
