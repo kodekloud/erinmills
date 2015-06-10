@@ -2,8 +2,13 @@
     .layout_hours{
         display:none;
     }
-    .site_content_container{
-        background: none;
+    
+    /*************** MOBILE CSS *****************/
+
+    @media (max-width: 767px) { 
+        .site_content_container{
+            background: none;
+        }
     }
 </style>
 <div class="content_container">
