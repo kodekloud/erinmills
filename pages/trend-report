@@ -36,12 +36,12 @@
         .trend-navi {
           border-right: 1px solid #ddd;
           float: left;
-          width: 27%;
+          width: 28%;
         }
         #trend-holders {
           border-left: 0px;
           float: left;
-          width: 72%;
+          width: 70%;
         }
         
     }
