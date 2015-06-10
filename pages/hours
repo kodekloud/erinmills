@@ -20,7 +20,7 @@
                         {{day}}
                     </span>
                 </td>   
-                <td class="hours_right">
+                <td class="hours_right text-right">
                     <span>
                         {{h}}
                     </span>
