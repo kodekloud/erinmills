@@ -333,7 +333,7 @@
                                 <p class="footer_feature_title" style="padding-top:12%; padding-left:0px; margin-left:-15px; width:49%;">VIDEO GALLERY</p>
                             </div>
                         </a>
-                        <a href="/pages/erinmills-redevelopment">
+                        <a href="/redevelopment">
                             <div id="redev" class="footer_feature_box" style="margin-right:0">
                                 <img alt="redevelopment" id="redev-img" class="footer_feature_image" src="http://cdn.mallmaverick.com/system/site_images/photos/000/004/167/original/footer_redev.png?1411422860">
                                 <p class="footer_feature_title" style="padding-top:12%; padding-left:0px;margin-left:-15px;">REDEVELOPMENT</p>
