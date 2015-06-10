@@ -24,9 +24,7 @@
     <div class="page_content" id="mm_page_content">
     </div>
 </div>
-<div id="404_msg">
-    Sorry! The page does not exist.
-</div>
+
 <script>
     $(document).ready(function() {
         init()
