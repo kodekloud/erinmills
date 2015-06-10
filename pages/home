@@ -61,7 +61,19 @@
             </a>
         </div>
     </div>
-    <div class="visible-phone"></div>
+    <div class="visible-phone">
+        <div class="mobile_hours">
+            <span class="label_sub mobile_hours_label">TODAYS HOURS</span>
+            <span class="label_sub mobile_hours_day">
+            
+                <li>WEDNESDAY</li>
+             
+                                                                
+                <li style="font-weight:400">10:00AM -  9:00PM</li>
+               
+            </span>
+        </div>
+    </div>
     <div class="feature_box">
         <h4 class="feature_box_heading hidden-phone">FEATURED</h4>
         <div class="feature_container" id="feature_items">
