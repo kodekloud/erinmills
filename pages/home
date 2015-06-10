@@ -13,6 +13,20 @@
         .phone-banner{
             width: 100%;
         }
+        .mobile_hours_label {
+          width: 55%;
+          float: left;
+          font-size: 18px;
+          margin-left: 20px;
+          font-family: verdana;
+          line-height: 30px;
+          margin-top: 3px;
+        }
+        .label_sub {
+          display: block;
+          margin-bottom: 5px;
+          margin-top: 15px;
+        }
     }
 </style>
 <img class="phone-banner visible-phone" src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/home_img.jpg" />
