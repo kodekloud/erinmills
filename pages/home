@@ -22,6 +22,11 @@
           line-height: 30px;
           margin-top: 3px;
         }
+        .mobile_hours_day li {
+          list-style: none;
+          font-size: 10pt;
+          font-weight: bold;
+        }
         .label_sub {
           display: block;
           margin-bottom: 5px;
