@@ -411,6 +411,7 @@
     margin-top: -33px;
     z-index: 9999;
     position: relative;
+    text-transform: uppercase;
 }
 .promo_box{
     position: relative;
