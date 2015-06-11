@@ -258,10 +258,10 @@
             <div class="footer hidden-phone">
                 <div class="content_container">
                    <div class="row">
-                       <div class="col-md-6">
+                       <div class="col-md-6 footer_insider">
                            <img src="http://assets.kodekloud.io/sites/554a79236e6f64713f000000/af79720129959209b13e9d5f3a2010ef/giftcard_ad.jpg" class="" alt="gift">
                        </div>
-                       <div class="col-md-6">
+                       <div class="col-md-6 footer_insider">
                            <img src="http://assets.kodekloud.io/sites/554a79236e6f64713f000000/af79720129959209b13e9d5f3a2010ef/giftcard_ad.jpg" class="" alt="gift 2">
                        </div>
                    </div>
