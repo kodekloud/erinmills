@@ -87,7 +87,7 @@
                     <td class="hours_day">
                         Monday to Friday
                     </td>
-                    <td id="monday_home_container">
+                    <td id="monday_home_container" class="text-right">
                         <script id="monday_home_template" type="x-tmpl-mustache/text">
                             {{h}}
                         </script>
@@ -97,7 +97,7 @@
                     <td class="hours_day">
                         Saturday
                     </td>
-                    <td id="saturday_home_container">
+                    <td id="saturday_home_container" class="text-right">
                         <script id="saturday_home_template" type="x-tmpl-mustache/text">
                             {{h}}
                         </script>
@@ -107,7 +107,7 @@
                     <td class="hours_day">
                         Sunday
                     </td>
-                    <td id="sunday_home_container">
+                    <td id="sunday_home_container" class="text-right">
                         <script id="sunday_home_template" type="x-tmpl-mustache/text">
                             {{h}}
                         </script>
