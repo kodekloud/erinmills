@@ -70,40 +70,24 @@
                     </div>
                     <p class="mobile_menu_item" tabindex="3" onkeypress="javascript:if(event.keyCode == 13) show_mobile_sub_menu('guest_services')" onclick="javascript:show_mobile_sub_menu('guest_services')">GUEST SERVICES</p>
                     <div class="mobile_sub_menu_div" id="mobile-guest_services">
+                        <a href="/pages/erinmills-gift-cards" target="_self">
+                            <p class="mobile_sub_menu">GIFT CARD </p>     
+                        </a>  
                         <a href="/pages/erinmills-accessibility" target="_self">
                             <p class="mobile_sub_menu">ACCESSIBILITY </p>     
                         </a>   
-                           
-                
-                    
-                        <a href="/pages/erinmills-gift-cards" target="_self">
-                            <p class="mobile_sub_menu">GIFT CARD </p>     
-                        </a>   
-                           
-                
-                    
                         <a href="/pages/erinmills-guest-services" target="_self">
                             <p class="mobile_sub_menu">MALL SERVICES </p>     
                         </a>   
-                           
-                
-                    
                         <a href="/pages/erinmills-security-services" target="_self">
                             <p class="mobile_sub_menu">SECURITY SERVICES </p>     
                         </a>   
-                           
-                    
-            </div>
-            <p class="mobile_menu_item" tabindex="4" onkeypress="javascript:if(event.keyCode == 13) show_mobile_sub_menu('centre_info')" onclick="javascript:show_mobile_sub_menu('centre_info')">CENTRE INFO</p>
-            <div class="mobile_sub_menu_div" id="mobile-centre_info">
-                
-                    
+                    </div>
+                    <p class="mobile_menu_item" tabindex="4" onkeypress="javascript:if(event.keyCode == 13) show_mobile_sub_menu('centre_info')" onclick="javascript:show_mobile_sub_menu('centre_info')">ABOUT US</p>
+                    <div class="mobile_sub_menu_div" id="mobile-centre_info">
                         <a href="/pages/erinmills-contact-us" target="_self">
                             <p class="mobile_sub_menu">CONTACT US </p>     
                         </a>   
-                           
-                
-                    
                         <a href="/pages/erinmills-being-green-environmental-initiatives" target="_self">
                             <p class="mobile_sub_menu">GREEN INITIATIVES </p>     
                         </a>   
@@ -117,17 +101,13 @@
                             <p class="mobile_sub_menu">LEASING INFORMATION </p>     
                         </a>
                     </div>
-            <p class="mobile_menu_item" tabindex="5" onkeypress="javascript:if(event.keyCode == 13) show_mobile_sub_menu('careers')" onclick="javascript:show_mobile_sub_menu('careers')">CAREERS</p>
-            <div class="mobile_sub_menu_div" id="mobile-careers">
-                
-                    
+                    <p class="mobile_menu_item" tabindex="5" onkeypress="javascript:if(event.keyCode == 13) show_mobile_sub_menu('careers')" onclick="javascript:show_mobile_sub_menu('careers')">CAREERS</p>
+                    <div class="mobile_sub_menu_div" id="mobile-careers">
                         <a href="/jobs" target="_self">
                             <p class="mobile_sub_menu">OPPORTUNITIES </p>     
                         </a>   
-                           
-                    
-            </div>
-        </div>
+                    </div>
+                </div>
                 <div class="menu_button" tabindex="6" onkeypress="javascript:if(event.keyCode == 13) toggle_mobile_menu()" onclick="javascript:toggle_mobile_menu()">
         <img alt="menu" class="mobile_menu_arrow" src="http://cdn.mallmaverick.com/system/site_images/photos/000/002/947/original/backtotop.png?1403283430">
         <p class="mobile_menu_label">MENU</p>        
