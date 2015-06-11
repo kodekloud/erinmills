@@ -64,22 +64,12 @@
                         <a href="/trend-report" target="_self">
                             <p class="mobile_sub_menu">TREND REPORT </p>     
                         </a>
-                        <a href="/pages/erinmills-pr-releases" target="_self">
-                            <p class="mobile_sub_menu">PRESS RELEASES </p>     
-                        </a>   
-                           
-                
-                    
                         <a href="/pages/erinmills-video-gallery" target="_self">
                             <p class="mobile_sub_menu">VIDEO GALLERY </p>     
                         </a>   
-                           
-                    
-            </div>
-            <p class="mobile_menu_item" tabindex="3" onkeypress="javascript:if(event.keyCode == 13) show_mobile_sub_menu('guest_services')" onclick="javascript:show_mobile_sub_menu('guest_services')">GUEST SERVICES</p>
-            <div class="mobile_sub_menu_div" id="mobile-guest_services">
-                
-                    
+                    </div>
+                    <p class="mobile_menu_item" tabindex="3" onkeypress="javascript:if(event.keyCode == 13) show_mobile_sub_menu('guest_services')" onclick="javascript:show_mobile_sub_menu('guest_services')">GUEST SERVICES</p>
+                    <div class="mobile_sub_menu_div" id="mobile-guest_services">
                         <a href="/pages/erinmills-accessibility" target="_self">
                             <p class="mobile_sub_menu">ACCESSIBILITY </p>     
                         </a>   
@@ -117,21 +107,16 @@
                         <a href="/pages/erinmills-being-green-environmental-initiatives" target="_self">
                             <p class="mobile_sub_menu">GREEN INITIATIVES </p>     
                         </a>   
-                           
-                
-                    
+                        <a href="/pages/erinmills-pr-releases" target="_self">
+                            <p class="mobile_sub_menu">PRESS RELEASES </p>     
+                        </a>  
                         <a href="/pages/erinmills-community-partners" target="_self">
                             <p class="mobile_sub_menu">COMMUNITY PARTNERS </p>     
-                        </a>   
-                           
-                
-                    
+                        </a>
                         <a href="/pages/erinmills-leasing-information" target="_self">
                             <p class="mobile_sub_menu">LEASING INFORMATION </p>     
-                        </a>   
-                           
-                    
-            </div>
+                        </a>
+                    </div>
             <p class="mobile_menu_item" tabindex="5" onkeypress="javascript:if(event.keyCode == 13) show_mobile_sub_menu('careers')" onclick="javascript:show_mobile_sub_menu('careers')">CAREERS</p>
             <div class="mobile_sub_menu_div" id="mobile-careers">
                 
