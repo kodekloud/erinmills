@@ -55,18 +55,15 @@
                         <a href="/events" target="_self">
                             <p class="mobile_sub_menu">MALL EVENTS</p>     
                         </a>
+                        <a href="/promotions" target="_self">
+                            <p class="mobile_sub_menu">STORE PROMOTIONS </p>     
+                        </a>   
                         <a href="/redevelopment" target="_self">
                             <p class="mobile_sub_menu">REDEVELOPMENT </p>     
-                        </a>   
-                           
-                
-                    
+                        </a>
                         <a href="/trend-report" target="_self">
                             <p class="mobile_sub_menu">TREND REPORT </p>     
-                        </a>   
-                           
-                
-                    
+                        </a>
                         <a href="/pages/erinmills-pr-releases" target="_self">
                             <p class="mobile_sub_menu">PRESS RELEASES </p>     
                         </a>   
