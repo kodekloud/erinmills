@@ -204,7 +204,7 @@
                                     <td class="hours_day">
                                         Monday to Friday
                                     </td>
-                                    <td id="monday_hours_container">
+                                    <td id="monday_hours_container" class="text-right">
                                         <script id="monday_hours_template" type="x-tmpl-mustache/text">
                                             {% raw %}{{h}}{% endraw %}
                                         </script>
@@ -214,7 +214,7 @@
                                     <td class="hours_day">
                                         Saturday
                                     </td>
-                                    <td id="saturday_hours_container">
+                                    <td id="saturday_hours_container" class="text-right">
                                         <script id="saturday_hours_template" type="x-tmpl-mustache/text">
                                             {% raw %}{{h}}{% endraw %}
                                         </script>
@@ -224,7 +224,7 @@
                                     <td class="hours_day">
                                         Sunday
                                     </td>
-                                    <td id="sunday_hours_container">
+                                    <td id="sunday_hours_container" class="text-right">
                                         <script id="sunday_hours_template" type="x-tmpl-mustache/text">
                                             {% raw %}{{h}}{% endraw %}
                                         </script>
