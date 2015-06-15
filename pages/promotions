@@ -10,7 +10,7 @@
     <h4 class="page_heading2">Promotions</h4>
     <br /><br /><br />
     <div class="page_content" id="promo_list_container">
-        <div id="no_event_container">No Promotions</div>
+        <div id="no_event_container">No Promotions at this time. Please check back later.</div>
         <script id="promo_list_template" type="x-tmpl-mustache/text">
             <div class="promo_box" >
                 <img class="logo_circle" src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/circle.png" alt="circle">
