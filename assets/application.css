@@ -795,11 +795,11 @@ select#cats:focus {
     margin-top:15px;
 }
 .promo_page_box_store_name {
-  font-family: verdana;
-  color: black;
-  font-size: 12pt;
-  padding-top: 3px;
-    font-weight: bold;
+    font-family: verdana;
+    color: black;
+    font-size: 12pt;
+    padding-top: 3px;
+font-weight: bold;
 }
 
 .promo_page_box_name{
