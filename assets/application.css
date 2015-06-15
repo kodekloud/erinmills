@@ -882,7 +882,7 @@ select#cats:focus {
         background-position-x: 0px;
     }
     #promo_list_container{
-        min-height: 400px;
+        min-height: 200px;
     }
     .hidden-phone{
         display:none;
