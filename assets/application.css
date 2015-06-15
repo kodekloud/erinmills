@@ -4,7 +4,7 @@
 }
 
 .big_content_container{
-    min-height: 700px;
+    /*min-height: 700px;*/
 }
 .visible-phone{
     display:none;
