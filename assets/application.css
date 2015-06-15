@@ -776,7 +776,7 @@ select#cats:focus {
 .job_container{
     border: 1px solid #DFDFDF;
     display: inline-table;
-    height: 188px;
+    height: 200px;
     width: 49%;
     margin-bottom: 19px;
     padding: 15px 20px;
