@@ -799,6 +799,7 @@ select#cats:focus {
   color: black;
   font-size: 12pt;
   padding-top: 3px;
+    font-weight: bold;
 }
 
 .promo_page_box_name{
