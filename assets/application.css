@@ -881,6 +881,9 @@ select#cats:focus {
     .page_header{
         background-position-x: 0px;
     }
+    #promo_list_container{
+        min-height: 400px;
+    }
     .hidden-phone{
         display:none;
     }
