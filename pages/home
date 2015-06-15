@@ -139,7 +139,7 @@
         <div class="directory_link"><a href="/stores">Map &amp; Store Directory</a></div>
     </div>
     <div class="feature_box">
-        <h4 class="feature_box_heading hidden-phone">FEATURED</h4>
+        <h4 class="feature_box_heading">FEATURED</h4>
         <div class="feature_container" id="feature_items">
             <script id="feature_template" type="x-tmpl-mustache/text">
                 <div class="feature_item ">
