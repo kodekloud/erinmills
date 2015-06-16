@@ -56,9 +56,12 @@
        var name =  $('#fieldName').val();
        var email =  $('#fieldEmail').val();
        var postal =  $('#fieldgdrx').val();
-       var error = false;
+       var error = "";
        if (name == "" || email == "" || postal == ""){
-           error = true
+           error = "Please fill all the required fields."
+       }
+       else if ($('#agree_newsletter').prop('checked', false)){
+           error = "Please agree to terms."
        }
     });
     
