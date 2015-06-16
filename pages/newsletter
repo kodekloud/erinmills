@@ -65,7 +65,7 @@
                error = "Please fill all the required fields."
            }
            else if ($('#agree_newsletter').is(':checked') == false){
-               error = "Please agree to terms."
+               error = "Please agree to terms from Erin Mills Town Centre."
            }
            
            if(error.length > 0){
