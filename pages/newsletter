@@ -13,10 +13,10 @@
     <h4 class="page_heading2">Newsletter Sign Up</h4>
     <br />
     <h4>Sign up below to receive our e-newsletter and you will get advance notice on promotions, contests and events happening at Erin Mills Town Centre.</h4>
-    <form  accept-charset="UTF-8" action="http://mobilefringe.createsend.com/t/d/s/tlidkt/" onsubmit="return validateNewsletterForm()" id="newsletter_form" method="post">
+    <form novalidate accept-charset="UTF-8" action="http://mobilefringe.createsend.com/t/d/s/tlidkt/" onsubmit="return validateNewsletterForm()" id="newsletter_form" method="post">
         <div class="row">
             <div class="col-md-6">
-                <lnovalidateabel for="fieldName">Name *</label>  
+                <label for="fieldName">Name *</label>  
                 <input class="form-control" id="fieldName" name="cm-name" type="text" required />
             </div>
             <div class="col-md-6">
