@@ -59,9 +59,11 @@
        var error = "";
        if (name == "" || email == "" || postal == ""){
            error = "Please fill all the required fields."
+           e.preventDefault();
        }
        else if ($('#agree_newsletter').prop('checked', false)){
            error = "Please agree to terms."
+           e.preventDefault();
        }
     });
     
