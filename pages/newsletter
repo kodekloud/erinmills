@@ -56,6 +56,8 @@
        var name =  $('#fieldName').val();
        var email =  $('#fieldEmail').val();
        var postal =  $('#fieldgdrx').val();
+       var error = false;
+       if (name == "" || email == "" || postal == "")
     });
     
     $(document).ready(function() {
