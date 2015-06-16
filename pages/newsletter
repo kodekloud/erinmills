@@ -13,7 +13,7 @@
     <h4 class="page_heading2">Newsletter Sign Up</h4>
     <br />
     <h4>Sign up below to receive our e-newsletter and you will get advance notice on promotions, contests and events happening at Erin Mills Town Centre.</h4>
-    <form accept-charset="UTF-8" action="http://mobilefringe.createsend.com/t/d/s/tlidkt/" onsubmit="return validateNewsletterForm()" id="newsletter_form" method="post">
+    <form accept-charset="UTF-8" action="http://mobilefringe.createsend.com/t/d/s/tlidkt/"  id="newsletter_form" method="post">
         <div class="row">
             <div class="col-md-6">
                 <label for="fieldName">Name *</label>  
@@ -52,7 +52,7 @@
    </form>
 </div>
 <script>
-    $('#submit_form').click(function(e){
+    $('#newsletter_form').submit(function(e){
        var name =  $('#fieldName').val();
        var email =  $('#fieldEmail').val();
        var postal =  $('#fieldgdrx').val();
