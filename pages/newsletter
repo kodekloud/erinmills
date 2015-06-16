@@ -52,7 +52,7 @@
    </form>
 </div>
 <script>
-    $('#submit_form').click(function(){
+    $('#submit_form').click(function(e){
        var name =  $('#fieldName').val();
        var email =  $('#fieldEmail').val();
        var postal =  $('#fieldgdrx').val();
