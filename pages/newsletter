@@ -47,7 +47,7 @@
             I have read the <a style="text-decoration: underline;" href="/pages/erinmills-privacy-policy">privacy policy</a> and agree to receive newsletters from Erin Mills Town Centre via electronic messaging.
 
         <br />  <br />       
-        <input formnovalidate class="btn btn-primary" name="commit" type="submit" value="SUBMIT" style="width:325px; height: 45px;" />            
+        <input  class="btn btn-primary" name="commit" type="submit" value="SUBMIT" style="width:325px; height: 45px;" />            
         </span>
    </form>
 </div>
