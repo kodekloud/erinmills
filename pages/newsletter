@@ -52,7 +52,12 @@
    </form>
 </div>
 <script>
-    $()
+    $('#submit_form').click(function(){
+       var name =  $('#fieldName').val();
+       var email =  $('#fieldEmail').val();
+       var postal =  $('#fieldgdrx').val();
+    });
+    
     $(document).ready(function() {
         init();
         var hours = getPropertyHours();
