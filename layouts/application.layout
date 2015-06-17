@@ -131,7 +131,7 @@
                     </div>
                 </div>
             </div>
-            <div class="site_content_container mid_section">
+            <div class="site_content_container mid_section" id="main">
                 <div class="side_nav hidden-phone">
                     <div class="menu_group" id="accordion">
                         <div class="panel menu_panel">
