@@ -433,9 +433,9 @@
                             <input type="submit" value="Subscribe" class="newsletter_btn">
                         </form>
                         <div class="social_div">
-                            <a target="_blank" href="http://www.facebook.com/erinmillstowncentre"><span class="social_icons" id="mobile_social_fb"></span></a>
-                            <a target="_blank" href="http://twitter.com/erinmillstown"><span class="social_icons" id="mobile_social_twitter"></span></a>
-                            <a target="_blank" href="https://www.youtube.com/channel/UCL2jEULzhWtGxl9czW4ia4w"><span class="social_icons"  id="mobile_social_youtube"></span></a>
+                            <a target="_blank" href="http://www.facebook.com/erinmillstowncentre"><span class="social_icons" id="mobile_social_fb">f</span></a>
+                            <a target="_blank" href="http://twitter.com/erinmillstown"><span class="social_icons" id="mobile_social_twitter">t</span></a>
+                            <a target="_blank" href="https://www.youtube.com/channel/UCL2jEULzhWtGxl9czW4ia4w"><span class="social_icons"  id="mobile_social_youtube">y</span></a>
                         </div>
                     </div>
                 </div>
