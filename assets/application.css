@@ -18,6 +18,10 @@ h2{
 #lbBottom{
     display:none;
 }
+.accessible{
+    display:none;
+}
+
 .big_content_container{
     /*min-height: 700px;*/
 }
