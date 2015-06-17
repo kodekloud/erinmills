@@ -38,7 +38,7 @@
                     <p class="mobile_menu_item" tabindex="1" onkeypress="javascript:if(event.keyCode == 13) show_mobile_sub_menu('shopping')" onclick="javascript:show_mobile_sub_menu('shopping')">SHOPPING</p>
                     <div class="mobile_sub_menu_div" id="mobile-shopping">
                         <a href="/hours" target="_self">
-                            <p class="mobile_sub_menu">HOURS </p>     
+                            <span class="mobile_sub_menu">HOURS </span>     
                         </a>   
                         <a href="/stores" target="_self">
                             <p class="mobile_sub_menu">STORES </p>     
