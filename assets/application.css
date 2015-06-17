@@ -6,7 +6,10 @@
 h2{
     font-size:25px;
 }
-
+#lbCenter, #lbBottomContainer {
+  top: 50% !important;
+  transform: translateY(-50%);
+}
 .big_content_container{
     /*min-height: 700px;*/
 }
