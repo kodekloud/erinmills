@@ -12,7 +12,7 @@ h2{
 }
 
 #lbBottom{
-    
+    display:none;
 }
 .big_content_container{
     /*min-height: 700px;*/
