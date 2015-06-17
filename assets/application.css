@@ -987,7 +987,7 @@ select#cats:focus {
       line-height: 44px;
       margin: 0;
       text-align: center;
-      display: none;
+      display: block;
     }
     .promo_box{
         width:100%;
