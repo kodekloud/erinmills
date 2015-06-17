@@ -104,7 +104,7 @@
                     <p class="mobile_menu_item" tabindex="5" onkeypress="javascript:if(event.keyCode == 13) show_mobile_sub_menu('careers')" onclick="javascript:show_mobile_sub_menu('careers')">CAREERS</p>
                     <div class="mobile_sub_menu_div" id="mobile-careers">
                         <a href="/jobs" target="_self">
-                            <p class="mobile_sub_menu">OPPORTUNITIES </p>     
+                            <span class="mobile_sub_menu">OPPORTUNITIES </span>     
                         </a>   
                     </div>
                 </div>
