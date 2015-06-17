@@ -7,8 +7,12 @@ h2{
     font-size:25px;
 }
 #lbCenter {
-  top: 50% !important;
-  transform: translateY(-50%);
+    top: 50% !important;
+    transform: translateY(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
 }
 
 #lbBottom{
