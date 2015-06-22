@@ -82,7 +82,7 @@ function convert_hour(d){
     } else {
         i = "am"
     }
-    if (m < 0){
+    if (m <= 0){
         return h+i;
     }
     else{
