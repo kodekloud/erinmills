@@ -85,7 +85,9 @@ function convert_hour(d){
     if (m > 0){
         return h+i;
     }
-    return h+":"+m+i;
+    else{
+        return h+":"+m+i;
+    }
 }
 
 
