@@ -61,6 +61,7 @@ function renderSideEvents(container, template, collection, type){
                 val.alt_promo_image_url = getImageURL(val.promo_image_url);
             }
             var rendered = Mustache.render(template_html,val);
+            console.log(rendered)
             item_rendered.push(rendered);
         });
     }
