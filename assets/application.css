@@ -863,7 +863,8 @@ select#cats:focus {
 
 .btn-prime:hover{
     text-decoration:none;
-    color: #fff;
+    background: #fff;
+    color:#b4b4b4;
 }
 
 /* Media Queries*/
