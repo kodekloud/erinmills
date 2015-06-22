@@ -71,8 +71,8 @@ function renderSideEvents(container, template, collection, type){
 
 function convert_hour(d){
     var h = (d.getUTCHours());
-    var m = addZero(d.getUTCMinutes()).replace(/\:00$/,'');;
-    var s = addZero(d.getUTCSeconds()).replace(/\:00$/,'');;
+    var m = addZero(d.getUTCMinutes());
+    var s = addZero(d.getUTCSeconds());
     if (h >= 12) {
         if ( h != 12) {
             h = h - 12;    
