@@ -123,7 +123,7 @@
                             <input title="email" type="text" name="email" placeholder="Join our newsletter!" class="newsletter_input">
                             <input type="submit" value="Subscribe" class="newsletter_btn">
                         </form>
-                        <div class="social_div">
+                        <div class="">
                             <a target="_blank" href="http://www.facebook.com/erinmillstowncentre"><span class="social_icons" id="social_fb">F</span></a>
                             <a target="_blank" href="http://twitter.com/erinmillstown"><span class="social_icons" id="social_twitter">T</span></a>
                             <a target="_blank" href="https://www.youtube.com/channel/UCL2jEULzhWtGxl9czW4ia4w"><span class="social_icons"  id="social_youtube">Y</span></a>
