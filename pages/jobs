@@ -32,14 +32,14 @@
         init();
         function renderAll (){
             init_hours();
-            var latest_store_event = getStoreEventsList().reverse()[0];
+            var latest_store_event = getPromotionsList().reverse()[0];
             var latest_mall_event = getPropertyEventsList().reverse()[0];
             if (latest_mall_event){
-                renderSideEvents('#latest_mall_event_container', '#latest_mall_event_template', latest_mall_event);
+                renderSideEvents('#latest_mall_event_container', '#latest_mall_event_template', latest_mall_event, 'event');
             }
             if (latest_store_event){
-                renderSideEvents('#latest_store_event_container', '#latest_store_event_template', latest_store_event);
-            }        
+                renderSideEvents('#latest_store_event_container', '#latest_store_event_template', latest_store_event, 'promo');
+            }    
             
             var job_list = getJobsList().sort()
             renderJobsListTemplate('#job_list_template','#job_list_container','#jobs_not_empty_section','#jobs_empty_section',job_list);
