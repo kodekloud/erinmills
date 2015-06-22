@@ -921,7 +921,7 @@ select#cats:focus {
         margin-top:-50px;
     }
     .content_container{
-        margin-left: 0px;
+        margin-left: 0;
         padding:10px;
     }
     .mobile_footer .content_container{
