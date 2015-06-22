@@ -847,6 +847,8 @@ select#cats:focus {
   top: 0;
   width: 100%;
   padding: 10px;
+  position:absolute;
+  z-index:9999;
 }
 .dropdown {
   position: relative;
