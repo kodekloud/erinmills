@@ -199,7 +199,7 @@
                     </div>
                     <div class="layout_side">
                         <div class="layout_hours">
-                            <h4 class="home_hours_heading">HOURS</h4>
+                            <h4 class="home_hours_heading">Hours</h4>
                             <table role="presentation">
                                 <tr>
                                     <td class="hours_day">
