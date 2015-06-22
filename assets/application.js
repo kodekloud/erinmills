@@ -40,8 +40,9 @@ function renderSideEvents(container, template, collection, type){
     item_list.push(collection);
     if (type=="event"){
         $.each( item_list , function( key, val ) {
+            console.log(val)
             if ((val.event_image_url).indexOf('missing.png') > -1){
-                val.alt_promo_image_url = "http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/172a94a0e1dd6a2eeec91e2cea4e8b92/logo.png"
+                val.alt_promo_image_url = "http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/172a94a0e1dd6a2eeec91e2cea4e8b92/logo.png";
             }
             else{
                 val.alt_promo_image_url = getImageURL(val.event_image_url);
@@ -53,7 +54,7 @@ function renderSideEvents(container, template, collection, type){
     else if(type=="promo"){
         $.each( item_list , function( key, val ) {
             if ((val.promo_image_url).indexOf('missing.png') > -1){
-                val.alt_promo_image_url = "http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/172a94a0e1dd6a2eeec91e2cea4e8b92/logo.png"
+                val.alt_promo_image_url = "http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/172a94a0e1dd6a2eeec91e2cea4e8b92/logo.png";
             }
             else{
                 val.alt_promo_image_url = getImageURL(val.promo_image_url);
