@@ -119,15 +119,15 @@
                 <a class="logo_a" href="/"><img alt="logo" class="site_logo" src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/172a94a0e1dd6a2eeec91e2cea4e8b92/logo.png"></a>
                 <div class="content_container middle_align hidden-phone">
                     <div class="newsletter_div">
+                        <form action="/newsletter" method="get">
+                            <input title="email" type="text" name="email" placeholder="Join our newsletter!" class="newsletter_input">
+                            <input type="submit" value="Subscribe" class="newsletter_btn">
+                        </form>
                         <div class="social_div">
                             <a target="_blank" href="http://www.facebook.com/erinmillstowncentre"><span class="social_icons" id="social_fb">F</span></a>
                             <a target="_blank" href="http://twitter.com/erinmillstown"><span class="social_icons" id="social_twitter">T</span></a>
                             <a target="_blank" href="https://www.youtube.com/channel/UCL2jEULzhWtGxl9czW4ia4w"><span class="social_icons"  id="social_youtube">Y</span></a>
                         </div>
-                        <form action="/newsletter" method="get">
-                            <input title="email" type="text" name="email" placeholder="Join our newsletter!" class="newsletter_input">
-                            <input type="submit" value="Subscribe" class="newsletter_btn">
-                        </form>
                     </div>
                 </div>
             </div>
