@@ -81,7 +81,7 @@
 <div class="content_container">
     <div class="right_nav hidden-phone">
         <div class="home_hours">
-            <h4 class="home_hours_heading">HOURS</h4>
+            <h4 class="home_hours_heading">Hours</h4>
             <table role="presentation">
                 <tr>
                     <td class="hours_day">
