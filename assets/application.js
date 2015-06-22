@@ -38,7 +38,7 @@ function renderSideEvents(container, template, collection, type){
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future uses
     item_list.push(collection);
-    if (typ=="event"){
+    if (type=="event"){
         $.each( item_list , function( key, val ) {
             if ((val.event_image_url).indexOf('missing.png') > -1){
                 val.alt_promo_image_url = "http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/172a94a0e1dd6a2eeec91e2cea4e8b92/logo.png"
@@ -49,7 +49,19 @@ function renderSideEvents(container, template, collection, type){
             var rendered = Mustache.render(template_html,val);
             item_rendered.push(rendered);
         });
-    }    
+    }
+    else if(type=="promo"){
+        $.each( item_list , function( key, val ) {
+            if ((val.promo_image_url).indexOf('missing.png') > -1){
+                val.alt_promo_image_url = "http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/172a94a0e1dd6a2eeec91e2cea4e8b92/logo.png"
+            }
+            else{
+                val.alt_promo_image_url = getImageURL(val.promo_image_url);
+            }
+            var rendered = Mustache.render(template_html,val);
+            item_rendered.push(rendered);
+        });
+    }
     $(container).html(item_rendered.join(''));
 }
 
