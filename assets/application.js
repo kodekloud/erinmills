@@ -24,7 +24,6 @@ function renderLayoutHours(container, template, collection){
             val.open_time = convert_hour(open_time);
             val.close_time = convert_hour(close_time);    
             val.h = val.open_time+ " - " + val.close_time;
-            console.log(val.h)
             var rendered = Mustache.render(template_html,val);
             item_rendered.push(rendered);
         });
