@@ -25,8 +25,6 @@ function renderLayoutHours(container, template, collection){
             val.close_time = convert_hour(close_time);    
             val.h = val.open_time+ " - " + val.close_time;
             console.log(val.h)
-            val.h = val.h.replace(/\:00$/,'');
-            console.log(val.h)
             var rendered = Mustache.render(template_html,val);
             item_rendered.push(rendered);
         });
@@ -73,8 +71,8 @@ function renderSideEvents(container, template, collection, type){
 
 function convert_hour(d){
     var h = (d.getUTCHours());
-    var m = addZero(d.getUTCMinutes());
-    var s = addZero(d.getUTCSeconds());
+    var m = addZero(d.getUTCMinutes()).replace(/\:00$/,'');;
+    var s = addZero(d.getUTCSeconds()).replace(/\:00$/,'');;
     if (h >= 12) {
         if ( h != 12) {
             h = h - 12;    
