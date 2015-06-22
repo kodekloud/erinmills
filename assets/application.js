@@ -83,7 +83,7 @@ function convert_hour(d){
         i = "am"
     }
     console.log(m)
-    if (m > 0){
+    if (m < 0){
         return h+i;
     }
     else{
