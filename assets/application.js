@@ -82,6 +82,9 @@ function convert_hour(d){
     } else {
         i = "am"
     }
+    if (m > 0){
+        return h+i;
+    }
     return h+":"+m+i;
 }
 
