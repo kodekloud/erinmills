@@ -842,9 +842,8 @@ select#cats:focus {
     margin-top: 21px;
 }
 .controls {
-  background-color: #4d413e;
+  background-color:rgba(77,65,62,0.7);
   left: 0;
-  opacity: 0.7;
   top: 0;
   width: 100%;
   padding: 10px;
