@@ -199,7 +199,7 @@
                     </div>
                     <div class="layout_side">
                         <div class="layout_hours">
-                            <h4 class="home_hours_heading">Hours</h4>
+                            <h4 class="home_hours_heading">HOURS</h4>
                             <table role="presentation">
                                 <tr>
                                     <td class="hours_day">
@@ -244,7 +244,7 @@
                         <div id="latest_store_event_container">
                             <script id="latest_store_event_template" type="x-tmpl-mustache/text">
                                 <div class="layout_event">
-                                    <h4 class="home_hours_heading">Store Events</h4>
+                                    <h4 class="home_hours_heading">STORE EVENTS</h4>
                                     {% raw %}<a href="/promotions/{{slug}}"><img alt="Latest Promotion" src="{{alt_promo_image_url}}" /></a>{% endraw %}
                                 </div>
                             </script>
