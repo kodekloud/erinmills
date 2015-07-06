@@ -63,7 +63,7 @@ h2{
 .site_content_container{
     background: url(http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/home_img.jpg);
     background-size: cover;
-    background-position: 0px -100px;
+    background-position: 0 -100px;
     min-height: 500px;
 }
 .position_relative{
@@ -345,6 +345,7 @@ h2{
     vertical-align: bottom;
     width:150px;
     font-family: verdana;
+    color: #7a7a7a;
 }
 .home_hours_heading{
     font-size: 24px;
