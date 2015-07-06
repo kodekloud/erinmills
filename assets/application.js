@@ -5,6 +5,7 @@ function init(){
     var collapse_events = ["/events", "/promotions", "/redevlopment", "/trend-report", "/pages/erinmills-video-gallery"];
     var collapse_guest_services = ["/pages/erinmills-gift-cards", "/pages/erinmills-accessibility", "/pages/erinmills-guest-services", "/pages/erinmills-security-services"];
     var collapse_centre_info = ["/pages/erinmills-contact-us", "/pages/erinmills-being-green-environmental-initiatives","/pages/erinmills-pr-releases","/pages/erinmills-leasing-information","/pages/erinmills-community-partners"];
+    var path = window.location.pathname
     
     
 }
