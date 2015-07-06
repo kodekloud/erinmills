@@ -4,7 +4,7 @@ function init(){
     var collapse_shopping = ["/hours", "/map", "/stores", "/pages/erinmills-location"];
     var collapse_events = ["/events", "/promotions", "/redevlopment", "/trend-report", "/pages/erinmills-video-gallery"];
     var collapse_guest_services = ["/pages/erinmills-gift-cards", "/pages/erinmills-accessibility", "/pages/erinmills-guest-services", "/pages/erinmills-security-services"];
-    var collapse_centre_info = [];
+    var collapse_centre_info = ["/pages/erinmills"];
     
     
 }
