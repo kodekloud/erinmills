@@ -156,6 +156,7 @@
 <script>
     
     $(document).ready(function() {
+        $('#collapse_shopping').collapse('toggle')
         init();
         function renderPageData (){
             var hours = getPropertyHours();
