@@ -7,17 +7,17 @@ function init(){
     var collapse_centre_info = ["/pages/erinmills-contact-us", "/pages/erinmills-being-green-environmental-initiatives","/pages/erinmills-pr-releases","/pages/erinmills-leasing-information","/pages/erinmills-community-partners"];
     var path = window.location.pathname
     
-    if ($.inArray(path, collapse_shopping) > 0){
+    if ($.inArray(path, collapse_shopping) >= 0){
         $('#collapse_shopping').collapse('toggle')
     }
     
-    if ($.inArray(path, collapse_events) > 0){
+    if ($.inArray(path, collapse_events) >= 0){
         $('#collapse_events').collapse('toggle')
     }
-    if ($.inArray(path, collapse_guest_services) > 0){
+    if ($.inArray(path, collapse_guest_services) >= 0){
         $('#collapse_guest_services').collapse('toggle')
     }
-    if ($.inArray(path, collapse_centre_info) > 0){
+    if ($.inArray(path, collapse_centre_info) >= 0){
         $('#collapse_centre_info').collapse('toggle')
     }
     
