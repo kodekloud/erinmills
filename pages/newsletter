@@ -97,6 +97,6 @@
             }
             return vars;
         }
-        loadMallData(renderAll);  
+        loadMallDataCached(renderAll);  
     })
     </script>
