@@ -267,7 +267,7 @@
             return month;
         }
 
-        loadMallData(renderAll);  
+        loadMallDataCached(renderAll);  
 
     
   
