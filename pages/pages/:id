@@ -61,7 +61,7 @@
                 }
             }); 
         }
-        loadMallData(renderAll); 
+        loadMallDataCached(renderAll); 
 		
     });
 </script>
