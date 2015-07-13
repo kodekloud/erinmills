@@ -328,7 +328,7 @@
                 
             });
         };
-        loadMallData(renderAll);  
+        loadMallDataCached(renderAll);  
     })
     function mobile_show_cats(category){
         var className = '.' + category;
