@@ -21,7 +21,7 @@
             $(".modal-backdrop").remove();
         }
         
-        loadMallData(renderAll); 
+        loadMallDataCached(renderAll); 
 		
     });
 </script>
