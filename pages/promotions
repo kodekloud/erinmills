@@ -163,6 +163,6 @@
             }
             return month;
         }
-        loadMallData(renderAll);  
+        loadMallDataCached(renderAll);  
     })
 </script>
