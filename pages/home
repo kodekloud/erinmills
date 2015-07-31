@@ -159,6 +159,7 @@
         $('#collapse_shopping').collapse('toggle')
         init();
         function renderPageData (){
+            init_hours();
             var hours = getPropertyHours();
             var latest_store_event = getPromotionsList().reverse()[0];
             var latest_mall_event = getPropertyEventsList().reverse()[0];
