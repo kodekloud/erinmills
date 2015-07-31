@@ -1,7 +1,5 @@
 <style>
-    .layout_hours, .layout_event{
-        display:none;
-    }
+
     
     
     /*************** MOBILE CSS *****************/
