@@ -80,48 +80,48 @@
 <img class="phone-banner visible-phone" src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/home_img.jpg" alt="phone banner" />
 <div class="content_container">
     <div class="right_nav hidden-phone">
-        <div class="home_hours">
-            <h4 class="home_hours_heading">Hours</h4>
-            <table role="presentation">
-                <tr>
-                    <td class="hours_day">
-                        Monday to Friday
-                    </td>
-                    <td id="monday_home_container" class="text-right">
-                        <script id="monday_home_template" type="x-tmpl-mustache/text">
-                            {{h}}
-                        </script>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="hours_day">
-                        Saturday
-                    </td>
-                    <td id="saturday_home_container" class="text-right">
-                        <script id="saturday_home_template" type="x-tmpl-mustache/text">
-                            {{h}}
-                        </script>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="hours_day">
-                        Sunday
-                    </td>
-                    <td id="sunday_home_container" class="text-right">
-                        <script id="sunday_home_template" type="x-tmpl-mustache/text">
-                            {{h}}
-                        </script>
-                    </td>
-                </tr>
-            </table>
-        </div>
+        <!--<div class="home_hours">-->
+        <!--    <h4 class="home_hours_heading">Hours</h4>-->
+        <!--    <table role="presentation">-->
+        <!--        <tr>-->
+        <!--            <td class="hours_day">-->
+        <!--                Monday to Friday-->
+        <!--            </td>-->
+        <!--            <td id="monday_home_container" class="text-right">-->
+        <!--                <script id="monday_home_template" type="x-tmpl-mustache/text">-->
+        <!--                    {{h}}-->
+        <!--                </script>-->
+        <!--            </td>-->
+        <!--        </tr>-->
+        <!--        <tr>-->
+        <!--            <td class="hours_day">-->
+        <!--                Saturday-->
+        <!--            </td>-->
+        <!--            <td id="saturday_home_container" class="text-right">-->
+        <!--                <script id="saturday_home_template" type="x-tmpl-mustache/text">-->
+        <!--                    {{h}}-->
+        <!--                </script>-->
+        <!--            </td>-->
+        <!--        </tr>-->
+        <!--        <tr>-->
+        <!--            <td class="hours_day">-->
+        <!--                Sunday-->
+        <!--            </td>-->
+        <!--            <td id="sunday_home_container" class="text-right">-->
+        <!--                <script id="sunday_home_template" type="x-tmpl-mustache/text">-->
+        <!--                    {{h}}-->
+        <!--                </script>-->
+        <!--            </td>-->
+        <!--        </tr>-->
+        <!--    </table>-->
+        <!--</div>-->
         
-        <div class="home_store_directory">
-            <a href="/map" class="home_map_">
-                <h4 class="home_store_directory_heading">Map & Store Directory</h4>
-                <img src="http://assets.kodekloud.io/sites/554a79236e6f64713f000000/d9909884fde9cde52617add4032a7023/map_icon.png" class="pull-right" alt="map">
-            </a>
-        </div>
+        <!--<div class="home_store_directory">-->
+        <!--    <a href="/map" class="home_map_">-->
+        <!--        <h4 class="home_store_directory_heading">Map & Store Directory</h4>-->
+        <!--        <img src="http://assets.kodekloud.io/sites/554a79236e6f64713f000000/d9909884fde9cde52617add4032a7023/map_icon.png" class="pull-right" alt="map">-->
+        <!--    </a>-->
+        <!--</div>-->
     </div>
     <div class="visible-phone">
         <div class="mobile_hours">
