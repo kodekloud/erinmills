@@ -379,6 +379,7 @@ h2{
     position: relative;
     width: 32%;
     height: 137px;
+    margin-top:10px;
 }
 .feature_item:first-child{
     margin-left:10px;
