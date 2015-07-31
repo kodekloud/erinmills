@@ -436,8 +436,8 @@
                     <div class="newsletter_div">
                         
                         <form action="/newsletter" method="get">
-                            <input title="email" type="text" name="email" placeholder="Join our newsletter!" class="newsletter_input">
-                            <input type="submit" value="Subscribe" class="newsletter_btn">
+                            <input title="email" type="text" name="email" placeholder="join our newsletter!" class="newsletter_input">
+                            <input type="submit" value="subscribe" class="newsletter_btn">
                         </form>
                         <div class="social_div">
                             <a target="_blank" href="http://www.facebook.com/erinmillstowncentre"><span class="social_icons" id="mobile_social_fb">f</span></a>
