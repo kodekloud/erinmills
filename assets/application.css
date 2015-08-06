@@ -406,6 +406,10 @@ h2{
     margin-top:20px;
 }
 
+#feature_promo{
+    color:#f9f9f9;
+}
+
 .feature_item_description{
     position: absolute;
     bottom: 0;
