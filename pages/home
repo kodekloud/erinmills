@@ -2,9 +2,6 @@
      .layout_event{
         display:none;
     }
-    .side_nav{
-        padding-right:0px;
-    }
     
     
     /*************** MOBILE CSS *****************/
