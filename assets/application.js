@@ -72,7 +72,7 @@ function renderSideEvents(container, template, collection, type){
     }
     else if(type=="promo"){
         $.each( item_list , function( key, val ) {
-            if (val.name.length > 60 ) {
+            if (val.name.length > 2 ) {
                        val.name_shortened =  val.name.substring(0,60)+'...';
                     } 
             if (val.promotionable_type == "Store") {
