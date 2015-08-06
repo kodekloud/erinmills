@@ -149,6 +149,12 @@
                     </div>
                 </script>
             </div>
+            <div class="feature_item ">
+                        <img src="{{image_url}}" />
+                        <div class="feature_item_description">
+                            <p><a href="{{url}}">{{name}}<span class="feature_caret fa fa-caret-right"></span></a></p>
+                        </div>
+                    </div>
         </div>
         
     </div>
