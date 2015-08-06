@@ -395,8 +395,8 @@ h2{
 }
 
 #feature_promo img{
-    max-width:50%;
-    max-height:100%;
+    height:15px;
+    width:15px;
 }
 
 .feature_promo_name{
