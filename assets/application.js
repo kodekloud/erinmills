@@ -60,14 +60,6 @@ function renderSideEvents(container, template, collection, type){
     item_list.push(collection);
     if (type=="event"){
         $.each( item_list , function( key, val ) {
-             if (val.promotionable_type == "Store") {
-                var store_details = getStoreDetailsByID(val.promotionable_id);
-                if ((store_details.store_front_url_abs).indexOf('missing.png') > -1) {
-                    val.store_logo = "http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/172a94a0e1dd6a2eeec91e2cea4e8b92/logo.png"
-                } else {
-                    val.store_logo = (store_details.store_front_url_abs);    
-                }
-            } 
             if ((val.event_image_url).indexOf('missing.png') > -1){
                 val.alt_promo_image_url = "http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/172a94a0e1dd6a2eeec91e2cea4e8b92/logo.png";
             }
@@ -80,7 +72,14 @@ function renderSideEvents(container, template, collection, type){
     }
     else if(type=="promo"){
         $.each( item_list , function( key, val ) {
-            
+            if (val.promotionable_type == "Store") {
+                var store_details = getStoreDetailsByID(val.promotionable_id);
+                if ((store_details.store_front_url_abs).indexOf('missing.png') > -1) {
+                    val.store_logo = "http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/172a94a0e1dd6a2eeec91e2cea4e8b92/logo.png"
+                } else {
+                    val.store_logo = (store_details.store_front_url_abs);    
+                }
+            }
             if ((val.promo_image_url).indexOf('missing.png') > -1){
                 val.alt_promo_image_url = "http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/172a94a0e1dd6a2eeec91e2cea4e8b92/logo.png";
             }
