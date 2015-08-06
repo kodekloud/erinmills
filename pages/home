@@ -154,7 +154,7 @@
                 <script id="feature_promo_template" type="x-tmpl-mustache/text">
                     <img src="{{store_logo}}" />
                     <p class="feature_promo_name">
-                        {{name}}
+                        {{name_shortened}}
                         <br />
                         <span style="font-weight:400">{{dates}}</span></p>
                     <div class="feature_item_description">
