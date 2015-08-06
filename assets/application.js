@@ -2,7 +2,7 @@
 function init(){
     $('<div class="modal-backdrop custom_backdrop"><img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/loading.gif" class="" alt=""></div>').appendTo(document.body);
     var collapse_shopping = ["/hours", "/map", "/stores", "/pages/erinmills-location"];
-    var collapse_events = ["/events", "/promotions", "/redevelopment", "/trend-report", "/pages/erinmills-video-gallery"];
+    var collapse_events = ["/events", "/promotions","/promotions/" "/redevelopment", "/trend-report", "/pages/erinmills-video-gallery"];
     var collapse_guest_services = ["/pages/erinmills-gift-cards", "/pages/erinmills-accessibility", "/pages/erinmills-guest-services", "/pages/erinmills-security-services"];
     var collapse_centre_info = ["/pages/erinmills-contact-us", "/pages/erinmills-being-green-environmental-initiatives","/pages/erinmills-pr-releases","/pages/erinmills-leasing-information","/pages/erinmills-community-partners"];
     var path = window.location.pathname
