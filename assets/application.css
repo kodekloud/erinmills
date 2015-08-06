@@ -390,6 +390,11 @@ h2{
     max-height: 100%;
 }
 
+#feature_promo img{
+    max-width:50%;
+    max-height:100%;
+}
+
 .feature_item_description{
     position: absolute;
     bottom: 0;
