@@ -149,7 +149,7 @@
                     </div>
                 </script>
             </div>
-            <div class="feature_item ">
+            <div class="feature_item" id="feature_promo">
                 <img src="http://placehold.it/350x150" />
                 <p>Text </p>
                 <div class="feature_item_description">
