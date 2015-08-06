@@ -87,6 +87,12 @@
                 mh=mh+1
                 renderSideEvents('#latest_store_event_container', '#latest_store_event_template', latest_store_event, 'promo');
             } 
+            if (mh == 1){
+                
+            }
+            else if(mh>1){
+                
+            }
             renderPageData('#reg_hours_container','#reg_hours_template',hours, 'reg_hours')
             renderPageData('#holiday_hours_container','#holiday_hours_template',hours, 'holiday_hours')
             renderPageData('#closed_hours_container','#closed_hours_template',hours, 'closed_hours')
