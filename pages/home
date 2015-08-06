@@ -150,11 +150,13 @@
                 </script>
             </div>
             <div class="feature_item" id="feature_promo">
-                <img src="http://placehold.it/350x150" />
-                <p>Text </p>
-                <div class="feature_item_description">
-                    <p><a href="{{url}}">Promotion<span class="feature_caret fa fa-caret-right"></span></a></p>
-                </div>
+                <script id="feature_template" type="x-tmpl-mustache/text">
+                    <img src="http://placehold.it/350x150" />
+                    <p>Text </p>
+                    <div class="feature_item_description">
+                        <p><a href="{{url}}">Promotion<span class="feature_caret fa fa-caret-right"></span></a></p>
+                    </div>
+                </script>
             </div>
         </div>
         
