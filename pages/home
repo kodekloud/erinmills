@@ -151,6 +151,7 @@
             </div>
             <div class="feature_item ">
                 <img src="http://placehold.it/350x150" />
+                <p>Text </p>
                 <div class="feature_item_description">
                     <p><a href="{{url}}">Promotion<span class="feature_caret fa fa-caret-right"></span></a></p>
                 </div>
