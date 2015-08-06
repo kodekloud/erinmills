@@ -87,15 +87,15 @@ function renderSideEvents(container, template, collection, type){
                 val.alt_promo_image_url = getImageURL(val.promo_image_url);
             }
             start = new Date (val.start_date);
-                    end = new Date (val.end_date);
-                    start.setDate(start.getDate()+1);
-                    end.setDate(end.getDate()+1);
-            
-                    if (start.toDateString() == end.toDateString()) {
-                        val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
-                    } else {
-                        val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();    
-                    }
+            end = new Date (val.end_date);
+            start.setDate(start.getDate()+1);
+            end.setDate(end.getDate()+1);
+    
+            if (start.toDateString() == end.toDateString()) {
+                val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
+            } else {
+                val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();    
+            }
             var rendered = Mustache.render(template_html,val);
             item_rendered.push(rendered);
         });
