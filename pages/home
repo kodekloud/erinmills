@@ -158,7 +158,7 @@
                         <br />
                         <span style="font-weight:400">{{dates}}</span></p>
                     <div class="feature_item_description">
-                        <p><a href="/promotions/{{slug}}">Promotion<span class="feature_caret fa fa-caret-right"></span></a></p>
+                        <p><a href="/promotions/{{slug}}">Read More<span class="feature_caret fa fa-caret-right"></span></a></p>
                     </div>
                 </script>
             </div>
