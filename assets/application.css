@@ -395,7 +395,7 @@ h2{
     max-height:100%;
 }
 
-#feature_promo p{
+.feature_promo_name{
     float:right;
     width:50%;
 }
