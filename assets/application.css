@@ -395,6 +395,11 @@ h2{
     max-height:100%;
 }
 
+#feature_promo p{
+    float:right;
+    width:50%;
+}
+
 .feature_item_description{
     position: absolute;
     bottom: 0;
