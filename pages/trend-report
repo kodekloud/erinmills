@@ -120,7 +120,7 @@
                 $('.mid_section').css('min-height','920px')
             }
             else if(mh>1){
-                $('.mid_section').css('min-height','12300px')
+                $('.mid_section').css('min-height','1200px')
             } 
         
         function renderAll (){
