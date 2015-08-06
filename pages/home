@@ -153,6 +153,7 @@
                 <script id="feature_promo_template" type="x-tmpl-mustache/text">
                     <img src="{{store_logo}}" />
                     <p class="feature_promo_name">{{name}}</p>
+                    <p>{{dates}}</p>
                     <div class="feature_item_description">
                         <p><a href="/promotions/{{slug}}">Promotion<span class="feature_caret fa fa-caret-right"></span></a></p>
                     </div>
