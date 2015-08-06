@@ -549,7 +549,8 @@ h2{
 
 .promo_details_description{
     font-size: 14px;
-    margin: 10px 0px;
+    margin: 10px 0px 40px;
+    width:65%;
 }
 
 .promo_details_dates{
