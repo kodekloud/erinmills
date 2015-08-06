@@ -73,8 +73,11 @@ function renderSideEvents(container, template, collection, type){
     else if(type=="promo"){
         $.each( item_list , function( key, val ) {
             if (val.name.length > 60 ) {
-                       val.name_shortened =  val.name.substring(0,60)+'...';
-                    } 
+               val.name_shortened =  val.name.substring(0,60)+'...';
+            } 
+            else{
+                val.name_shortened =  val.name;
+            }
             if (val.promotionable_type == "Store") {
                 var store_details = getStoreDetailsByID(val.promotionable_id);
                 if ((store_details.store_front_url_abs).indexOf('missing.png') > -1) {
