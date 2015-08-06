@@ -147,8 +147,8 @@
                             <p><a href="{{url}}">{{name}}<span class="feature_caret fa fa-caret-right"></span></a></p>
                         </div>
                     </div>
-                </div>
-            </script>
+                </script>
+            </div>
         </div>
         
     </div>
