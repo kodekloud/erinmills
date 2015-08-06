@@ -393,6 +393,7 @@ h2{
 #feature_promo img{
     max-width:50%;
     max-height:100%;
+    padding-left:10px;
 }
 
 .feature_promo_name{
