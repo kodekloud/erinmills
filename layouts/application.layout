@@ -158,7 +158,7 @@
                             <div id="collapse_events" class="panel-collapse collapse">
                                 <div class="menu_body">
                                     <a href="/events">MALL EVENTS</a>
-                                    <a href="/promotions">STORE PROMOTIONS</a>
+                                    <a href="/promotions">STORE EVENTS</a>
                                     <a href="/redevelopment">REDEVELOPMENT</a>
                                     <a href="/trend-report">TREND REPORT</a>
                                     <a href="/pages/erinmills-video-gallery">VIDEO GALLERY</a>
@@ -319,7 +319,7 @@
                                     </tr>
                                     <tr>
                                         <td class="bottom_nav_list">
-                                            <a href="/promotions" target="_self">Store Promotions</a>
+                                            <a href="/promotions" target="_self">Store Events</a>
                                         </td>
                                     </tr>
                                     <tr>
