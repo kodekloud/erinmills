@@ -522,6 +522,13 @@ h2{
     float: right;
     font-weight: 600;
     padding: 10px 0px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: right;
+    background-color: #e5e5e5;
+    padding-right: 10px;
 }
 
 .promo_read_more:hover{
