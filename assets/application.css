@@ -59,7 +59,7 @@ h2{
 }
 .content_container{
     max-width: 982px;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     margin-left: 222px;
     margin-bottom:20px;
     padding:0 5px;
