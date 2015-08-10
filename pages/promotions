@@ -7,7 +7,7 @@
     <div class="page_heading"></div>
 </div>
 <div class="content_container">
-    <h4 class="page_heading2">Store Evetns</h4>
+    <h4 class="page_heading2">Store Events</h4>
     <br /><br /><br />
     <div class="page_content" id="promo_list_container">
         <div id="no_event_container">No Promotions available at this time. Please check back later.</div>
