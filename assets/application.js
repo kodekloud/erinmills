@@ -115,7 +115,7 @@ function renderBanner(banner_template,home_banner,banners){
     var banner_template_html = $(banner_template).html();
     Mustache.parse(banner_template_html);   // optional, speeds up future uses
     $.each( banners , function( key, val ) {
-        va.image_url="http://erinmills.mallmaverickstaging.com" + val.image_url;
+        val.image_url="http://erinmills.mallmaverickstaging.com" + val.image_url;
         today = new Date;
         start = new Date (val.start_date);
        
