@@ -32,6 +32,12 @@ h2{
 .flex-control-nav{
     bottom:10px !important;
 }
+
+.flexslider{
+    border: 0;
+    margin-bottom: 0;
+
+}
 .accessible{
     display:none;
 }
