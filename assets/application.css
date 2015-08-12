@@ -30,7 +30,7 @@ h2{
     height:50px;
 }
 .flex-control-nav{
-    bottom:10px;
+    bottom:10px !important;
 }
 .accessible{
     display:none;
