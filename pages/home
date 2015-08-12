@@ -77,11 +77,17 @@
  
     }
 </style>
-<div class="flexslider">
-    <ul class="slides">
-        
+<div id="main_flexslider" class="flexslider">
+    <ul class="slides" id="home_banner">
+        <script id="banner_template" type="x-tmpl-mustache/text">
+            <li class="item">
+                <a href="{{url}}" {{css}} onclick="{{noLink}}">
+                    <img src="{{image_url}}"/>
+                </a>
+            </li>
+        </script>
     </ul>
-</div>
+ </div>
 <div class="content_container">
     <div class="right_nav hidden-phone">
         <!--<div class="home_hours">-->
