@@ -191,6 +191,8 @@
             } 
             var featureList = getFeatureList();
             renderFeatureItems('#feature_template', '#feature_items', featureList)
+            var banners = getBanners()
+            renderBanner('#banner_template','#home_banner',banners);
             
             var monday_hours = getRegHoursForDayIndex(1);
             var saturday_hours = getRegHoursForDayIndex(6);
