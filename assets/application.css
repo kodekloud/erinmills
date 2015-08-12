@@ -29,6 +29,9 @@ h2{
 .flex-direction-nav a{
     height:50px;
 }
+.flex-control-nav{
+    bottom:10px;
+}
 .accessible{
     display:none;
 }
