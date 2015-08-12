@@ -26,6 +26,9 @@ h2{
 #feature_promo{
     border:1px solid #e5e5e5;
 }
+.flex-direction-nav a{
+    height:50px;
+}
 .accessible{
     display:none;
 }
