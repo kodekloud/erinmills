@@ -672,6 +672,10 @@ select#cats:focus {
     width:300px;
     font-size:18px;
 }
+.hours_right{
+    font-size:18px;
+}
+
 #storelist_container {
   position: relative;
   z-index: 999999;
