@@ -670,10 +670,10 @@ select#cats:focus {
     padding:10px 0px;
     font-weight: bold;
     width:300px;
-    font-size:18px;
+    font-size:14px;
 }
 .hours_right{
-    font-size:18px;
+    font-size:14px;
 }
 
 #storelist_container {
