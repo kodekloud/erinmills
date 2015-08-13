@@ -670,6 +670,7 @@ select#cats:focus {
     padding:10px 0px;
     font-weight: bold;
     width:300px;
+    font-size:18px;
 }
 #storelist_container {
   position: relative;
