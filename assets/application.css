@@ -487,10 +487,10 @@ h2{
 .promo_box{
     position: relative;
     width: 48%;
-    height: 260px;
+    height: 270px;
     border:1px solid #e5e5e5;
     float: left;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 .promo_box:nth-child(even){
     float:right;
