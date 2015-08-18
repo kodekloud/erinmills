@@ -68,10 +68,11 @@
                     
                         <br />
                         <div class="col-md-12">
-                        <div class="row agree_box">
-                            <input class="margin-5-top" id ="agree_terms" type="checkbox"/>
-                            <span>I agree to the <a href = "/system/site_images/photos/000/011/425/original/_100_prize_draw_rules_rev_(1).pdf?1439822341" target = "_blank" ><u>rules and regulations</u></a></span>
-                            <p class="agree_error">Please agree to the term and conditions before submitting the contest.</p>
+                            <div class="row agree_box">
+                                <input class="margin-5-top" id ="agree_terms" type="checkbox"/>
+                                <span>I agree to the <a href = "/system/site_images/photos/000/011/425/original/_100_prize_draw_rules_rev_(1).pdf?1439822341" target = "_blank" ><u>rules and regulations</u></a></span>
+                                <p class="agree_error">Please agree to the term and conditions before submitting the contest.</p>
+                            </div>
                         </div>
                         <button type="submit" class="btn btn-primary" id="submit_contest">Submit</button>
                     </div>
