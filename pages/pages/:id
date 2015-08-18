@@ -74,7 +74,7 @@
        });
        $("iframe").mouseleave(function () {
             console.log('iframe clicked add');
-           $(this).addClass('scrolloff');
+           $('iframe').addClass('scrolloff');
        });
         
 
