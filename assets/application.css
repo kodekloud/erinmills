@@ -877,8 +877,9 @@ select#cats:focus {
     padding-left:15px;
 }
 
-.layout_hours{
+.footer .layout_hours{
      background: #ffffff;
+padding: 10px;
 }
 #latest_mall_event_container{
     margin-top:15px;
