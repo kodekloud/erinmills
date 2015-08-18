@@ -284,7 +284,7 @@
                        </div>
                    </div>
                     <div class="footer_sitemap">
-                        <div class="site_map_table">
+                        <div class="site_map_table" style="margin-left:0px;">
                             <table role="presentation">
                                 <tbody>
                                     <tr>
