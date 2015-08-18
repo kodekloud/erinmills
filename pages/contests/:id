@@ -48,8 +48,8 @@
                     </div>
                     <p>* Required Fields</p>
                     
-                    <div class="row-fluid">
-                        <div class="span12">
+                    <div class="row">
+                        <div class="col-md-12">
                             <input id="listtlidkt" name="cm-ol-tlidkt" type="checkbox" /> <label for="listtlidkt">Yes, I would like to sign up for the Erin Mills Town Centre E-Newsletter.</label>
                         </div>
                     </div>
