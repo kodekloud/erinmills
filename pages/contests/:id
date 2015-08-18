@@ -1,3 +1,8 @@
+<style>
+    .agree_error,success_subscribe_popup{
+        display:none;
+    }
+</style>
 <div class="position_relative page_header margin_bottom_none">
         <div class="page_heading"></div>
 </div>
