@@ -72,7 +72,7 @@
             console.log('iframe clicked remove');
            $('iframe').removeClass('scrolloff');
        });
-       $("#mm_page_content").mouseleave(function () {
+       $(".hidden-phone p iframe").mouseleave(function () {
             console.log('iframe clicked add');
            $('iframe').addClass('scrolloff');
        });
