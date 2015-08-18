@@ -13,6 +13,9 @@
         init();
         function renderPageData (){
             init_hours();
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            var contestDetails = getContestBySlug(slug);
             var hours = getPropertyHours();
             var latest_store_event = getPromotionsList().reverse()[0];
             var latest_mall_event = getPropertyEventsList().reverse()[0];
