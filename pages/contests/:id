@@ -110,6 +110,25 @@
             } 
             renderContest('#contest_container','#contest_template', contestDetails, 'contestDetails');
             $(".modal-backdrop").remove();
+            $('#erin_mills_contest').submit(function (e) {
+            if ($("#agree_terms").prop("checked") != true){
+                $('.agree_error').fadeIn();
+                $("#agree_terms").focus();
+                return false;
+            }
+            e.preventDefault();
+            $.getJSON(
+                this.action + "?callback=?",
+                $(this).serialize(),
+                function (data) {
+                    if (data.Status === 400) {
+                        alert("Please try again later.");
+                    } else { // 200
+                        $("#success_subscribe_popup").fadeIn();
+                        $('.agree_error').hide();
+                    }
+            });
+        });
         }
         function renderContest(container, template, collection, type){
             var item_list = [];
