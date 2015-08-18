@@ -48,8 +48,8 @@
                 mh=mh+1
                 renderSideEvents('#latest_store_event_container', '#latest_store_event_template', latest_store_event, 'promo');
             } 
-             if(mh>0 && $(window).width() > 767){
-                $('.mid_section').css('min-height','1200px')
+            if(mh>0 && $(window).width() > 767){
+                $('.mid_section').css('min-height','920PX')
             }       
             all_promos = getPromotionsList();
             all_promos = all_promos.reverse();
