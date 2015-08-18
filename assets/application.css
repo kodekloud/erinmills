@@ -880,6 +880,7 @@ select#cats:focus {
 .footer .layout_hours{
      background: #ffffff;
     padding: 10px;
+    margin-top:15px;
 }
 
 .footer .home_store_directory{
