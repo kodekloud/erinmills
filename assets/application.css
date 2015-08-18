@@ -897,6 +897,7 @@ select#cats:focus {
     font-family: verdana;
     font-weight: bold;
     font-size: 9pt;
+    
 }
 
 
@@ -906,7 +907,11 @@ select#cats:focus {
     background:#f0f0f0;
 }
 .footer .home_store_directory_heading{
-     color: #4b4b4b;
+    color: #4b4b4b;    
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 9pt;
+    width: 100px;
 }
 #latest_mall_event_container{
     margin-top:15px;
