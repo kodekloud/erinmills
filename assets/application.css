@@ -880,6 +880,7 @@ select#cats:focus {
 .footer .layout_hours{
      background: #ffffff;
     padding: 10px;
+    padding-top:15px;
     margin-top:15px;
 }
 
