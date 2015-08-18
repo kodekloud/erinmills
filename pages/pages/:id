@@ -29,6 +29,7 @@
     $(document).ready(function() {
         init()
         function renderAll (){
+            console.log('in pages');
             init_hours();
             var hours = getPropertyHours();
             var latest_store_event = getPromotionsList().reverse()[0];
