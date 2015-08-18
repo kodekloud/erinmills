@@ -8,7 +8,7 @@
         <img alt="contest side image" class="full_width" src="{{alt_photo_url}}" />
         <br />
         <hr />
-        <form accept-charset="UTF-8" action="http://mobilefringe.createsend.com/t/d/s/tjxdi/" onsubmit="return validateForm()" enctype="multipart/form-data" id="erin_mills_contest" method="post">
+        <form action="http://mobilefringe.createsend.com/t/d/s/tjxdi/" id="erin_mills_contest" >
             <div class="row-fluid">
                 <div class="span8 col_centered">
                     <input id="fieldjlvji" name="cm-f-jjlidy" style="display:none" value="Contest" />
