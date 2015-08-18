@@ -68,12 +68,11 @@
             }); 
         }
         
-        $('#mm_page_content').on('click', function () {
-            console.log('iframe clicked remove');
+        $('.boxy').on('click', function () {
            $('iframe').removeClass('scrolloff');
        });
-       $(".hidden-phone iframe").mouseleave(function () {
-            console.log('iframe clicked add');
+       $(".boxy").mouseleave(function () {
+        
            $('iframe').addClass('scrolloff');
        });
         
