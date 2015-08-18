@@ -883,7 +883,7 @@ select#cats:focus {
 }
 
 .footer .home_store_directory{
-    padding-left: 15px;
+    padding: 10px;
 }
 #latest_mall_event_container{
     margin-top:15px;
