@@ -4,6 +4,7 @@
 <div class="content_container" id="contest_container">
     <script id="contest_template" type="x-tmpl-mustache/text">
         <h4 class="page_heading2">{{name}}</h4>
+        <img alt="contest side image" class="width_100" src="{{alt_photo_url}}" />
     </script>
 </div>
 <script>
