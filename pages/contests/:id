@@ -17,22 +17,22 @@
                             <label class="contest_label">Name*</label>
                             <input id="fieldName" name="cm-name" type="text" required/>
                         </div>
-                        <div class="span6">
+                        <div class="col-md-6">
                             <label class="contest_label">Email Address*</label>
                             <input id="fieldEmail" name="cm-tjxdi-tjxdi" type="email" required />
                         </div>
                     </div>
-                    <div class="row-fluid">
-                        <div class="span6">
+                    <div class="row">
+                        <div class="col-md-6">
                             <label class="contest_label">Phone Number*</label>
                             <input id="fieldydhrlh" name="cm-f-ydhrlh" type="text" required/>
                         </div>
-                        <div class="span6">
+                        <div class="col-md-6">
                             <label class="contest_label">Postal Code*</label>
                             <input id="fieldydhrlk" name="cm-f-ydhrlk" type="text" required/>
                         </div>
                     </div>
-                    <div class="row-fluid">
+                    <div class="row">
                         <div class="span2">
                             <label class="contest_label">Gender*</label>
                             <select name="cm-f-ydhrlu" id= "gender" required>
