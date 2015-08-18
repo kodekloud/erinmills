@@ -886,6 +886,10 @@ select#cats:focus {
 
 .footer .layout_hours td{
     color: #4b4b4b;
+    font-family: verdana;
+    font-weight: normal;
+    font-size: 9pt;
+    
 }
 
 .footer .home_hours_heading{
