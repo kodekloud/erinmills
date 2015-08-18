@@ -65,15 +65,15 @@
                         <div class="col-md-12">
                             <p><strong>Contest closes on September 30th, 2015.</strong> Winner will be contacted by telephone or email. Only one entry per person. For more details visit Guest Services at Erin Mills Town Centre. </p>
                         </div>
+                    
+                        <br />
+                        <div class="row agree_box">
+                            <input class="margin-5-top" id ="agree_terms" type="checkbox"/>
+                            <span>I agree to the <a href = "/system/site_images/photos/000/011/425/original/_100_prize_draw_rules_rev_(1).pdf?1439822341" target = "_blank" ><u>rules and regulations</u></a></span>
+                            <p class="agree_error">Please agree to the term and conditions before submitting the contest.</p>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="submit_contest">Submit</button>
                     </div>
-                    <br />
-                    <div class="row agree_box">
-                        <input class="margin-5-top" id ="agree_terms" type="checkbox"/>
-                        <span>I agree to the <a href = "/system/site_images/photos/000/011/425/original/_100_prize_draw_rules_rev_(1).pdf?1439822341" target = "_blank" ><u>rules and regulations</u></a></span>
-                        <p class="agree_error">Please agree to the term and conditions before submitting the contest.</p>
-                    </div>
-                    <button type="submit" class="btn btn-primary" id="submit_contest">Submit</button>
-
                     <br />
                     <p id="success_subscribe_popup">Thank you! You have been entered in the contest.</p>
                 </div>
