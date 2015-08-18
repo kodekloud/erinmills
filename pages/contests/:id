@@ -8,6 +8,7 @@
         <img alt="contest side image" class="full_width" src="{{alt_photo_url}}" />
         <br />
         <hr />
+        
     </script>
 </div>
 <script>
