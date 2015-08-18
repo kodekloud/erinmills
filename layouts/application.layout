@@ -325,6 +325,11 @@
                                     </tr>
                                     <tr>
                                         <td class="bottom_nav_list">
+                                            <a href="/events" target="_self">Mall Events</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
                                             <a href="/promotions" target="_self">Store Events</a>
                                         </td>
                                     </tr>
