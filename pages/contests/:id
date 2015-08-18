@@ -28,7 +28,7 @@
             var sunday_hours = getRegHoursForDayIndex(0);
             renderSideEvents('#feature_promo', '#feature_promo_template', latest_store_event, 'promo');
             
-            renderTodaysHours('#todays_hours_template','#todays-hours');
+            
             $(".modal-backdrop").remove();
         }
         
