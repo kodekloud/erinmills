@@ -3,7 +3,7 @@
         display:none;
     }
     .col-md-6{
-        margin-bottom:10px;
+        margin-bottom:20px;
     }
 </style>
 <div class="position_relative page_header margin_bottom_none">
