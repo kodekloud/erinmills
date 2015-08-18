@@ -884,12 +884,17 @@ select#cats:focus {
     margin-top:25px;
 }
 
+.footer .layout_hours td{
+    color: #4b4b4b;
+}
+
 .footer .home_hours_heading{
     color: #4b4b4b;
     font-family: verdana;
     font-weight: bold;
     font-size: 9pt;
 }
+
 
 .footer .home_store_directory{
     padding: 10px;
