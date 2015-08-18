@@ -874,6 +874,10 @@ select#cats:focus {
     background: #f0f0f0;
     height: auto;
 }
+
+.layout_hours{
+     background: #ffffff;
+}
 #latest_mall_event_container{
     margin-top:15px;
 }
