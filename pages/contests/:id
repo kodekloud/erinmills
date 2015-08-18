@@ -2,6 +2,9 @@
     .agree_error,#success_subscribe_popup{
         display:none;
     }
+    .col-md-6{
+        margin-bottom:10px;
+    }
 </style>
 <div class="position_relative page_header margin_bottom_none">
         <div class="page_heading"></div>
