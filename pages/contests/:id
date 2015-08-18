@@ -1,8 +1,8 @@
 <div class="position_relative page_header margin_bottom_none">
         <div class="page_heading"></div>
 </div>
-<div class="content_container" id="hours_div">
-    <h4 class="page_heading2">Hours</h4>
+<div class="content_container" id="contest_container">
+    <h4 class="page_heading2"></h4>
 </div>
 <script>
     
