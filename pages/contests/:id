@@ -1,5 +1,5 @@
 <style>
-    .agree_error,success_subscribe_popup{
+    .agree_error,.success_subscribe_popup{
         display:none;
     }
 </style>
