@@ -872,7 +872,7 @@ select#cats:focus {
 
 .footer .side_nav{
     background: #c8c8c8;
-
+    height: auto;
 }
 #latest_mall_event_container{
     margin-top:15px;
