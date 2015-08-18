@@ -72,7 +72,7 @@
         loadMallDataCached(renderAll); 
 		
     });
-            $('iframe').on('click', function () {
+        $('iframe').on('click', function () {
             console.log('iframe clicked remove');
            $('iframe').removeClass('scrolloff');
        });
