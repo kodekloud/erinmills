@@ -879,7 +879,11 @@ select#cats:focus {
 
 .footer .layout_hours{
      background: #ffffff;
-padding: 10px;
+    padding: 10px;
+}
+
+.footer .home_store_directory{
+    padding-left: 0px;
 }
 #latest_mall_event_container{
     margin-top:15px;
