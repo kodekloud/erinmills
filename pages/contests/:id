@@ -6,6 +6,7 @@
         <h4 class="page_heading2">{{name}}</h4>
         <br />
         <img alt="contest side image" class="full_width" src="{{alt_photo_url}}" />
+        <br />
     </script>
 </div>
 <script>
