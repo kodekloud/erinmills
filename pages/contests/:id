@@ -8,7 +8,68 @@
         <img alt="contest side image" class="full_width" src="{{alt_photo_url}}" />
         <br />
         <hr />
+        <form accept-charset="UTF-8" action="http://mobilefringe.createsend.com/t/d/s/tjxdi/" onsubmit="return validateForm()" enctype="multipart/form-data" id="black_friday_contest" method="post">
+            <div class="row-fluid">
+                <div class="span8 col_centered">
+                    <input id="fieldjlvji" name="cm-f-jjlidy" style="display:none" value="Contest" />
+                    <div class="row-fluid">
+                        <div class="span6">
+                            <label class="contest_label">Name*</label>
+                            <input id="fieldName" name="cm-name" type="text" required/>
+                        </div>
+                        <div class="span6">
+                            <label class="contest_label">Email Address*</label>
+                            <input id="fieldEmail" name="cm-tjxdi-tjxdi" type="email" required />
+                        </div>
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span6">
+                            <label class="contest_label">Phone Number*</label>
+                            <input id="fieldydhrlh" name="cm-f-ydhrlh" type="text" required/>
+                        </div>
+                        <div class="span6">
+                            <label class="contest_label">Postal Code*</label>
+                            <input id="fieldydhrlk" name="cm-f-ydhrlk" type="text" required/>
+                        </div>
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span2">
+                            <label class="contest_label">Gender*</label>
+                            <select name="cm-f-ydhrlu" id= "gender" required>
+                                <option>Female</option>
+                                <option>Male</option>
+                            </select>
+                        </div>
+                        <div class="span2">
+                            <label class="contest_label">Age</label>
+                            <input id="fieldydhro" name="cm-f-ydhro" type="text"/>
+                        </div>
+                      
+                    </div>
+                    <p>* Required Fields</p>
+                    
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <input id="listtlidkt" name="cm-ol-tlidkt" type="checkbox" /> <label for="listtlidkt">Yes, I would like to sign up for the Erin Mills Town Centre E-Newsletter.</label>
+                        </div>
+                    </div>
         
+                    <div class="row-fluid">
+                        <p><strong>Contest closes on September 30th, 2015.</strong> Winner will be contacted by telephone or email. Only one entry per person. For more details visit Guest Services at Erin Mills Town Centre. </p>
+                    </div>
+                    <br />
+                    <div class="row-fluid agree_box">
+                        <input class="margin-5-top" id ="agree_terms" type="checkbox"/>
+                        <span>I agree to the <a href = "/system/site_images/photos/000/011/425/original/_100_prize_draw_rules_rev_(1).pdf?1439822341" target = "_blank" ><u>rules and regulations</u></a></span>
+                        <p class="agree_error">Please agree to the term and conditions before submitting the contest.</p>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="submit_contest">Submit</button>
+
+                    <br />
+                    <p id="success_subscribe_popup">Thank you! You have been entered in the contest.</p>
+                </div>
+            </div>
+        </form>
     </script>
 </div>
 <script>
