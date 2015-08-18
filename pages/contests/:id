@@ -2,6 +2,7 @@
         <div class="page_heading"></div>
 </div>
 <div class="content_container" id="contest_container">
+    <script id="contest_template" type="x-tmpl-mustache/text">
     <h4 class="page_heading2"></h4>
 </div>
 <script>
