@@ -889,7 +889,7 @@ select#cats:focus {
     font-family: verdana;
     font-weight: normal;
     font-size: 9pt;
-    
+    width: 100px;
 }
 
 .footer .home_hours_heading{
