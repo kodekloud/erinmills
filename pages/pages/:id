@@ -67,6 +67,15 @@
                 }
             }); 
         }
+        
+        $('iframe').on('click', function () {
+            console.log('iframe clicked remove');
+           $('iframe').removeClass('scrolloff');
+       });
+       $("iframe").mouseleave(function () {
+            console.log('iframe clicked add');
+           $(this).addClass('scrolloff');
+       });
         loadMallDataCached(renderAll); 
 		
     });
