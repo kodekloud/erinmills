@@ -55,14 +55,14 @@
                     </div>
                     <p class="mobile_menu_item" tabindex="2" onkeypress="javascript:if(event.keyCode == 13) show_mobile_sub_menu('events')" onclick="javascript:show_mobile_sub_menu('events')">WHAT'S ON</p>
                     <div class="mobile_sub_menu_div" id="mobile-events">
+                        <a href="/contests/erinmills-contest" target="_self">
+                            <span class="mobile_sub_menu">CONTEST</span>     
+                        </a> 
                         <a href="/events" target="_self">
                             <span class="mobile_sub_menu">MALL EVENTS</span>     
                         </a>
                         <a href="/promotions" target="_self">
                             <span class="mobile_sub_menu">STORE EVENTS </span>     
-                        </a> 
-                        <a href="/contests/erinmills-contest" target="_self">
-                            <span class="mobile_sub_menu">CONTEST</span>     
                         </a> 
                         <a href="/redevelopment" target="_self">
                             <span class="mobile_sub_menu">REDEVELOPMENT </span>     
