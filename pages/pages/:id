@@ -68,7 +68,11 @@
             }); 
         }
         
-        $('iframe').on('click', function () {
+
+        loadMallDataCached(renderAll); 
+		
+    });
+            $('iframe').on('click', function () {
             console.log('iframe clicked remove');
            $('iframe').removeClass('scrolloff');
        });
@@ -76,7 +80,4 @@
             console.log('iframe clicked add');
            $(this).addClass('scrolloff');
        });
-        loadMallDataCached(renderAll); 
-		
-    });
 </script>
