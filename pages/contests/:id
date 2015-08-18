@@ -33,14 +33,14 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="span2">
+                        <div class="col-md-2">
                             <label class="contest_label">Gender*</label>
                             <select name="cm-f-ydhrlu" id= "gender" required>
                                 <option>Female</option>
                                 <option>Male</option>
                             </select>
                         </div>
-                        <div class="span2">
+                        <div class="col-md-2">
                             <label class="contest_label">Age</label>
                             <input id="fieldydhro" name="cm-f-ydhro" type="text"/>
                         </div>
