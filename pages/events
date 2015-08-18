@@ -56,7 +56,7 @@
                 $('.mid_section').css('min-height','920px')
             }
             else if(mh>1 && $(window).width() > 767){
-                $('.mid_section').css('min-height','920px')
+                $('.mid_section').css('min-height','980px')
             }
             all_events = getEventsList();
             all_events = all_events.reverse();
