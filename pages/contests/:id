@@ -13,7 +13,7 @@
                 <div class="col-md-8">
                     <input id="fieldjlvji" name="cm-f-jjlidy" style="display:none" value="Contest" />
                     <div class="row">
-                        <div class="span6">
+                        <div class="col-md-6">
                             <label class="contest_label">Name*</label>
                             <input id="fieldName" name="cm-name" type="text" required/>
                         </div>
