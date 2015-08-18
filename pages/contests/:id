@@ -42,7 +42,7 @@
                         </div>
                         <div class="col-md-2">
                             <label class="contest_label">Age</label>
-                            <input id="fieldydhro" name="cm-f-ydhro" type="text"/>
+                            <input class="form-control" id="fieldydhro" name="cm-f-ydhro" type="text"/>
                         </div>
                       
                     </div>
