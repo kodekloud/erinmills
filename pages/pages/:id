@@ -72,7 +72,7 @@
             console.log('iframe clicked remove');
            $('iframe').removeClass('scrolloff');
        });
-       $("#mm_page_content iframe").mouseover(function () {
+       $("#mm_page_content iframe").mouseleave(function () {
             console.log('iframe clicked add');
            $('iframe').addClass('scrolloff');
        });
