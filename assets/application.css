@@ -870,8 +870,8 @@ select#cats:focus {
     float:right;
 }
 
-.footer_content{
-    
+.footer .side_nav{
+    background: #c8c8c8;
 
 }
 #latest_mall_event_container{
