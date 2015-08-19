@@ -553,6 +553,7 @@ h2{
 }
 .promo_details{
     padding:18px;
+    padding-left: 0px;
     background:#ffffff;
     position:relative;
     margin-bottom:40px;
