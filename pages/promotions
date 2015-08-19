@@ -52,7 +52,7 @@
                 $('.mid_section').css('min-height','920px')
             }
             else if(mh>1 && $(window).width() > 767){
-                $('.mid_section').css('min-height','1000px')
+                $('.mid_section').css('min-height','1100px')
             }       
             all_promos = getPromotionsList();
             all_promos = all_promos.reverse();
