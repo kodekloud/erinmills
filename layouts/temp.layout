@@ -258,21 +258,19 @@
                                             </script>
                                         </td>
                                     </tr>
+                                    
                                     <tr>
                                         <td class="bottom_nav_list">
-                                            <a href="/stores" target="_self">Stores</a>
+                                            Saturday
+                                        </td>
+                                       
+                                        <td id="saturday_hours_container" class="text-right bottom_nav_list" style="padding-left:25px">
+                                            <script id="saturday_hours_template" type="x-tmpl-mustache/text">
+                                                {% raw %}{{h}}{% endraw %}
+                                            </script>
                                         </td>
                                     </tr>
-                                    <tr>
-                                        <td class="bottom_nav_list">
-                                            <a href="/map" target="_self">Map</a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="bottom_nav_list">
-                                            <a href="/pages/erinmills-location" target="_self">Directions</a>
-                                        </td>
-                                    </tr>
+                                    
                         		</tbody>
                         	</table>
                         </div>
