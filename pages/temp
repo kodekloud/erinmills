@@ -8,7 +8,7 @@
 
     @media only screen and (max-width: 767px) { 
         
-        ..flexslider{
+        .flexslider{
             
         }
         .site_content_container{
