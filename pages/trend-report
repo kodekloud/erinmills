@@ -172,7 +172,7 @@
 		            contentToShow.show();
 		        });
 		    }
-        loadMallDataCached(renderAll); 
+        loadMallData(renderAll); 
         
 
 		    
