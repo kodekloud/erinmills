@@ -285,7 +285,8 @@
                                     
                                     <tr>
                                         <td class="bottom_nav_header">
-                                            <a href="/hours#holiday_hours_container" target="_self">HOLIDAY HOURS</a>
+                                            <a href="/hours#holiday_hours_container" target="_self">HOLIDAY HOURS <i class="fa fa-caret-right"></i>
+</a>
                                         </td>
                                     </tr>
                                     
