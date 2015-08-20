@@ -229,51 +229,6 @@
                 <div class="clearfix"></div>
             </div>
             <div class="footer hidden-phone">
-                <div class="side_nav">
-                     <div class="home_store_directory">
-                            <a href="/map" class="home_map_">
-                                <h4 style="margin:0" class="home_store_directory_heading">MAP & STORE DIRECTORY</h4>
-                                <img style="width:60px" src="http://assets.kodekloud.io/sites/554a79236e6f64713f000000/d9909884fde9cde52617add4032a7023/map_icon.png" class="pull-right" alt="map">
-                            </a>
-                        </div>
-                                            <div class="layout_hours">
-                            <h4 class="home_hours_heading">HOURS</h4>
-                            <table role="presentation">
-                                <tr>
-                                    <td class="hours_day">
-                                        Monday to Friday
-                                    </td>
-                                    <td id="monday_hours_container" class="text-right">
-                                        <script id="monday_hours_template" type="x-tmpl-mustache/text">
-                                            {% raw %}{{h}}{% endraw %}
-                                        </script>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="hours_day">
-                                        Saturday
-                                    </td>
-                                    <td id="saturday_hours_container" class="text-right">
-                                        <script id="saturday_hours_template" type="x-tmpl-mustache/text">
-                                            {% raw %}{{h}}{% endraw %}
-                                        </script>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="hours_day">
-                                        Sunday
-                                    </td>
-                                    <td id="sunday_hours_container" class="text-right">
-                                        <script id="sunday_hours_template" type="x-tmpl-mustache/text">
-                                            {% raw %}{{h}}{% endraw %}
-                                        </script>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                       
-                    
-                </div>
                 <div class="content_container">
                    <div class="row">
                        <div class="col-md-6 footer_insider">
@@ -285,6 +240,61 @@
                    </div>
                     <div class="footer_sitemap">
                         <div class="site_map_table" style="margin-left:0px;">
+                            <table role="presentation">
+                                <tbody>
+                                    <tr>
+                                        <td class="bottom_nav_header">
+                                            HOURS
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            Monday to Friday
+                                        </td>
+                                       
+                                        <td id="monday_hours_container" class="text-right bottom_nav_list" style="padding-left:20px">
+                                            <script id="monday_hours_template" type="x-tmpl-mustache/text">
+                                                {% raw %}{{h}}{% endraw %}
+                                            </script>
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            Saturday
+                                        </td>
+                                       
+                                        <td id="saturday_hours_container" class="text-right bottom_nav_list" style="padding-left:20px">
+                                            <script id="saturday_hours_template" type="x-tmpl-mustache/text">
+                                                {% raw %}{{h}}{% endraw %}
+                                            </script>
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td class="bottom_nav_list" style="padding-bottom:30px">
+                                            Sunday
+                                        </td>
+                                       
+                                        <td id="sunday_hours_container" class="text-right bottom_nav_list" style="padding-left:20px;padding-bottom:30px">
+                                            <script id="sunday_hours_template" type="x-tmpl-mustache/text">
+                                                {% raw %}{{h}}{% endraw %}
+                                            </script>
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td class="bottom_nav_header">
+                                            <a href="/hours#holiday_hours_container" target="_self">HOLIDAY HOURS <i class="fa fa-caret-right"></i>
+</a>
+                                        </td>
+                                    </tr>
+                                    
+                        		</tbody>
+                        	</table>
+                        </div>
+                        
+                        <div class="site_map_table">
                             <table role="presentation">
                                 <tbody>
                                     <tr>
@@ -384,6 +394,16 @@
                                             <a href="/pages/erinmills-security-services" target="_self">Security Services</a>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td class="bottom_nav_header" style="padding-top:10px">
+                                            CAREERS
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <a href="/jobs" target="_self">Opportunities</a>
+                                        </td>
+                                    </tr>
                         		</tbody>
                         	</table>
                         </div>	
@@ -428,14 +448,15 @@
                                 <tbody>
                                     <tr>
                                         <td class="bottom_nav_header">
-                                            CAREERS
+                                            MAP & STORE DIRECTORY
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="bottom_nav_list">
-                                            <a href="/jobs" target="_self">Opportunities</a>
+                                        <td class="bottom_nav_list" style="text-align:center">
+                                            <img style="width:80px;margin-top:15px" src="http://assets.kodekloud.io/sites/554a79236e6f64713f000000/d9909884fde9cde52617add4032a7023/map_icon.png" class="" alt="map">
                                         </td>
                                     </tr>
+                                    
                         		</tbody>
                         	</table>
                         </div>
