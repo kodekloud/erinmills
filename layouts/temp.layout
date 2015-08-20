@@ -272,11 +272,11 @@
                                     </tr>
                                     
                                     <tr>
-                                        <td class="bottom_nav_list">
+                                        <td class="bottom_nav_list" style="padding-bottom:30px">
                                             Sunday
                                         </td>
                                        
-                                        <td id="sunday_hours_container" class="text-right bottom_nav_list" style="padding-left:25px;padding-bottom:20px">
+                                        <td id="sunday_hours_container" class="text-right bottom_nav_list" style="padding-left:25px;padding-bottom:30px">
                                             <script id="sunday_hours_template" type="x-tmpl-mustache/text">
                                                 {% raw %}{{h}}{% endraw %}
                                             </script>
