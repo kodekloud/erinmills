@@ -7,6 +7,10 @@
     /*************** MOBILE CSS *****************/
 
     @media only screen and (max-width: 767px) { 
+        
+        .flexslider{
+            margin-top:25px;
+        }
         .site_content_container{
             background: none;
             margin-bottom: 50px;
@@ -195,6 +199,7 @@
             var featureList = getFeatureList();
             renderFeatureItems('#feature_template', '#feature_items', featureList)
             var banners = getBanners()
+            console.log(banners)
             renderBanner('#banner_template','#home_banner',banners);
             
             var monday_hours = getRegHoursForDayIndex(1);
@@ -205,7 +210,13 @@
             renderLayoutHours('#saturday_home_container', '#saturday_home_template', saturday_hours);
             renderLayoutHours('#sunday_home_container', '#sunday_home_template', sunday_hours);
             renderTodaysHours('#todays_hours_template','#todays-hours');
-            $('.flexslider').flexslider()
+            $('.flexslider').flexslider({
+                animation: "slide",
+                controlNav: false,
+                directionNav: false,    
+                animationLoop: true,
+                slideshow: true
+            })
         }
         
         function renderFeatureItems(feature_template,feature_items,featureList){
@@ -215,7 +226,6 @@
             Mustache.parse(feature_template_html);   // optional, speeds up future uses
             count = 0
             $.each( featureList , function( key, val ) {
-                console.log(val);
                 if (count < 2){
                 val.alt_url = val.image_url;
                 var featureitem_rendered = Mustache.render(feature_template_html,val);
