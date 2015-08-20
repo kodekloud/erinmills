@@ -195,6 +195,7 @@
             var featureList = getFeatureList();
             renderFeatureItems('#feature_template', '#feature_items', featureList)
             var banners = getBanners()
+            console.log(banners)
             renderBanner('#banner_template','#home_banner',banners);
             
             var monday_hours = getRegHoursForDayIndex(1);
