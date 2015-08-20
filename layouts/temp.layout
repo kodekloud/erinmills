@@ -252,7 +252,7 @@
                                             Monday to Friday
                                         </td>
                                        
-                                        <td id="monday_hours_container" class="text-right bottom_nav_list">
+                                        <td id="monday_hours_container" class="text-right ">
                                             <script id="monday_hours_template" type="x-tmpl-mustache/text">
                                                 {% raw %}{{h}}{% endraw %}
                                             </script>
