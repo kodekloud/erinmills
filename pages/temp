@@ -210,7 +210,7 @@
                 
             animation: "slide",
             controlNav: false,
-            directionNav: true,    
+            directionNav: false,    
             animationLoop: true,
             slideshow: true
             })
