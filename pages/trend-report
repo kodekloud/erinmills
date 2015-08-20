@@ -104,6 +104,9 @@
     }
     $(document).ready(function() {
         init();
+        var test = JSON.parse(sessionStorage.mallData)
+        console.log(test)
+        
         var hours = getPropertyHours();
         var latest_store_event = getPromotionsList().reverse()[0];
         var latest_mall_event = getPropertyEventsList().reverse()[0];
