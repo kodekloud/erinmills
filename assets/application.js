@@ -71,7 +71,18 @@ function renderSideEvents(container, template, collection, type){
         });
     }
     else if(type=="promo"){
-        $.each( item_list , function( key, val ) {
+        var all_promos = [];
+        
+        $.each( item_list , function( key, val ){
+            today = new Date();
+            webDate = new Date(val.show_on_web_date)
+            if (today >= webDate) {
+                all_promos.push(val)
+            } 
+        });
+        
+        
+        $.each( all_promos , function( key, val ) {
             if (val.name.length > 60 ) {
                val.name_shortened =  val.name.substring(0,60)+'...';
             } 
@@ -96,6 +107,9 @@ function renderSideEvents(container, template, collection, type){
             end = new Date (val.end_date);
             start.setDate(start.getDate()+1);
             end.setDate(end.getDate()+1);
+            
+
+            
     
             if (start.toDateString() == end.toDateString()) {
                 val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
