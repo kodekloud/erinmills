@@ -297,7 +297,7 @@ h2{
     padding: 5px 2px;
 }
 
-.bottom_nav_list a{
+.bottom_nav_list a, .bottom_nav_header a{
     color: #4b4b4b;
 }
 .footer_logo {
