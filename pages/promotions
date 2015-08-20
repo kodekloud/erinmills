@@ -2,6 +2,9 @@
     .site_content_container{
         background: none;
     }
+    .promo_details_name{
+        width:auto;
+    }
 </style>
 <div class="position_relative page_header margin_bottom_none">
     <div class="page_heading"></div>
@@ -18,8 +21,8 @@
                     <div class="promo_description">
                         <div class="middle_align">
                             <h4 class="logo_circle_heading">{{store_name}}</h4>
-                            <p class="">{{name}}</p>
-                            <p>{{dates}}</p>
+                            <p class="promo_details_name">{{name}}</p>
+                            <p class="promo_details_dates">{{dates}}</p>
                         </div>
                     </div>
                     <div class="promo_image">
