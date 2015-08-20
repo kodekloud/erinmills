@@ -107,7 +107,11 @@
        
        
         
-        var hours = getPropertyHours();
+        
+        
+        function renderAll (){
+            
+            var hours = getPropertyHours();
         var latest_store_event = getPromotionsList().reverse()[0];
         var latest_mall_event = getPropertyEventsList().reverse()[0];
         var mh=0
@@ -125,8 +129,7 @@
             else if(mh>1){
                 $('.mid_section').css('min-height','1200px')
             } 
-        
-        function renderAll (){
+            
             init_hours();
             $(".modal-backdrop").remove();
             var fashions = getFashions();
