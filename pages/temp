@@ -216,7 +216,6 @@
             Mustache.parse(feature_template_html);   // optional, speeds up future uses
             count = 0
             $.each( featureList , function( key, val ) {
-                console.log(val);
                 if (count < 2){
                 val.alt_url = val.image_url;
                 var featureitem_rendered = Mustache.render(feature_template_html,val);
