@@ -452,8 +452,8 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td class="bottom_nav_list">
-                                            <img style="width:60px" src="http://assets.kodekloud.io/sites/554a79236e6f64713f000000/d9909884fde9cde52617add4032a7023/map_icon.png" class="" alt="map">
+                                        <td class="bottom_nav_list" style="text-align:center">
+                                            <img style="width:80px;margin-top:15px" src="http://assets.kodekloud.io/sites/554a79236e6f64713f000000/d9909884fde9cde52617add4032a7023/map_icon.png" class="" alt="map">
                                         </td>
                                     </tr>
                                     
