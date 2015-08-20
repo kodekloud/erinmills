@@ -251,8 +251,11 @@
                                         <td class="bottom_nav_list">
                                             Monday to Friday
                                         </td>
-                                        <td class="bottom_nav_list">
-                                            Monday to Friday
+                                       
+                                        <td id="monday_hours_container" class="text-right bottom_nav_list">
+                                            <script id="monday_hours_template" type="x-tmpl-mustache/text">
+                                                {% raw %}{{h}}{% endraw %}
+                                            </script>
                                         </td>
                                     </tr>
                                     <tr>
