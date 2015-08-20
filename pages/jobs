@@ -12,7 +12,7 @@
     <div class="" id ="job_list_container">
         <script id="job_list_template" type="x-tmpl-mustache/text">
             <div class="job_container">
-                <a href="/stores/{{store_slug}}"><p class="promo_page_box_store_name">{{store_name}}</p></a>
+                <a href="/stores/{{store_slug}}"><p class="logo_circle_heading">{{store_name}}</p></a>
                 <div style="width:100%; display:inline-block;">
                     <p class="promo_details_name" style="float:left;width:45%">{{name}}</p>
                     <p class="promo_details_dates" style="float:left;">{{job_type}}</p>
