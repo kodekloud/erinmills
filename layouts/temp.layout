@@ -270,6 +270,38 @@
                         		</tbody>
                         	</table>
                         </div>
+                        
+                        <div class="site_map_table" >
+                            <table role="presentation">
+                                <tbody>
+                                    <tr>
+                                        <td class="bottom_nav_header">
+                                            SHOPPING
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <a href="/hours" target="_self">Hours</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <a href="/stores" target="_self">Stores</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <a href="/map" target="_self">Map</a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <a href="/pages/erinmills-location" target="_self">Directions</a>
+                                        </td>
+                                    </tr>
+                        		</tbody>
+                        	</table>
+                        </div>
                         <div class="site_map_table">
                             <table role="presentation">
                                 <tbody>
