@@ -339,6 +339,16 @@
                                             <a href="/pages/erinmills-security-services" target="_self">Security Services</a>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td class="bottom_nav_header">
+                                            CAREERS
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <a href="/jobs" target="_self">Opportunities</a>
+                                        </td>
+                                    </tr>
                         		</tbody>
                         	</table>
                         </div>	
