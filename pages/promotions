@@ -18,7 +18,7 @@
                     <div class="promo_description">
                         <div class="middle_align">
                             <h4 class="logo_circle_heading">{{store_name}}</h4>
-                            <p class="promo_details_name">{{name}}</p>
+                            <p class="">{{name}}</p>
                             <p>{{dates}}</p>
                         </div>
                     </div>
