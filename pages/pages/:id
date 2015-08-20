@@ -9,6 +9,11 @@
     #404_msg{
         display:none;
     }
+    
+    #mm_page_content span {
+        color: black;
+        font-family: "Helvetica Neue,Helvetica,Arial,sans-serif" !important;
+    }
     @media only screen and (max-width: 767px) {  
         .site_content_container{
             min-height: 450px;
