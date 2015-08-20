@@ -264,7 +264,7 @@
                                             Saturday
                                         </td>
                                        
-                                        <td id="saturday_hours_container" class="text-right bottom_nav_list" style="padding-left:15px">
+                                        <td id="saturday_hours_container" class=" bottom_nav_list" style="padding-left:15px">
                                             <script id="saturday_hours_template" type="x-tmpl-mustache/text">
                                                 {% raw %}{{h}}{% endraw %}
                                             </script>
