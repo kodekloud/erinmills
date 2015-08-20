@@ -252,7 +252,7 @@
                                             Monday to Friday
                                         </td>
                                        
-                                        <td id="monday_hours_container" class="text-right bottom_nav_list" style="padding-left:25px">
+                                        <td id="monday_hours_container" class="text-right bottom_nav_list" style="padding-left:20px">
                                             <script id="monday_hours_template" type="x-tmpl-mustache/text">
                                                 {% raw %}{{h}}{% endraw %}
                                             </script>
@@ -264,7 +264,7 @@
                                             Saturday
                                         </td>
                                        
-                                        <td id="saturday_hours_container" class="text-right bottom_nav_list" style="padding-left:25px">
+                                        <td id="saturday_hours_container" class="text-right bottom_nav_list" style="padding-left:20px">
                                             <script id="saturday_hours_template" type="x-tmpl-mustache/text">
                                                 {% raw %}{{h}}{% endraw %}
                                             </script>
@@ -276,7 +276,7 @@
                                             Sunday
                                         </td>
                                        
-                                        <td id="sunday_hours_container" class="text-right bottom_nav_list" style="padding-left:25px;padding-bottom:30px">
+                                        <td id="sunday_hours_container" class="text-right bottom_nav_list" style="padding-left:20px;padding-bottom:30px">
                                             <script id="sunday_hours_template" type="x-tmpl-mustache/text">
                                                 {% raw %}{{h}}{% endraw %}
                                             </script>
