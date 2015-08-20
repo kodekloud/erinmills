@@ -230,6 +230,12 @@
             </div>
             <div class="footer hidden-phone">
                 <div class="side_nav">
+                        <div class="home_store_directory">
+                            <a href="/map" class="home_map_">
+                                <h4 style="margin:0" class="home_store_directory_heading">MAP & STORE DIRECTORY</h4>
+                                <img style="width:60px" src="http://assets.kodekloud.io/sites/554a79236e6f64713f000000/d9909884fde9cde52617add4032a7023/map_icon.png" class="pull-right" alt="map">
+                            </a>
+                        </div>
                      
                                             <div class="layout_hours">
                             <h4 class="home_hours_heading">HOURS</h4>
