@@ -334,7 +334,7 @@
                                             <a href="/pages/erinmills-guest-services" target="_self">Mall Services</a>
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <tr style="margin-bottom:20px">
                                         <td class="bottom_nav_list">
                                             <a href="/pages/erinmills-security-services" target="_self">Security Services</a>
                                         </td>
