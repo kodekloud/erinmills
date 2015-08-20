@@ -446,6 +446,16 @@
                         <div class="site_map_table">
                             <table role="presentation">
                                 <tbody>
+                                    <tr>
+                                        <td class="bottom_nav_header">
+                                            MAP & STORE DIRECTORY
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bottom_nav_list">
+                                            <img style="width:60px" src="http://assets.kodekloud.io/sites/554a79236e6f64713f000000/d9909884fde9cde52617add4032a7023/map_icon.png" class="pull-right" alt="map">
+                                        </td>
+                                    </tr>
                                     
                         		</tbody>
                         	</table>
