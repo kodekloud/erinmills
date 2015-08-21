@@ -91,7 +91,7 @@
             else if(mh>1){
                 $('.mid_section').css('min-height','1200px')
             }
-        console.log(getUrlVars());
+        console.log(getUrlVars()["email"]);
         $("#fieldEmail").val(getUrlVars()["email"].replace("%40", "@"));
         function renderAll (){
             init_hours();
