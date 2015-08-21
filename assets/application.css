@@ -656,7 +656,7 @@ select#cats:focus {
 .hours_heading{
     font-size: 20px;
     font-weight: 600;
-    font-family: verdana;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;;
     margin-top:20px;
 }
 .cat-dd {
