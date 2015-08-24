@@ -73,7 +73,13 @@
                e.preventDefault()
            }
         });
-        var hours = getPropertyHours();
+        
+        if (getUrlVars()["email"]){
+            $("#fieldEmail").val(getUrlVars()["email"].replace("%40", "@"));    
+        }
+        
+        function renderAll (){
+            var hours = getPropertyHours();
             var latest_store_event = getPromotionsList().reverse()[0];
             var latest_mall_event = getPropertyEventsList().reverse()[0];
             var mh=0
@@ -91,11 +97,6 @@
             else if(mh>1){
                 $('.mid_section').css('min-height','1200px')
             }
-        if (getUrlVars()["email"]){
-            $("#fieldEmail").val(getUrlVars()["email"].replace("%40", "@"));    
-        }
-        
-        function renderAll (){
             init_hours();
             $(".modal-backdrop").remove();
         }
