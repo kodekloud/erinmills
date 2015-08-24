@@ -57,16 +57,11 @@
     $(document).ready(function() {
         
         
-       
-        
-        function renderAll (){
-            
-            
-            init();
-            var hours = getPropertyHours();
-            var latest_store_event = getPromotionsList().reverse()[0];
-            var latest_mall_event = getPropertyEventsList().reverse()[0];
-            var mh=0
+        init();
+        var hours = getPropertyHours();
+        var latest_store_event = getPromotionsList().reverse()[0];
+        var latest_mall_event = getPropertyEventsList().reverse()[0];
+        var mh=0
             if (latest_mall_event){
                 mh=mh+1;
                 renderSideEvents('#latest_mall_event_container', '#latest_mall_event_template', latest_mall_event, 'event');
@@ -81,16 +76,15 @@
             else if(mh>1){
                 $('.mid_section').css('min-height','1200px')
             } 
-            
+        
+        function renderAll (){
             init_hours();
-            
+            $(".modal-backdrop").remove();
             var fashions = getFashions();
             renderTrendReport('#trend_template', '#trend-navi', fashions);            
             renderTrendReport('#trend_holder_template', '#trend-holders', fashions);
             renderpageHTML();
             contentSwitcher();
-            
-            $(".modal-backdrop").remove();
             
             
         }
