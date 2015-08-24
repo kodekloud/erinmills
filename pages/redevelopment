@@ -62,9 +62,9 @@
         
         function renderAll (){
             var hours = getPropertyHours();
-        var latest_store_event = getPromotionsList().reverse()[0];
-        var latest_mall_event = getPropertyEventsList().reverse()[0];
-        var mh=0
+            var latest_store_event = getPromotionsList().reverse()[0];
+            var latest_mall_event = getPropertyEventsList().reverse()[0];
+            var mh=0
             if (latest_mall_event){
                 mh=mh+1;
                 renderSideEvents('#latest_mall_event_container', '#latest_mall_event_template', latest_mall_event, 'event');
@@ -87,7 +87,7 @@
             renderpageHTML();
             contentSwitcher();
             
-             $(".modal-backdrop").remove();
+             
         }
         
         
@@ -169,6 +169,7 @@
                         console.log(data)
                         $("#page_title").html(data.title)
                         $('#mm_page_content').html(data.body);
+                        $(".modal-backdrop").remove();
                     }).fail(function(jqXHR) {
                         if (jqXHR.status == 404) {
                             $("#404_msg").fadeIn("fast");
