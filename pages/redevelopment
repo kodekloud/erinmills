@@ -55,6 +55,8 @@
 
     
     $(document).ready(function() {
+        
+        
         init();
         var hours = getPropertyHours();
         var latest_store_event = getPromotionsList().reverse()[0];
