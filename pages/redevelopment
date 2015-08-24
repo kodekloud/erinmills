@@ -105,7 +105,7 @@
             var fashions = getFashions();
             renderTrendReport('#trend_template', '#trend-navi', fashions);            
             renderTrendReport('#trend_holder_template', '#trend-holders', fashions);
-            renderpageHTML()
+            renderpageHTML();
             contentSwitcher();
             
             
