@@ -218,7 +218,7 @@
                             <script id="latest_mall_event_template" type="x-tmpl-mustache/text">
                                 <div class="layout_event">
                                     <h4 class="home_hours_heading">MALL EVENTS</h4>
-                                    {% raw %}<p class="text-center"><a href="/events/{{slug}}"><img alt="Events" src="{{alt_promo_image_url}}" />{{name}}</a></p>{% endraw %}
+                                    {% raw %}<p class="text-center"><a href="/events/{{slug}}" class="side_layout_a"><img alt="Events" src="{{alt_promo_image_url}}" />{{name}}</a></p>{% endraw %}
                                 </div>
                             </script>
                         </div>
@@ -226,7 +226,7 @@
                             <script id="latest_store_event_template" type="x-tmpl-mustache/text">
                                 <div class="layout_event">
                                     <h4 class="home_hours_heading">STORE EVENTS</h4>
-                                    {% raw %}<a href="/promotions/{{slug}}"><img alt="Latest Promotion" src="{{alt_promo_image_url}}" />{{name}}</a>{% endraw %}
+                                    {% raw %}<p class="text-center"><a href="/promotions/{{slug}}"  class="side_layout_a"><img alt="Latest Promotion" src="{{alt_promo_image_url}}" />{{name}}</a></p>{% endraw %}
                                 </div>
                             </script>
                         </div>
