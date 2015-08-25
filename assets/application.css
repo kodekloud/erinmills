@@ -1101,6 +1101,10 @@ select#cats:focus {
       font-family: verdana;
       font-size: 12pt;
     }
+    
+    .text-center {
+        text-align:center;
+    }
     .mobile_sub_menu {
       background: black;
       color: white;
