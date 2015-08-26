@@ -188,15 +188,9 @@
         function renderPageData (){
             init_hours();
             var hours = getPropertyHours();
-            var latest_store_event = getPromotionsList().reverse()[0];
+            var list = getPromotionsList().reverse()[0];
             var latest_mall_event = getPropertyEventsList().reverse()[0];
-            $.each( $.each( latest_store_event , function( key, val ){
-                today = new Date();
-                webDate = new Date(val.show_on_web_date);
-                if (today >= webDate) {
-                    all_promos.push(val);
-                } 
-            }); , function( key, val ){
+            $.each( item_list , function( key, val ){
                 today = new Date();
                 webDate = new Date(val.show_on_web_date);
                 if (today >= webDate) {
