@@ -190,7 +190,7 @@
             var hours = getPropertyHours();
             var latest_store_event = getPromotionsList().reverse()[0];
             var latest_mall_event = getPropertyEventsList().reverse()[0];
-            var all_promos = []
+            var all_promos = [];
             $.each( latest_mall_event , function( key, val ){
                 today = new Date();
                 webDate = new Date(val.show_on_web_date);
