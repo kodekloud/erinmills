@@ -188,7 +188,6 @@
         function renderPageData (){
             init_hours();
             var hours = getPropertyHours();
-            var list = getPromotionsList().reverse();
             $.each( getPromotionsList().reverse() , function( key, val ){
                 today = new Date();
                 webDate = new Date(val.show_on_web_date);
