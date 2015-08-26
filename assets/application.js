@@ -74,6 +74,7 @@ function renderSideEvents(container, template, collection, type){
         var all_promos = [];
         
         $.each( item_list , function( key, val ){
+            console.log("here")
             today = new Date();
             webDate = new Date(val.show_on_web_date)
             if (today >= webDate) {
