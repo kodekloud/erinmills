@@ -189,6 +189,13 @@
             init_hours();
             var hours = getPropertyHours();
             var list = getPromotionsList().reverse();
+            $.each( getPromotionsList().reverse() , function( key, val ){
+                today = new Date();
+                webDate = new Date(val.show_on_web_date);
+                if (today >= webDate) {
+                    all_promos.push(val);
+                } 
+            });
             var latest_mall_event = getPropertyEventsList().reverse()[0];
             $.each( item_list , function( key, val ){
                 today = new Date();
