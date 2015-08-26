@@ -76,9 +76,9 @@ function renderSideEvents(container, template, collection, type){
         $.each( item_list , function( key, val ){
             console.log(val)
             today = new Date();
-            webDate = new Date(val.show_on_web_date)
+            webDate = new Date(val.show_on_web_date);
             if (today >= webDate) {
-                all_promos.push(val)
+                all_promos.push(val);
             } 
         });
         
