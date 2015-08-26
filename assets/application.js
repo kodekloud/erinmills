@@ -73,13 +73,7 @@ function renderSideEvents(container, template, collection, type){
     else if(type=="promo"){
         var all_promos = [];
         
-        $.each( item_list , function( key, val ){
-            today = new Date();
-            webDate = new Date(val.show_on_web_date);
-            if (today >= webDate) {
-                all_promos.push(val);
-            } 
-        });
+        
         $.each( all_promos , function( key, val ) {
             if (val.name.length > 60 ) {
                val.name_shortened =  val.name.substring(0,60)+'...';
