@@ -188,7 +188,7 @@
         function renderPageData (){
             init_hours();
             var hours = getPropertyHours();
-            var list = getPromotionsList().reverse()[0];
+            var list = getPromotionsList().reverse();
             var latest_mall_event = getPropertyEventsList().reverse()[0];
             $.each( item_list , function( key, val ){
                 today = new Date();
