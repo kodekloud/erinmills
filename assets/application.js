@@ -80,7 +80,7 @@ function renderSideEvents(container, template, collection, type){
                 all_promos.push(val);
             } 
         });
-        
+        console.log(all_promos)
         $.each( all_promos , function( key, val ) {
             if (val.name.length > 60 ) {
                val.name_shortened =  val.name.substring(0,60)+'...';
