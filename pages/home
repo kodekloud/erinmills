@@ -197,7 +197,6 @@
                 } 
             });
             var latest_store_event = all_promos[0];
-            var latest_mall_event = getPropertyEventsList().reverse()[0];
             $.each( getPropertyEventsList().reverse() , function( key, val ){
                 today = new Date();
                 webDate = new Date(val.show_on_web_date);
