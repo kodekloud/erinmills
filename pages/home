@@ -188,7 +188,6 @@
         function renderPageData (){
             init_hours();
             var all_promos = [];
-            var all_events = [];
             var hours = getPropertyHours();
             $.each( getPromotionsList().reverse() , function( key, val ){
                 today = new Date();
@@ -198,14 +197,7 @@
                 } 
             });
             var latest_store_event = all_promos[0];
-            $.each( getPropertyEventsList().reverse() , function( key, val ){
-                today = new Date();
-                webDate = new Date(val.show_on_web_date);
-                if (today >= webDate) {
-                    all_events.push(val);
-                } 
-            });
-            var latest_mall_events = all_events[0];
+            var latest_mall_event = getPropertyEventsList().reverse()[0];
             if (latest_mall_event){
                 renderSideEvents('#latest_mall_event_container', '#latest_mall_event_template', latest_mall_event, 'event');
             }
