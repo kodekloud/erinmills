@@ -202,7 +202,7 @@
                 today = new Date();
                 webDate = new Date(val.show_on_web_date);
                 if (today >= webDate) {
-                    all_promos.push(val);
+                    all_events.push(val);
                 } 
             });
             if (latest_mall_event){
