@@ -77,6 +77,7 @@
             init_hours();
             var hours = getPropertyHours();
             var all_promos =[];
+            var all_events = [];
             $.each( getPromotionsList().reverse() , function( key, val ){
                 today = new Date();
                 webDate = new Date(val.show_on_web_date);
