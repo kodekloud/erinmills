@@ -85,7 +85,14 @@
                 } 
             });
             var latest_store_event = all_promos[0];
-            var latest_mall_event = getPropertyEventsList().reverse()[0];
+            $.each( getPropertyEventsList().reverse() , function( key, val ){
+                today = new Date();
+                webDate = new Date(val.show_on_web_date);
+                if (today >= webDate) {
+                    all_events.push(val);
+                } 
+            });
+            var latest_mall_events = all_events[0];
             var mh=0
             if (latest_mall_event){
                 mh=mh+1;
