@@ -69,7 +69,7 @@
             else if(mh>1 && $(window).width() > 767){
                 $('.mid_section').css('min-height','1100px')
             }
-            all_events = getEventsList();
+            all_events = getEventsList().sortBy(function(o){ return new Date(o.publish_date) }).reverse();;
             all_events = all_events.reverse();
             event_array = []
             $.each( all_events , function( key, val ){
