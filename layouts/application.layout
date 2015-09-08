@@ -212,7 +212,7 @@
                             </div>
                         </div>
                     </div>
-                    <p style=" text-align: center; font-size: 25px; margin-top: 20px; ">CLOSED: LABOUR DAY MONDAY</p>
+                    
                     <div class="layout_side">
                         <div id="latest_mall_event_container">
                             <script id="latest_mall_event_template" type="x-tmpl-mustache/text">
