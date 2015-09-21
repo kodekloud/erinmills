@@ -239,7 +239,7 @@
             </div>
             <div class="footer hidden-phone">
                 <div class="content_container">
-                    <div class="custom_spl_banner" style=" text-align: center; ">
+                    <div class=" custom_spl_banner" style=" text-align: center; ">
         <br />
         <a href="https://secure.humanitariancoalition.ca/index.php" id="syria_link" target="_blank">
             <img style=" margin: 0 auto; " alt="syria help" class="visible-phone" src="http://cdn.mallmaverick.com/system/site_images/photos/000/012/708/original/syrie_Bigbox_EN_12millions_49ko.gif?1442846474" />
@@ -495,7 +495,6 @@
             </div>
             <div class="mobile_footer visible-phone">
                 <div class="content_container middle_align">
-                
                     <div class="newsletter_div">
                         
                         <form action="/newsletter" method="get">
@@ -508,14 +507,6 @@
                             <a target="_blank" href="https://www.youtube.com/channel/UCL2jEULzhWtGxl9czW4ia4w"><span class="social_icons"  id="mobile_social_youtube">y</span></a>
                         </div>
                     </div>
-                    <div class="custom_spl_banner" style=" text-align: center; ">
-        <br />
-        <a href="https://secure.humanitariancoalition.ca/index.php" id="syria_link" target="_blank">
-            <img style=" margin: 0 auto; " alt="syria help" class="visible-phone" src="http://cdn.mallmaverick.com/system/site_images/photos/000/012/708/original/syrie_Bigbox_EN_12millions_49ko.gif?1442846474" />
-            <img style=" margin: 0 auto; " alt="syria help" class="hidden-phone" src="http://cdn.mallmaverick.com/system/site_images/photos/000/012/705/original/syrie_Leaderboard_EN_12millions_49ko.gif?1442846474" />
-        </a>
-    </div>
-    <br />
                 </div>
             </div>
             <div class="privacy_policy hidden-phone">
