@@ -219,6 +219,10 @@
                     </div>
                     
                     <div class="layout_side">
+                        <div style="padding-left:10">
+                            <p>Closed: Thanksgiving, Monday</p>
+
+                        </div>
                         <div id="latest_mall_event_container">
                             <script id="latest_mall_event_template" type="x-tmpl-mustache/text">
                                 <div class="layout_event">
